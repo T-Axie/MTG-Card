@@ -93,10 +93,11 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     const cardElement = document.createElement("div");
     cardElement.className = "card";
 
-    // Créez un lien autour de l'image avec l'URL correcte
+    // A remettre pour avoir le lien MKM de la carte
+
     const cardLink = document.createElement("a");
-    cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
-    cardLink.target = "_blank"; // Ouvre le lien dans une nouvelle fenêtre/onglet
+    // cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
+    // cardLink.target = "_blank";
     cardElement.appendChild(cardLink);
 
     const imgElement = document.createElement("img");
