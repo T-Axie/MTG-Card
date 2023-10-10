@@ -134,8 +134,12 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
 
 
     // Appliquer un coefficient multiplicateur de 1.2 si la carte est en anglais
-    if (language === 'en') {
-        price = price * 1.2;
+    if (language === 'fr') {
+        if (price > 4) {
+            price = price * 1.2;
+        } else {
+            price = price * 1;
+        }
     }
 
     // Appliquer un coefficient multiplicateur de 1.5 si la carte est en français et que le prix est supérieur à 20
