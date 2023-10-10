@@ -114,6 +114,10 @@ main {
     margin-left: 10px;
 }
 
+#magic-image {
+    filter: grayscale(100%); /* Applique un filtre de désaturation de 100% */
+}
+
 
  /* Styles spécifiques à la page d'accueil */
         .home-container {
