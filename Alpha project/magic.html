@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opap's: Temporary Stock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chris la grosse merde</h1>
+        <img src="/Alpha project/jpeg/webuy.png" alt="Image de la bannière" class="banniere-image">
+        <input type="text" id="searchInput" placeholder="Rechercher une carte...">
+        <ul id="suggestionsList"></ul>
+        <div class="filter-menu">
+            <label for="filterSelect">Trier par :</label>
+            <select id="filterSelect">
+                <option value="colorName">Couleur</option>
+                <option value="name">Nom</option>
+                <option value="foil">Foil</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <div id="cardGrid">
+            <!-- Les cartes seront affichées ici -->
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

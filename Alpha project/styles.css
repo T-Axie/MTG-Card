@@ -1,0 +1,140 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px; /* Largeur maximale ajoutée */
+    margin: 10px 0;
+}
+
+.card-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.foil-icon {
+    position: absolute;
+    width: 35px; /* Ajustez la taille de l'étoile selon vos besoins */
+    height: 35px; /* Ajustez la taille de l'étoile selon vos besoins */
+    z-index: 1;
+}
+
+
+.foil {
+    box-shadow: 0 0 0px yellow;
+}
+
+.banniere-image {
+    position: absolute;
+    top: 30px; /* Ajustez la position verticale */
+    right: 30px; /* Ajustez la position horizontale */
+    max-width: 230px; /* Ajustez la largeur de l'image */
+    height: auto;
+    box-shadow: 0 0 10px rgb(250, 250, 207);
+}
+
+.price-icon {
+    width: 1em;  /* Ajuste la largeur de l'icône à la taille de la police du texte environnant */
+    height: 1em; /* Ajuste la hauteur de l'icône à la taille de la police du texte environnant */
+    vertical-align: middle; /* Aligne verticalement l'icône avec le texte */
+}
+
+#search-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#card-search {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+}
+
+#suggestions-container {
+    position: absolute;
+    width: 60%;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.suggestion {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color: #504848;
+}
+
+#card-quantity {
+    width: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+#add-card {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+ /* Styles spécifiques à la page d'accueil */
+        .home-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .image-container {
+            width: 700px;
+            height: 400px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            margin-right: 20px; /* Espacement horizontal entre les images */
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        

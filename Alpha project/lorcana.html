@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <title>Card Selector</title>
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="text-center">Lorcanna TCG</h1>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="card-search" placeholder="Type card name..." autocomplete="off">
+                    <div id="suggestions-container" class="mt-2 position-relative bg-light border rounded"></div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <input type="number" class="form-control" id="card-quantity" min="1" placeholder="Qty">
+            </div>
+            <div class="form-group">
+                <select class="form-control" id="language-select">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <div class="form-check form-check-inline mt-2">
+                    <input class="form-check-input" type="checkbox" id="foil-checkbox">
+                    <label class="form-check-label" for="foil-checkbox">Foil</label>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="add-card">Add Card</button>
+            </div>
+        </div>
+
+        <div class="row mt-4" id="cardGrid"></div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2>Total Cost: <span id="totalCost">0.00€</span></h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
