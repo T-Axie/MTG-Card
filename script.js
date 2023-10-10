@@ -76,7 +76,7 @@ function createCardElement(cardData, flagImageUrl) {
         
         <p>
             <img src="${flagImageUrl}" alt="${cardData.langue}">
-            ${cardData.foil ? '<img src="/Alpha project/jpeg/etoile.png" alt="Foil" class="foil-icon">' : ''}
+            ${cardData.foil ? '<img src="/jpeg/etoile.png" alt="Foil" class="foil-icon">' : ''}
         </p>
     `;
 

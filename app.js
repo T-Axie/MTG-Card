@@ -120,7 +120,7 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
 
     if (isFoil) {
         const foilIcon = document.createElement('img');
-        foilIcon.src = '/Alpha project/jpeg/etoile.png'; // Utilisez le chemin approprié
+        foilIcon.src = '/jpeg/etoile.png'; // Utilisez le chemin approprié
         foilIcon.alt = 'Foil';
         foilIcon.className = 'foil-icon';
         foilIcon.style.width = '50px'; // Ajustez la largeur selon vos besoins
