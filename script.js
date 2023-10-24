@@ -108,13 +108,11 @@ async function loadCardData() {
                 if (csvData.Price) {
                     cardData.price = parseFloat(csvData.Price.replace(',', '.'));
                 } else {
-                    // Gérer le cas où Price n'est pas défini ou est vide
-                    cardData.price = 0; // Ou une autre valeur par défaut
+                    cardData.price = 0;
                 }
 
                 cardData.foil = csvData.IsFoil === '1';
 
-                // Utilisez le code de langue pour générer l'URL complète des drapeaux
                 const languageName = mapLanguage(csvData.Language);
                 const flagImageUrl = `https://flagsapi.com/${languageName}/shiny/64.png`;
 
@@ -122,8 +120,9 @@ async function loadCardData() {
                 displayCard(cardDiv);
             }
         }
-        progressContainer.style.display = 'none'; // Masquer la barre de progression une fois le chargement terminé
     }
+
+    progressContainer.style.display = 'none'; // Masquez la barre de progression une fois le chargement terminé
 }
 
 // Fonction pour afficher une carte
