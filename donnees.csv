@@ -1,5 +1,2248 @@
-ID;Copy;Condition;Langue;Foil
-f295b713-1d6a-43fd-910d-fb35414bf58a ;2;Excellent;EN;Oui
-bce78225-9dbf-46c1-b63d-083c1858eb98 ;4;Near mint;FR;Non
-f295b713-1d6a-43fd-910d-fb35414bf58a ;1;Good;EN;Non
-f295b713-1d6a-43fd-910d-fb35414bf58a ;2;Near mint;FR;Oui
+MkmProductId;Name;ExpansionName;rarity;Count;Language;Condition;IsFoil;IsSigned;IsAltered;Price
+307;Aether Vial;Darksteel;Uncommon;1;1;5;0;0;0;8.75
+307;Aether Vial;Darksteel;Uncommon;1;1;2;0;0;0;7.71
+326;Darksteel Forge;Darksteel;Rare;1;2;2;1;0;0;99999.00
+326;Darksteel Forge;Darksteel;Rare;1;2;3;0;0;0;20.67
+307;Aether Vial;Darksteel;Uncommon;1;2;4;0;0;0;7.94
+307;Aether Vial;Darksteel;Uncommon;1;2;5;0;0;0;8.38
+280;Cloudpost;Mirrodin;Common;1;1;5;1;0;0;5.90
+254;Talisman of Impulse;Mirrodin;Uncommon;1;2;4;1;0;0;6.96
+228;Platinum Angel;Mirrodin;Rare;1;1;4;1;0;0;30.26
+219;Nightmare Lash;Mirrodin;Rare;1;2;5;1;0;0;22.00
+188;Isochron Scepter;Mirrodin;Uncommon;2;2;4;0;0;0;6.13
+169;Extraplanar Lens;Mirrodin;Rare;1;2;5;0;0;0;8.32
+19;Rule of Law;Mirrodin;Rare;1;2;5;1;0;0;10.00
+362;Sundering Titan;Darksteel;Rare;1;1;4;1;0;0;10.21
+365;Sword of Light and Shadow;Darksteel;Rare;1;2;3;0;0;0;9.70
+365;Sword of Light and Shadow;Darksteel;Rare;1;5;4;0;0;0;9.60
+448;Reshape;Darksteel;Rare;1;2;3;1;0;0;13.63
+478;Blasting Station;Fifth Dawn;Uncommon;3;1;2;1;0;0;10.64
+489;Engineered Explosives;Fifth Dawn;Rare;1;2;4;0;0;0;12.35
+505;Krark-Clan Ironworks;Fifth Dawn;Uncommon;1;2;4;0;0;0;10.00
+508;Mycosynth Golem;Fifth Dawn;Rare;1;2;4;0;0;0;21.69
+551;Night's Whisper;Fifth Dawn;Uncommon;1;2;4;1;0;0;17.65
+615;Trinket Mage;Fifth Dawn;Common;1;1;5;1;0;0;5.85
+773;Grave Pact;Eighth Edition;Rare;1;2;1;0;0;0;14.77
+1090;Goblin Warchief;Scourge;Uncommon;1;2;5;1;0;0;29.99
+1112;Fierce Empath;Scourge;Common;1;1;5;1;0;0;7.94
+777;Lord of the Undead;Eighth Edition;Rare;1;4;1;0;0;0;10.00
+814;Blood Moon;Eighth Edition;Rare;1;1;3;0;0;0;10.35
+869;Birds of Paradise;Eighth Edition;Rare;2;1;5;0;0;0;7.13
+1028;Faces of the Past;Scourge;Rare;1;2;4;1;0;0;11.33
+1035;Mischievous Quanar;Scourge;Rare;3;2;5;1;0;0;8.99
+1035;Mischievous Quanar;Scourge;Rare;1;2;4;1;0;0;7.49
+1052;Carrion Feeder;Scourge;Common;1;1;5;1;0;0;16.64
+1072;Unspeakable Symbol;Scourge;Uncommon;1;1;6;1;0;0;19.95
+1082;Dragonspeaker Shaman;Scourge;Uncommon;1;1;5;1;0;0;18.90
+1132;Sliver Overlord;Scourge;Rare;1;2;1;0;0;0;37.99
+1132;Sliver Overlord;Scourge;Rare;1;6;6;0;0;0;54.90
+1879;Birchlore Rangers;Onslaught;Common;1;1;5;1;0;0;8.50
+1909;Ravenous Baloth;Onslaught;Rare;1;2;4;0;0;0;7.41
+1670;Harsh Mercy;Onslaught;Rare;1;1;5;1;0;0;9.00
+1732;Peer Pressure;Onslaught;Rare;4;1;5;1;0;0;13.85
+1732;Peer Pressure;Onslaught;Rare;1;3;5;1;0;0;13.19
+1732;Peer Pressure;Onslaught;Rare;1;4;5;1;0;0;12.52
+1943;Barren Moor;Onslaught;Common;1;1;4;1;0;0;8.16
+1943;Barren Moor;Onslaught;Common;1;1;5;1;0;0;8.95
+1752;Wheel and Deal;Onslaught;Rare;1;2;5;0;0;0;5.17
+1764;Cover of Darkness;Onslaught;Rare;1;2;4;0;0;0;26.95
+1799;Shepherd of Rot;Onslaught;Common;2;1;5;1;0;0;8.99
+1806;Syphon Mind;Onslaught;Common;1;1;6;1;0;0;6.99
+1955;Secluded Steppe;Onslaught;Common;1;3;5;1;0;0;7.50
+1955;Secluded Steppe;Onslaught;Common;1;1;5;1;0;0;7.50
+1956;Starlit Sanctum;Onslaught;Uncommon;1;1;6;1;0;0;14.50
+1844;Insurrection;Onslaught;Rare;1;2;4;0;0;0;5.03
+1931;Wellwisher;Onslaught;Common;1;8;6;1;0;0;22.50
+1939;Dream Chisel;Onslaught;Rare;1;2;6;1;0;0;29.89
+1939;Dream Chisel;Onslaught;Rare;1;2;5;1;0;0;8.48
+1939;Dream Chisel;Onslaught;Rare;1;8;6;1;0;0;29.89
+1945;Contested Cliffs;Onslaught;Rare;1;3;4;1;0;0;13.29
+1948;Forgotten Cave;Onslaught;Common;1;3;4;1;0;0;10.78
+1948;Forgotten Cave;Onslaught;Common;2;1;4;1;0;0;11.31
+1951;Lonely Sandbar;Onslaught;Common;1;7;4;1;0;0;19.60
+2031;Riptide Director;Legions;Rare;1;2;6;1;0;0;13.64
+2088;Magma Sliver;Legions;Rare;1;2;5;0;0;0;9.08
+2116;Primal Whisperer;Legions;Rare;2;1;4;1;0;0;5.02
+2386;Violent Eruption;Torment;Uncommon;4;4;4;1;0;0;5.08
+2408;Cabal Coffers;Torment;Uncommon;1;2;4;1;0;0;81.00
+2408;Cabal Coffers;Torment;Uncommon;1;1;4;0;0;0;13.50
+2187;Balthor the Defiled;Judgment;Rare;2;2;5;0;0;0;7.50
+2188;Cabal Therapy;Judgment;Uncommon;1;2;5;0;0;0;5.13
+2210;Dwarven Bloodboiler;Judgment;Rare;1;2;5;0;0;0;5.83
+2220;Lava Dart;Judgment;Common;1;1;4;1;0;0;16.39
+2256;Seedtime;Judgment;Rare;1;2;6;1;0;0;80.00
+2305;Deep Analysis;Torment;Common;1;1;4;1;0;0;18.78
+2320;Cabal Ritual;Torment;Common;1;2;4;0;0;0;5.46
+2326;Chainer's Edict;Torment;Uncommon;1;1;4;1;0;0;28.09
+2438;Karmic Justice;Odyssey;Rare;1;2;4;0;0;0;9.00
+2750;Island (V.4);Odyssey;Land;1;1;4;1;0;0;6.02
+2775;Disenchant;Seventh Edition;Common;1;2;4;1;0;0;22.62
+2438;Karmic Justice;Odyssey;Rare;1;1;5;1;0;0;49.87
+2530;Buried Alive;Odyssey;Uncommon;1;1;3;0;0;0;5.17
+2632;Seize the Day;Odyssey;Rare;1;2;5;0;0;0;6.49
+3081;Static Orb;Seventh Edition;Rare;2;1;5;0;0;0;12.40
+3081;Static Orb;Seventh Edition;Rare;1;1;4;0;0;0;11.94
+3081;Static Orb;Seventh Edition;Rare;1;1;6;0;0;0;18.14
+3091;Forest (V.2);Seventh Edition;Land;1;2;3;1;0;0;5.26
+3097;Island (V.4);Seventh Edition;Land;1;8;2;1;0;0;6.56
+2632;Seize the Day;Odyssey;Rare;1;7;6;0;0;0;8.65
+2632;Seize the Day;Odyssey;Rare;1;2;4;0;0;0;5.42
+2670;Nimble Mongoose;Odyssey;Uncommon;1;1;5;1;0;0;29.90
+2732;Deserted Temple;Odyssey;Rare;1;7;5;0;0;0;15.00
+2741;Tarnished Citadel;Odyssey;Rare;1;4;5;0;0;0;13.50
+2741;Tarnished Citadel;Odyssey;Rare;1;1;4;0;0;0;13.97
+2929;Tainted Aether;Seventh Edition;Rare;1;5;5;0;0;0;6.00
+3266;Orim's Chant;Planeshift;Rare;1;2;5;0;0;0;12.50
+2943;Fervor;Seventh Edition;Rare;1;2;5;0;0;0;6.00
+3069;Meekstone;Seventh Edition;Rare;1;1;3;0;0;0;6.95
+3136;Ice Cave;Apocalypse;Rare;1;1;4;1;0;0;18.73
+3226;Pernicious Deed;Apocalypse;Rare;1;1;4;0;0;0;9.10
+3226;Pernicious Deed;Apocalypse;Rare;1;1;3;0;0;0;8.77
+3252;Caves of Koilos;Apocalypse;Rare;1;2;5;0;0;0;6.25
+3254;Shivan Reef;Apocalypse;Rare;2;2;5;0;0;0;7.25
+3255;Yavimaya Coast;Apocalypse;Rare;1;2;5;0;0;0;9.10
+3255;Yavimaya Coast;Apocalypse;Rare;1;1;3;0;0;0;8.70
+3352;Cavern Harpy;Planeshift;Common;1;1;4;1;0;0;20.99
+3684;Tangle;Invasion;Uncommon;1;5;6;1;0;0;29.95
+3684;Tangle;Invasion;Uncommon;1;1;6;0;0;0;8.49
+3684;Tangle;Invasion;Uncommon;1;1;5;0;0;0;8.49
+3684;Tangle;Invasion;Uncommon;3;1;4;0;0;0;8.49
+3371;Meddling Mage;Planeshift;Rare;1;2;5;0;0;0;9.50
+3371;Meddling Mage;Planeshift;Rare;3;2;4;0;0;0;7.73
+3371;Meddling Mage;Planeshift;Rare;1;3;4;0;0;0;7.73
+3485;Empress Galina;Invasion;Rare;1;1;6;0;0;0;5.35
+3497;Forest (V.1);Invasion;Land;1;2;4;1;0;0;5.53
+3574;Phyrexian Altar;Invasion;Rare;1;7;4;0;0;0;22.58
+3594;Prohibit;Invasion;Common;1;2;6;1;0;0;7.80
+3662;Spirit of Resistance;Invasion;Rare;1;1;4;0;0;0;5.64
+3662;Spirit of Resistance;Invasion;Rare;1;1;3;1;1;0;55.00
+3909;Mercenary Informer;Prophecy;Rare;1;3;5;1;0;0;19.50
+5578;Braingeyser;Revised;Rare;2;1;4;0;0;0;14.93
+3939;Rhystic Study;Prophecy;Common;2;1;4;0;0;0;24.94
+4738;Creature Bond;Beta;Common;1;1;5;0;0;0;6.61
+5125;Howling Mine;Unlimited;Rare;1;1;3;0;0;0;140.00
+5127;Icy Manipulator;Unlimited;Uncommon;1;1;2;0;0;0;98.01
+5135;Jade Monolith;Unlimited;Rare;1;1;2;0;0;0;15.84
+5208;Plains (V.3);Beta;Land;1;1;1;0;0;0;16.13
+5540;Demonic Hordes;Revised;Rare;1;1;3;0;0;0;6.06
+5561;Royal Assassin;Revised;Rare;1;1;3;0;0;0;8.08
+5573;Will-o'-the-Wisp;Revised;Rare;1;1;3;0;0;0;5.20
+5592;Lord of Atlantis;Revised;Rare;1;1;4;0;0;0;8.59
+5592;Lord of Atlantis;Revised;Rare;4;1;3;0;0;0;8.28
+5592;Lord of Atlantis;Revised;Rare;1;1;2;0;0;0;7.97
+5622;Birds of Paradise;Revised;Rare;1;1;4;0;0;0;16.99
+5682;Goblin King;Revised;Rare;1;1;4;0;0;0;6.78
+5683;Granite Gargoyle;Revised;Rare;1;1;2;0;0;0;5.33
+5804;Sol Ring;Revised;Uncommon;2;1;3;0;0;0;10.09
+5751;Savannah Lions;Revised;Rare;1;1;4;0;0;0;6.95
+5753;Swords to Plowshares;Revised;Uncommon;1;1;4;0;0;0;5.20
+5804;Sol Ring;Revised;Uncommon;1;1;2;0;0;0;9.70
+6023;Strip Mine;Fourth Edition;Uncommon;1;2;3;0;0;0;6.84
+5865;Mind Twist;Fourth Edition;Rare;1;3;6;0;0;0;8.50
+5892;Zombie Master;Fourth Edition;Rare;1;1;4;0;0;0;8.98
+5916;Lord of Atlantis;Fourth Edition;Rare;1;2;4;0;0;0;7.07
+5952;Birds of Paradise;Fourth Edition;Rare;1;2;3;0;1;0;8.71
+5991;Sylvan Library;Fourth Edition;Rare;1;2;6;0;0;0;25.00
+6023;Strip Mine;Fourth Edition;Uncommon;1;1;3;0;0;0;7.17
+6023;Strip Mine;Fourth Edition;Uncommon;2;2;4;0;0;0;7.10
+6188;Meekstone;Fourth Edition;Rare;1;1;3;0;0;0;5.68
+6188;Meekstone;Fourth Edition;Rare;2;1;2;0;0;0;5.48
+6218;Dance of the Dead;Ice Age;Uncommon;1;1;4;0;0;0;14.21
+6291;Illusions of Grandeur;Ice Age;Rare;1;1;5;0;0;0;11.00
+6221;Demonic Consultation;Ice Age;Uncommon;1;1;6;0;0;0;12.13
+6221;Demonic Consultation;Ice Age;Uncommon;3;1;5;0;0;0;9.91
+6221;Demonic Consultation;Ice Age;Uncommon;1;1;3;0;0;0;8.97
+6254;Necropotence;Ice Age;Rare;2;2;3;0;0;0;20.91
+6254;Necropotence;Ice Age;Rare;1;1;4;0;0;0;22.83
+6263;Spoils of Evil;Ice Age;Rare;1;1;4;0;0;0;5.30
+6267;Touch of Death;Ice Age;Common;1;1;6;0;0;0;8.67
+6267;Touch of Death;Ice Age;Common;1;1;3;0;0;0;7.80
+6291;Illusions of Grandeur;Ice Age;Rare;1;1;6;0;0;0;13.99
+6411;Márton Stromgald;Ice Age;Rare;1;2;3;0;0;0;7.16
+6411;Márton Stromgald;Ice Age;Rare;1;1;5;0;0;0;8.20
+6425;Pyroblast;Ice Age;Common;1;2;4;0;0;0;5.04
+6898;The Rack;Antiquities;Uncommon;1;1;2;0;0;0;12.92
+6917;Gate to Phyrexia;Antiquities;Uncommon;1;1;3;0;0;0;50.52
+6530;Urza's Bauble;Ice Age;Uncommon;1;1;4;0;0;0;7.25
+6530;Urza's Bauble;Ice Age;Uncommon;1;1;3;0;0;0;6.99
+6530;Urza's Bauble;Ice Age;Uncommon;1;1;5;0;0;0;7.63
+6549;Karplusan Forest;Ice Age;Rare;1;1;1;0;0;0;8.41
+6816;Nafs Asp (V.1);Arabian Nights;Common;1;1;5;0;0;0;6.40
+6846;Shahrazad;Arabian Nights;Rare;1;1;3;0;0;0;459.38
+6874;Ashnod's Altar;Antiquities;Uncommon;1;1;5;0;0;0;29.54
+6935;Powerleech;Antiquities;Uncommon;1;1;3;0;0;0;17.46
+6980;Darkness;Legends;Common;1;1;5;0;0;0;10.86
+6998;Mold Demon;Legends;Rare;4;1;4;0;0;0;29.93
+6998;Mold Demon;Legends;Rare;3;1;3;0;0;0;28.81
+7052;Time Elemental;Legends;Rare;1;1;1;0;0;0;31.95
+7218;Hammerheim;Legends;Uncommon;1;1;2;0;0;0;19.68
+7194;Gauntlets of Chaos;Legends;Rare;1;1;4;0;0;0;13.79
+7194;Gauntlets of Chaos;Legends;Rare;2;1;6;0;0;0;24.00
+7329;Scarwood Bandits;The Dark;Rare;1;1;5;0;0;0;8.22
+7261;Princess Lucrezia;Legends;Uncommon;1;1;4;0;0;0;5.16
+7210;Sentinel;Legends;Rare;1;1;4;0;1;0;16.15
+7263;Ramirez DePietro;Legends;Uncommon;1;1;2;0;0;0;7.49
+7302;Dance of Many;The Dark;Rare;1;1;5;0;0;0;9.83
+7126;Kobold Drill Sergeant;Legends;Uncommon;1;1;4;0;0;0;13.94
+7128;Kobold Taskmaster;Legends;Uncommon;1;1;4;0;0;0;10.96
+7208;Relic Barrier;Legends;Uncommon;1;1;3;0;0;0;8.77
+7359;Dust to Dust;The Dark;Common;2;1;5;0;0;0;14.13
+7359;Dust to Dust;The Dark;Common;1;1;4;0;0;0;13.38
+7359;Dust to Dust;The Dark;Common;1;1;3;0;0;0;12.99
+7633;Blood Moon;Chronicles;Rare;1;1;5;0;0;0;12.46
+7389;Stone Calendar;The Dark;Rare;1;1;2;0;0;0;19.95
+7390;Tormod's Crypt;The Dark;Uncommon;4;1;3;0;0;0;11.56
+7390;Tormod's Crypt;The Dark;Uncommon;1;1;4;0;0;0;12.01
+7395;Maze of Ith;The Dark;Uncommon;1;1;3;0;0;0;29.41
+7471;Elvish Farmer;Fallen Empires;Rare;1;1;4;0;0;0;5.26
+7531;Orgg;Fallen Empires;Rare;1;1;6;0;0;0;8.38
+7679;City of Brass;Chronicles;Rare;1;1;6;0;0;0;22.00
+7679;City of Brass;Chronicles;Rare;2;1;4;0;0;0;16.05
+7531;Orgg;Fallen Empires;Rare;1;1;5;0;0;0;8.24
+7713;Baron Sengir;Homelands;Rare;2;1;5;0;0;0;5.07
+7730;Koskun Falls;Homelands;Rare;1;1;6;0;0;0;10.99
+7730;Koskun Falls;Homelands;Rare;2;1;5;0;0;0;7.92
+7823;Leeches;Homelands;Rare;1;1;6;0;0;0;6.74
+8040;Soldevi Excavations;Alliances;Rare;1;2;3;0;0;0;11.70
+7858;Dystopia;Alliances;Rare;1;1;6;0;0;0;6.44
+7876;Ritual of the Machine;Alliances;Rare;1;1;6;0;0;0;7.05
+7894;Force of Will;Alliances;Uncommon;1;1;4;0;0;0;64.22
+7910;Thought Lash;Alliances;Rare;1;1;5;0;0;0;11.68
+7910;Thought Lash;Alliances;Rare;1;2;4;0;0;0;10.55
+8026;Soldevi Digger;Alliances;Rare;1;2;4;0;0;0;5.16
+8131;Mystical Tutor;Mirage;Uncommon;1;1;5;0;0;0;7.73
+8098;Tombstone Stairwell;Mirage;Rare;1;1;4;0;0;0;10.98
+8098;Tombstone Stairwell;Mirage;Rare;2;2;4;0;0;0;10.49
+8131;Mystical Tutor;Mirage;Uncommon;1;2;5;0;0;0;7.41
+8131;Mystical Tutor;Mirage;Uncommon;1;1;4;0;0;0;7.34
+8170;Hall of Gemstone;Mirage;Rare;1;2;3;0;0;0;10.48
+8331;Phyrexian Dreadnought;Mirage;Rare;1;2;2;0;0;0;82.00
+8323;Lion's Eye Diamond;Mirage;Rare;1;2;2;0;0;0;329.99
+8366;Teferi's Isle;Mirage;Rare;1;1;4;0;0;0;5.25
+8204;Worldly Tutor;Mirage;Uncommon;1;2;4;0;0;0;8.50
+8224;Final Fortune;Mirage;Rare;2;2;3;0;0;0;11.80
+8255;Zirilan of the Claw;Mirage;Rare;1;2;5;0;0;0;10.77
+8520;Retribution of the Meek;Visions;Rare;1;2;2;0;0;0;5.36
+8524;Tithe;Visions;Rare;1;2;4;0;0;0;20.67
+8669;Firestorm;Weatherlight;Rare;1;1;5;0;0;0;12.27
+8685;Abeyance;Weatherlight;Rare;1;1;5;0;0;0;8.87
+8538;Squandered Resources;Visions;Rare;1;2;4;0;0;0;15.00
+8415;Necromancy;Visions;Uncommon;1;2;2;0;0;0;11.58
+8415;Necromancy;Visions;Uncommon;1;2;3;0;0;0;12.03
+8423;Vampiric Tutor;Visions;Rare;1;1;5;0;0;0;33.00
+8465;Natural Order;Visions;Rare;1;3;4;0;0;0;19.94
+8542;Anvil of Bogardan;Visions;Rare;1;2;5;0;0;0;20.65
+8614;Paradigm Shift;Weatherlight;Rare;2;2;4;0;0;0;9.99
+8667;Fervor;Weatherlight;Rare;1;1;4;0;0;0;5.39
+8671;Goblin Bomb;Weatherlight;Rare;2;1;5;0;0;0;8.39
+8695;Debt of Loyalty;Weatherlight;Rare;1;1;5;0;0;0;7.58
+8734;Scorched Ruins;Weatherlight;Rare;1;2;3;0;0;0;23.99
+8743;Coffin Queen;Tempest;Rare;1;2;3;0;0;0;5.05
+9075;Wasteland;Tempest;Uncommon;1;2;6;0;0;0;35.00
+9033;Scroll Rack;Tempest;Rare;1;2;4;0;0;0;19.49
+9035;Static Orb;Tempest;Rare;1;2;5;0;0;0;11.95
+9035;Static Orb;Tempest;Rare;1;1;5;0;0;0;11.96
+9035;Static Orb;Tempest;Rare;1;1;6;0;0;0;15.99
+9075;Wasteland;Tempest;Uncommon;1;2;3;0;0;0;25.36
+9031;Sapphire Medallion;Tempest;Rare;1;1;5;0;0;0;20.99
+9212;Ensnaring Bridge;Stronghold;Rare;1;2;4;0;0;0;15.41
+9095;Grave Pact;Stronghold;Rare;1;3;5;0;0;0;16.00
+9178;Mogg Infestation;Stronghold;Rare;1;1;6;0;0;0;5.99
+8837;Whim of Volrath;Tempest;Rare;1;1;4;0;0;0;11.33
+9212;Ensnaring Bridge;Stronghold;Rare;1;1;4;0;0;0;16.17
+9261;Ertai, Wizard Adept;Exodus;Rare;1;1;4;0;0;0;8.84
+9646;Winds of Change;Fifth Edition;Rare;1;1;5;0;0;0;7.51
+9471;Lord of Atlantis;Fifth Edition;Rare;1;2;4;0;0;0;7.92
+9292;Hatred;Exodus;Rare;1;2;1;0;0;0;18.99
+9415;Necropotence;Fifth Edition;Rare;1;1;6;0;0;0;21.99
+9471;Lord of Atlantis;Fifth Edition;Rare;1;2;5;0;0;0;8.36
+9962;Steam Catapult;Portal Second Age;Rare;1;1;4;0;0;0;5.66
+10180;Temporary Truce;Portal;Rare;1;2;5;0;0;0;8.00
+10187;Wrath of God;Portal;Rare;2;2;4;0;0;0;14.39
+9961;Righteous Fury;Portal Second Age;Rare;1;1;6;0;0;0;13.14
+9961;Righteous Fury;Portal Second Age;Rare;1;2;2;0;0;0;13.14
+10113;Devastation;Portal;Rare;1;3;5;0;0;0;22.00
+10147;Winds of Change;Portal;Rare;1;2;5;0;0;0;21.00
+10165;Harsh Justice;Portal;Rare;1;2;5;0;0;0;9.00
+9777;Urza's Bauble;Fifth Edition;Uncommon;1;2;2;0;0;0;6.75
+9779;Winter Orb;Fifth Edition;Rare;1;1;4;0;0;0;11.97
+9779;Winter Orb;Fifth Edition;Rare;1;7;5;0;0;0;12.64
+9993;Cruel Bargain;Portal;Rare;1;2;3;0;0;0;6.69
+10206;Swamp (V.3);Portal;Land;1;1;4;0;0;0;5.80
+10292;Morphling;Urza's Saga;Rare;1;1;4;0;0;0;9.94
+10536;Thran Quarry;Urza's Saga;Rare;1;1;6;0;0;0;6.61
+10368;Tainted Aether;Urza's Saga;Rare;1;1;3;0;0;0;6.13
+10368;Tainted Aether;Urza's Saga;Rare;4;1;5;0;0;0;6.76
+10397;Goblin Lackey;Urza's Saga;Uncommon;1;1;6;0;0;0;17.95
+10447;Carpet of Flowers;Urza's Saga;Uncommon;1;1;5;0;0;0;16.27
+10536;Thran Quarry;Urza's Saga;Rare;1;1;3;0;0;0;5.97
+10330;Contamination;Urza's Saga;Rare;1;8;3;0;0;0;12.43
+10341;Exhume;Urza's Saga;Common;1;2;3;0;0;0;7.19
+10368;Tainted Aether;Urza's Saga;Rare;1;2;3;0;0;0;5.81
+10368;Tainted Aether;Urza's Saga;Rare;2;1;4;0;0;0;6.38
+10577;Radiant, Archangel;Urza's Legacy;Rare;1;2;3;0;0;0;6.20
+10584;Aura Flux;Urza's Legacy;Common;2;1;6;1;0;0;14.93
+10629;Unearth;Urza's Legacy;Common;1;1;5;1;0;0;49.29
+10629;Unearth;Urza's Legacy;Common;1;1;4;1;0;0;46.67
+10664;Multani, Maro-Sorcerer;Urza's Legacy;Rare;1;2;2;0;0;0;5.20
+10664;Multani, Maro-Sorcerer;Urza's Legacy;Rare;3;7;6;0;0;0;8.40
+10667;Rancor;Urza's Legacy;Common;1;2;5;1;0;0;47.00
+10731;Donate;Urza's Destiny;Rare;1;2;4;0;0;0;7.08
+10775;Yawgmoth's Bargain;Urza's Destiny;Rare;1;2;5;0;0;0;7.94
+10834;Masticore;Urza's Destiny;Rare;2;1;6;0;0;0;16.99
+11005;Zombie Master;Sixth Edition;Rare;1;1;2;0;0;0;10.08
+11017;Fervor;Sixth Edition;Rare;1;1;6;0;0;0;12.00
+11388;Crackdown;Mercadian Masques;Rare;1;2;5;0;0;0;6.08
+11388;Crackdown;Mercadian Masques;Rare;1;2;4;0;0;0;5.77
+11410;Ramosian Lieutenant;Mercadian Masques;Common;1;1;5;1;0;0;39.99
+11460;Misdirection;Mercadian Masques;Rare;1;1;3;0;0;0;7.55
+11489;Black Market;Mercadian Masques;Rare;1;7;6;0;0;0;6.90
+11489;Black Market;Mercadian Masques;Rare;1;4;5;0;0;0;6.16
+11501;Corrupt Official;Mercadian Masques;Rare;1;1;4;1;0;0;18.00
+11541;Unmask;Mercadian Masques;Rare;1;2;3;0;0;0;12.75
+11587;Squee, Goblin Nabob;Mercadian Masques;Rare;1;2;4;0;0;0;9.89
+11435;Bribery;Mercadian Masques;Rare;1;1;5;0;0;0;12.98
+11435;Bribery;Mercadian Masques;Rare;1;1;3;0;0;0;9.99
+11735;Lin Sivvi, Defiant Hero;Nemesis;Rare;1;3;4;1;0;0;134.59
+11697;Rishadan Port;Mercadian Masques;Rare;1;1;3;0;0;0;35.39
+11720;Forest (V.1);Mercadian Masques;Land;1;1;3;1;0;0;5.70
+11720;Forest (V.1);Mercadian Masques;Land;1;1;1;1;0;0;5.29
+11720;Forest (V.1);Mercadian Masques;Land;2;1;5;1;0;0;6.21
+11720;Forest (V.1);Mercadian Masques;Land;1;1;4;1;0;0;5.90
+11840;Skyshroud Claim;Nemesis;Common;2;1;5;1;0;0;63.99
+11759;Pale Moon;Nemesis;Rare;1;2;4;1;0;0;15.89
+11972;Boseiju, Who Shelters All;Champions of Kamigawa;Rare;1;1;2;0;0;0;8.33
+11782;Mind Slash;Nemesis;Uncommon;1;3;5;1;0;0;12.06
+11842;Skyshroud Poacher;Nemesis;Rare;1;1;6;0;0;0;7.99
+11842;Skyshroud Poacher;Nemesis;Rare;2;1;5;0;0;0;5.26
+11819;Moggcatcher;Nemesis;Rare;1;1;5;0;0;0;7.03
+11822;Shrieking Mogg;Nemesis;Rare;1;2;6;1;0;0;35.00
+11928;Mountain;Unglued;Land;1;1;2;0;0;0;5.09
+11895;Forest;Unglued;Land;3;1;2;0;0;0;5.65
+11914;Island;Unglued;Land;1;1;2;0;0;0;6.02
+11914;Island;Unglued;Land;1;1;3;0;0;0;6.24
+12092;Kokusho, the Evening Star;Champions of Kamigawa;Rare;1;1;6;0;0;0;19.95
+12022;Glimpse of Nature;Champions of Kamigawa;Rare;1;1;4;0;0;0;7.14
+12022;Glimpse of Nature;Champions of Kamigawa;Rare;2;4;6;0;0;0;10.00
+12028;Hall of the Bandit Lord;Champions of Kamigawa;Rare;1;4;4;1;0;0;65.75
+12081;Kiki-Jiki, Mirror Breaker;Champions of Kamigawa;Rare;1;2;4;0;0;0;6.00
+12092;Kokusho, the Evening Star;Champions of Kamigawa;Rare;1;2;1;0;0;0;13.37
+12119;Myojin of Infinite Rage;Champions of Kamigawa;Rare;1;1;4;1;0;0;15.90
+12122;Myojin of Seeing Winds;Champions of Kamigawa;Rare;1;3;4;1;0;0;10.95
+12125;Nature's Will;Champions of Kamigawa;Rare;1;1;5;0;0;0;5.54
+12086;Kitsune Mystic;Champions of Kamigawa;Rare;1;2;5;1;0;0;12.02
+12107;Marrow-Gnawer;Champions of Kamigawa;Rare;1;1;4;1;0;0;37.99
+12107;Marrow-Gnawer;Champions of Kamigawa;Rare;2;2;4;0;0;0;18.00
+12292;Blood Moon;Ninth Edition;Rare;1;1;5;0;0;0;10.99
+12292;Blood Moon;Ninth Edition;Rare;1;2;6;0;0;0;13.05
+12184;Shinka, the Bloodsoaked Keep;Champions of Kamigawa;Rare;1;2;4;1;0;0;79.80
+12184;Shinka, the Bloodsoaked Keep;Champions of Kamigawa;Rare;1;3;5;1;0;0;90.00
+12223;Time of Need;Champions of Kamigawa;Uncommon;1;5;6;1;0;0;13.20
+12223;Time of Need;Champions of Kamigawa;Uncommon;3;4;5;1;0;0;6.99
+12223;Time of Need;Champions of Kamigawa;Uncommon;1;1;5;1;0;0;6.99
+12526;Seedborn Muse;Ninth Edition;Rare;1;2;6;0;0;0;19.60
+12526;Seedborn Muse;Ninth Edition;Rare;1;2;2;0;0;0;12.96
+12542;Sleight of Hand;Ninth Edition;Common;2;2;6;1;0;0;18.99
+12542;Sleight of Hand;Ninth Edition;Common;2;2;3;1;0;0;8.00
+12542;Sleight of Hand;Ninth Edition;Common;1;5;4;1;0;0;9.00
+12478;Phyrexian Arena;Ninth Edition;Rare;1;1;4;0;0;0;6.28
+12478;Phyrexian Arena;Ninth Edition;Rare;1;2;5;0;0;0;6.33
+12718;Miren, the Moaning Well;Saviors of Kamigawa;Rare;1;6;5;0;0;0;10.00
+12752;Sakashima the Impostor;Saviors of Kamigawa;Rare;2;1;5;0;0;0;5.80
+12753;Sakura-Tribe Scout;Saviors of Kamigawa;Common;1;1;5;1;0;0;9.00
+12665;Freed from the Real;Saviors of Kamigawa;Common;1;1;5;1;0;0;10.00
+12718;Miren, the Moaning Well;Saviors of Kamigawa;Rare;1;2;6;0;0;0;14.99
+12718;Miren, the Moaning Well;Saviors of Kamigawa;Rare;1;2;5;0;1;0;10.00
+12873;Ninja of the Deep Hours;Betrayers of Kamigawa;Common;2;1;4;1;0;0;24.99
+12873;Ninja of the Deep Hours;Betrayers of Kamigawa;Common;1;1;5;1;0;0;27.99
+12873;Ninja of the Deep Hours;Betrayers of Kamigawa;Common;2;2;5;1;0;0;27.99
+12842;Ink-Eyes, Servant of Oni;Betrayers of Kamigawa;Rare;1;2;3;0;0;0;9.95
+12958;Azorius Chancery;Dissension;Common;1;1;6;1;0;0;23.99
+12967;Blood Crypt;Dissension;Rare;1;2;3;0;0;0;18.96
+12967;Blood Crypt;Dissension;Rare;1;1;4;0;0;0;20.70
+12657;Enduring Ideal;Saviors of Kamigawa;Rare;1;2;6;1;0;0;29.99
+12853;Kira, Great Glass-Spinner;Betrayers of Kamigawa;Rare;2;1;5;0;0;0;5.73
+12877;Okiba-Gang Shinobi;Betrayers of Kamigawa;Common;1;1;4;1;0;0;7.26
+12869;Mistblade Shinobi;Betrayers of Kamigawa;Common;4;1;4;1;0;0;13.90
+12914;Skullsnatcher;Betrayers of Kamigawa;Common;3;1;4;1;0;0;6.93
+12941;Umezawa's Jitte;Betrayers of Kamigawa;Rare;1;1;3;0;0;0;7.01
+12941;Umezawa's Jitte;Betrayers of Kamigawa;Rare;1;2;2;0;0;0;6.49
+12941;Umezawa's Jitte;Betrayers of Kamigawa;Rare;1;2;4;0;0;0;6.95
+13222;Orzhov Basilica;Guildpact;Common;1;1;4;1;0;0;5.89
+13269;Steam Vents;Guildpact;Rare;1;2;4;0;0;0;15.95
+12949;Yomiji, Who Bars the Way;Betrayers of Kamigawa;Rare;2;2;6;1;0;0;8.00
+12972;Breeding Pool;Dissension;Rare;1;1;4;0;0;0;19.46
+13011;Hallowed Fountain;Dissension;Rare;1;2;2;0;0;0;13.02
+13055;Protean Hulk;Dissension;Rare;1;2;5;0;0;0;5.88
+13068;Rakdos the Defiler;Dissension;Rare;1;3;5;1;0;0;35.79
+13208;Leyline of the Void;Guildpact;Rare;1;1;3;0;0;0;8.00
+13222;Orzhov Basilica;Guildpact;Common;1;1;6;1;0;0;24.99
+13272;Stomping Ground;Guildpact;Rare;2;2;4;0;0;0;9.61
+13303;Birds of Paradise;Ravnica: City of Guilds;Rare;1;2;4;0;0;0;6.23
+13505;Remand;Ravnica: City of Guilds;Uncommon;1;2;1;1;0;0;8.69
+13532;Shred Memory;Ravnica: City of Guilds;Common;1;3;5;1;0;0;9.50
+13327;Chord of Calling;Ravnica: City of Guilds;Rare;1;2;4;0;0;0;6.01
+13330;Civic Wayfinder;Ravnica: City of Guilds;Common;1;1;6;1;0;0;50.15
+13333;Cloudstone Curio;Ravnica: City of Guilds;Rare;1;6;5;0;0;0;14.00
+13333;Cloudstone Curio;Ravnica: City of Guilds;Rare;2;1;5;0;0;0;14.00
+13333;Cloudstone Curio;Ravnica: City of Guilds;Rare;1;2;5;0;0;0;14.00
+13333;Cloudstone Curio;Ravnica: City of Guilds;Rare;1;1;4;0;0;0;14.00
+13357;Dimir Infiltrator;Ravnica: City of Guilds;Common;1;1;5;1;0;0;8.80
+13388;Flickerform;Ravnica: City of Guilds;Rare;1;1;4;1;0;0;6.79
+13423;Guardian of Vitu-Ghazi;Ravnica: City of Guilds;Common;1;1;6;1;0;0;50.15
+13626;Counterbalance;Coldsnap;Uncommon;1;1;5;0;0;0;12.26
+13630;Dark Depths;Coldsnap;Rare;1;2;3;0;0;0;7.85
+13721;Snow-Covered Forest;Coldsnap;Land;2;2;4;1;0;0;6.41
+13721;Snow-Covered Forest;Coldsnap;Land;1;3;4;1;0;0;6.41
+13721;Snow-Covered Forest;Coldsnap;Land;1;2;3;1;0;0;6.18
+13721;Snow-Covered Forest;Coldsnap;Land;1;8;6;1;0;0;11.40
+13721;Snow-Covered Forest;Coldsnap;Land;1;4;3;1;0;0;5.89
+13721;Snow-Covered Forest;Coldsnap;Land;1;1;5;1;0;0;9.49
+13725;Snow-Covered Swamp;Coldsnap;Land;1;1;5;1;0;0;5.65
+13725;Snow-Covered Swamp;Coldsnap;Land;1;3;4;1;0;0;5.15
+13764;Angel's Grace;Time Spiral;Rare;1;5;5;1;0;0;17.00
+14040;Vesuva;Time Spiral;Rare;1;2;4;0;0;0;8.23
+14059;Arena;Time Spiral;Time Shifted;1;1;4;1;0;0;11.32
+14075;Dandân;Time Spiral;Time Shifted;2;1;5;0;0;0;6.10
+14157;Tormod's Crypt;Time Spiral;Time Shifted;1;2;6;1;0;0;79.90
+14214;Body Double;Planar Chaos;Rare;1;3;6;1;0;0;14.00
+14214;Body Double;Planar Chaos;Rare;1;2;3;1;0;0;10.00
+14215;Braids, Conjurer Adept;Planar Chaos;Rare;1;5;6;1;0;0;21.42
+14223;Pongify;Planar Chaos;Uncommon;1;5;4;1;0;0;10.00
+14079;Desert;Time Spiral;Time Shifted;1;2;3;1;0;0;6.07
+14079;Desert;Time Spiral;Time Shifted;1;3;3;1;0;0;6.07
+14096;Funeral Charm;Time Spiral;Time Shifted;1;4;6;1;0;0;5.99
+14102;Goblin Snowman;Time Spiral;Time Shifted;1;1;5;1;0;0;7.98
+14234;Gossamer Phantasm;Planar Chaos;Common;1;1;6;1;0;0;50.15
+14210;Sunlance;Planar Chaos;Common;1;1;5;1;0;0;50.15
+14273;Akroma, Angel of Fury;Planar Chaos;Rare;1;1;4;1;0;0;37.62
+14273;Akroma, Angel of Fury;Planar Chaos;Rare;1;1;3;1;0;0;36.21
+14457;Righteous Fury;Starter 1999;Rare;1;1;6;0;0;0;20.22
+15000;Intervention Pact;Future Sight;Rare;1;1;4;1;0;0;12.49
+15000;Intervention Pact;Future Sight;Rare;1;2;6;1;0;0;99.94
+15010;Aven Mindcensor;Future Sight;Uncommon;1;1;5;1;0;0;50.69
+15000;Intervention Pact;Future Sight;Rare;1;4;5;1;0;0;99.94
+15000;Intervention Pact;Future Sight;Rare;2;4;6;1;0;0;99.94
+15000;Intervention Pact;Future Sight;Rare;1;3;5;1;0;0;99.94
+15000;Intervention Pact;Future Sight;Rare;2;2;5;1;0;0;99.94
+15000;Intervention Pact;Future Sight;Rare;2;1;3;1;0;0;12.49
+14899;Plains;Unhinged;Land;3;1;5;1;0;0;14.02
+15072;Bitter Ordeal;Future Sight;Rare;1;2;5;1;0;0;250.00
+15077;Frenzy Sliver;Future Sight;Common;2;1;6;1;0;0;50.38
+15093;Magus of the Moon;Future Sight;Rare;1;6;4;0;0;0;9.99
+14950;Sulfurous Springs;Deckmasters;Rare;1;1;5;0;0;0;7.23
+15161;Dakmor Salvage;Future Sight;Uncommon;4;5;6;1;0;0;17.68
+15168;Grove of the Burnwillows;Future Sight;Rare;4;2;5;0;0;0;5.70
+15168;Grove of the Burnwillows;Future Sight;Rare;1;1;3;0;0;0;5.45
+15169;Horizon Canopy;Future Sight;Rare;2;1;5;0;0;0;15.03
+15170;Nimbus Maze;Future Sight;Rare;1;1;4;1;0;0;45.00
+15161;Dakmor Salvage;Future Sight;Uncommon;1;2;6;1;0;0;17.68
+15167;Graven Cairns;Future Sight;Rare;1;6;4;0;0;0;5.50
+15161;Dakmor Salvage;Future Sight;Uncommon;3;5;4;1;0;0;6.13
+15168;Grove of the Burnwillows;Future Sight;Rare;1;5;4;0;0;0;5.16
+15145;Tarmogoyf;Future Sight;Rare;1;2;2;0;0;0;15.13
+15145;Tarmogoyf;Future Sight;Rare;1;2;4;0;0;0;16.42
+15150;Sliver Legion;Future Sight;Rare;1;7;6;0;0;0;40.00
+15161;Dakmor Salvage;Future Sight;Uncommon;1;4;6;1;0;0;17.68
+15161;Dakmor Salvage;Future Sight;Uncommon;1;1;4;1;0;0;6.71
+15237;Hurkyl's Recall;Foreign Black Bordered;Rare;1;2;3;0;0;0;12.64
+15674;Sylvan Library;Renaissance;Uncommon;1;2;3;0;0;0;29.30
+15681;Triskelion;Renaissance;Uncommon;1;2;4;0;0;0;7.13
+15270;Aspect of Wolf;Foreign Black Bordered;Rare;1;2;4;0;0;0;5.35
+15338;Lightning Bolt;Foreign Black Bordered;Common;1;2;3;0;0;0;13.15
+15349;Rock Hydra;Foreign Black Bordered;Rare;1;2;4;0;0;0;7.80
+15354;Smoke;Foreign Black Bordered;Rare;1;2;5;0;0;0;5.87
+15363;Armageddon;Foreign Black Bordered;Rare;1;3;2;0;0;0;26.41
+15403;Veteran Bodyguard;Foreign Black Bordered;Rare;2;2;3;0;0;0;5.38
+15441;Meekstone;Foreign Black Bordered;Rare;2;2;3;0;0;0;14.69
+15672;Strip Mine;Renaissance;Uncommon;1;2;5;0;0;0;5.54
+15672;Strip Mine;Renaissance;Uncommon;1;3;4;0;0;0;5.26
+15808;Capsize;Friday Night Magic Promos;Rare;1;1;6;1;0;0;34.95
+15924;Birds of Paradise;Foreign White Bordered;Rare;1;2;3;0;0;0;10.31
+16021;Mana Flare;Foreign White Bordered;Rare;1;2;5;0;0;0;5.37
+15917;Fastbond;Foreign White Bordered;Rare;1;2;2;0;0;0;11.27
+15935;Stasis;Foreign White Bordered;Rare;1;2;4;0;0;0;5.83
+15993;Mind Twist;Foreign White Bordered;Rare;1;2;4;0;0;0;7.51
+16044;Armageddon;Foreign White Bordered;Rare;1;2;4;0;0;0;5.94
+17748;Burrenton Forge-Tender;Lorwyn;Uncommon;1;2;5;1;0;0;50.43
+16122;Mana Vault;Foreign White Bordered;Rare;1;2;4;0;0;0;30.50
+16134;Sol Ring;Foreign White Bordered;Uncommon;1;2;4;0;0;0;9.04
+16258;Peek;Tenth Edition;Common;1;1;4;1;0;0;5.98
+16319;Lord of the Undead;Tenth Edition;Rare;1;1;6;0;0;0;16.00
+16258;Peek;Tenth Edition;Common;1;1;5;1;0;0;6.29
+17830;Spellstutter Sprite;Lorwyn;Common;1;1;6;1;0;0;84.48
+16447;Overgrowth;Tenth Edition;Common;1;2;4;1;0;0;14.20
+16483;Crucible of Worlds;Tenth Edition;Rare;1;7;5;0;0;0;15.20
+16511;Adarkar Wastes;Tenth Edition;Rare;1;2;4;0;0;0;6.39
+16392;Seismic Assault;Tenth Edition;Rare;1;1;5;1;0;0;7.43
+17797;Cryptic Command;Lorwyn;Rare;1;7;5;0;0;0;8.34
+17797;Cryptic Command;Lorwyn;Rare;3;2;5;0;0;0;7.98
+17817;Mulldrifter;Lorwyn;Common;1;1;4;1;0;0;7.39
+17886;Thoughtseize;Lorwyn;Rare;2;2;6;0;0;0;22.00
+17843;Boggart Harbinger;Lorwyn;Uncommon;1;2;3;1;0;0;21.92
+17886;Thoughtseize;Lorwyn;Rare;1;1;5;0;0;0;19.98
+17974;Primal Command;Lorwyn;Rare;1;1;4;1;0;0;6.67
+17979;Timber Protector;Lorwyn;Rare;1;2;6;0;0;0;12.84
+17979;Timber Protector;Lorwyn;Rare;1;2;5;0;0;0;9.99
+17997;Dolmen Gate;Lorwyn;Rare;1;1;6;0;0;0;11.50
+18884;Vendilion Clique;Morningtide;Rare;2;1;5;0;0;0;5.11
+18904;Pulling Teeth;Morningtide;Common;1;1;6;1;0;0;50.26
+18894;Maralen of the Mornsong;Morningtide;Rare;1;1;6;0;0;0;14.60
+18924;Mudbutton Clanger;Morningtide;Common;1;1;6;1;0;0;50.15
+18959;Lys Alana Bowmaster;Morningtide;Common;1;1;6;1;0;0;50.15
+18965;Scapeshift;Morningtide;Rare;3;2;5;0;0;0;12.29
+18851;Reveillark;Morningtide;Rare;1;2;6;1;0;0;19.99
+18861;Distant Melody;Morningtide;Common;1;2;5;1;0;0;7.80
+18861;Distant Melody;Morningtide;Common;4;6;5;1;0;0;5.09
+18894;Maralen of the Mornsong;Morningtide;Rare;1;2;5;0;0;0;12.39
+18973;Obsidian Battle-Axe;Morningtide;Uncommon;1;1;6;1;0;0;50.43
+19294;Sunken Ruins;Shadowmoor;Rare;1;6;4;0;0;0;15.53
+19045;Cerulean Wisps;Shadowmoor;Common;1;2;6;1;0;0;10.93
+19053;Ghastly Discovery;Shadowmoor;Common;1;1;6;1;0;0;50.15
+19064;Savor the Moment;Shadowmoor;Rare;1;2;6;0;0;0;5.66
+19088;Polluted Bonds;Shadowmoor;Rare;1;5;5;0;0;0;9.27
+19136;Mana Reflection;Shadowmoor;Rare;1;2;5;0;0;0;6.48
+19136;Mana Reflection;Shadowmoor;Rare;1;6;6;0;0;0;7.50
+19140;Prismatic Omen;Shadowmoor;Rare;1;2;5;0;0;0;5.94
+19228;Rosheen Meanderer;Shadowmoor;Rare;1;2;6;1;0;0;15.95
+19289;Mistveil Plains;Shadowmoor;Uncommon;1;1;4;1;0;0;8.30
+19484;Glen Elendra Archmage;Eventide;Rare;1;7;6;0;0;0;7.95
+19495;Ashling, the Extinguisher;Eventide;Rare;1;1;4;0;0;0;5.71
+19495;Ashling, the Extinguisher;Eventide;Rare;1;1;6;0;0;0;6.10
+19638;Fetid Heath;Eventide;Rare;1;1;6;0;0;0;5.26
+19642;Twilight Mire;Eventide;Rare;1;1;5;0;1;0;7.40
+19701;Covenant of Minds;Shards of Alara;Rare;1;1;5;1;0;0;50.35
+19702;Master of Etherium;Shards of Alara;Rare;1;1;6;1;0;0;50.77
+19706;Executioner's Capsule;Shards of Alara;Common;1;1;6;1;0;0;50.15
+19799;Scourglass;Shards of Alara;Rare;1;4;6;1;0;0;52.27
+19831;Ad Nauseam;Shards of Alara;Rare;1;1;5;0;0;0;9.74
+19831;Ad Nauseam;Shards of Alara;Rare;1;8;5;0;0;0;8.90
+19836;Cunning Lethemancer;Shards of Alara;Rare;1;2;6;1;0;0;7.83
+19782;Dispeller's Capsule;Shards of Alara;Common;1;1;5;1;0;0;50.15
+19783;Elspeth, Knight-Errant;Shards of Alara;Mythic;1;1;5;0;0;0;6.12
+19930;Prince of Thralls;Shards of Alara;Mythic;1;1;4;0;0;0;5.43
+19824;Resounding Wave;Shards of Alara;Common;1;1;5;1;0;0;50.15
+19949;Sigil of Distinction;Shards of Alara;Rare;2;1;5;1;0;0;50.42
+19841;Dregscape Zombie;Shards of Alara;Common;1;1;5;1;0;0;50.15
+19858;Viscera Dragger;Shards of Alara;Common;1;1;6;1;0;0;50.29
+19922;Godsire;Shards of Alara;Mythic;3;1;3;1;0;0;11.79
+20679;Traumatic Visions;Conflux;Common;1;1;6;1;0;0;50.15
+20137;Elvish Champion;Salvat-Hachette;Rare;1;2;6;0;0;0;7.31
+20658;Path to Exile;Conflux;Uncommon;2;1;5;1;0;0;7.25
+20660;Scepter of Dominance;Conflux;Rare;1;1;6;1;0;0;50.49
+20674;Master Transmuter;Conflux;Rare;1;5;6;1;0;0;11.65
+20779;Font of Mythos;Conflux;Rare;1;4;5;1;0;0;27.61
+20689;Grixis Slavedriver;Conflux;Uncommon;2;1;6;1;0;0;50.29
+20706;Fiery Fall;Conflux;Common;1;1;5;1;0;0;50.15
+20887;Meddling Mage;Alara Reborn;Rare;2;1;5;1;0;0;51.82
+20903;Lich Lord of Unx;Alara Reborn;Rare;1;2;5;0;0;0;5.84
+20730;Noble Hierarch;Conflux;Rare;2;1;5;0;0;0;11.47
+20740;Wild Leotau;Conflux;Common;1;1;6;1;0;0;50.15
+20764;Progenitus;Conflux;Mythic;1;1;5;0;0;0;10.84
+20910;Time Sieve;Alara Reborn;Rare;1;2;5;0;0;0;5.32
+20933;Firewild Borderpost;Alara Reborn;Common;2;1;5;1;0;0;50.15
+20926;Thought Hemorrhage;Alara Reborn;Rare;1;1;6;1;0;0;50.25
+21139;Doom Blade;Magic 2010;Common;1;1;5;1;0;0;50.28
+21192;Lightning Bolt;Magic 2010;Common;1;1;6;1;0;0;12.00
+20954;Qasali Pridemage;Alara Reborn;Common;3;1;6;1;0;0;50.34
+20954;Qasali Pridemage;Alara Reborn;Common;1;1;5;1;0;0;50.33
+20957;Sigil of the Nayan Gods;Alara Reborn;Common;1;1;5;1;0;0;50.19
+20964;Zealous Persecution;Alara Reborn;Uncommon;1;1;6;1;0;0;50.19
+20964;Zealous Persecution;Alara Reborn;Uncommon;1;1;5;1;0;0;50.19
+21009;Maelstrom Nexus;Alara Reborn;Mythic;1;1;6;1;0;0;12.00
+21011;Esper Stormblade;Alara Reborn;Common;2;1;6;1;0;0;50.15
+21067;Open the Vaults;Magic 2010;Rare;1;2;6;1;0;0;8.15
+21164;Vampire Nocturnus;Magic 2010;Mythic;1;1;5;0;0;0;7.01
+21209;Warp World;Magic 2010;Rare;1;1;6;1;0;0;50.48
+21215;Borderland Ranger;Magic 2010;Common;1;1;6;1;0;0;50.15
+21222;Elvish Archdruid;Magic 2010;Rare;1;1;3;1;0;0;6.39
+21236;Lurking Predators;Magic 2010;Rare;1;9;6;0;0;0;6.95
+21709;Mountain (V.2);Zendikar;Land;1;2;4;1;0;0;7.03
+21717;Forest (V.2);Zendikar;Land;1;1;4;1;0;0;6.65
+21726;Misty Rainforest;Zendikar;Rare;1;6;3;0;0;0;18.99
+21726;Misty Rainforest;Zendikar;Rare;1;1;6;0;0;0;22.63
+21687;Plains (V.4);Zendikar;Land;2;1;5;1;0;0;50.37
+21689;Plains (V.6);Zendikar;Land;2;2;4;1;0;0;6.10
+21691;Plains (V.8);Zendikar;Land;1;1;5;1;0;0;50.64
+21701;Swamp (V.2);Zendikar;Land;1;1;4;1;0;0;50.60
+21707;Swamp (V.8);Zendikar;Land;1;1;5;1;0;0;50.52
+21707;Swamp (V.8);Zendikar;Land;1;2;6;1;0;0;5.45
+21744;Arid Mesa;Zendikar;Rare;1;6;5;0;0;0;14.36
+21749;Emeria, the Sky Ruin;Zendikar;Rare;1;2;3;0;0;0;8.99
+21767;Rampaging Baloths;Zendikar;Mythic;1;2;6;1;0;0;7.98
+21768;Valakut, the Molten Pinnacle;Zendikar;Rare;1;2;5;0;0;0;13.25
+21774;Oracle of Mul Daya;Zendikar;Rare;1;2;6;0;0;0;6.95
+21797;Lightning Bolt (V.2);Player Rewards Promos;Rare;2;1;5;1;0;0;15.93
+21758;Teetering Peaks;Zendikar;Common;1;1;5;1;0;0;50.15
+21759;Warren Instigator;Zendikar;Mythic;2;1;6;0;0;0;9.28
+21797;Lightning Bolt (V.2);Player Rewards Promos;Rare;1;1;3;1;0;0;14.52
+21818;Terra Stomper;Zendikar;Rare;1;1;6;1;0;0;50.29
+21789;Turntimber Ranger;Zendikar;Rare;1;1;6;1;0;0;50.31
+21782;Archive Trap;Zendikar;Rare;1;2;5;0;0;0;11.31
+21782;Archive Trap;Zendikar;Rare;2;2;4;0;0;0;10.68
+21784;Gigantiform;Zendikar;Rare;1;1;5;1;0;0;50.31
+22115;Ghostly Prison;Friday Night Magic Promos;Rare;1;1;3;1;0;0;5.75
+22214;Tectonic Edge;Worldwake;Uncommon;1;2;5;1;0;0;50.76
+22216;Thada Adel, Acquisitor;Worldwake;Rare;1;3;6;0;0;0;6.39
+21895;Bloodchief Ascension;Zendikar;Rare;1;2;6;0;0;0;5.95
+21895;Bloodchief Ascension;Zendikar;Rare;1;5;5;0;0;0;5.26
+21940;Torch Slinger;Zendikar;Common;1;1;5;1;0;0;50.15
+22112;Joraga Warcaller;Worldwake;Rare;1;1;6;0;0;0;6.02
+22115;Ghostly Prison;Friday Night Magic Promos;Rare;1;1;5;1;0;0;6.27
+21873;Into the Roil;Zendikar;Common;1;1;6;1;0;0;50.15
+22196;Kazuul, Tyrant of the Cliffs;Worldwake;Rare;1;2;6;1;0;0;19.99
+22247;Quest for Renewal;Worldwake;Uncommon;1;2;5;0;0;0;5.55
+22260;Smoldering Spires;Worldwake;Common;1;1;5;1;0;0;50.15
+22160;Amulet of Vigor;Worldwake;Rare;1;1;6;1;0;0;70.00
+22161;Quest for Ula's Temple;Worldwake;Rare;1;2;5;0;0;0;5.61
+22418;Hellcarver Demon;Rise of the Eldrazi;Mythic;1;2;6;0;0;0;7.43
+22352;Prey's Vengeance;Rise of the Eldrazi;Uncommon;1;1;6;1;0;0;50.19
+22367;All Is Dust;Rise of the Eldrazi;Mythic;1;2;6;0;0;0;6.85
+22374;Splinter Twin;Rise of the Eldrazi;Rare;1;2;5;0;0;0;7.25
+22375;Bear Umbra;Rise of the Eldrazi;Rare;1;2;6;0;0;0;5.37
+22375;Bear Umbra;Rise of the Eldrazi;Rare;1;2;5;0;0;0;5.28
+22381;Khalni Hydra;Rise of the Eldrazi;Mythic;1;2;6;0;0;0;10.00
+22520;Deprive;Rise of the Eldrazi;Common;2;7;6;1;0;0;17.95
+22431;Eldrazi Conscription;Rise of the Eldrazi;Rare;1;7;5;0;0;0;11.30
+22521;Distortion Strike;Rise of the Eldrazi;Common;1;1;5;1;0;0;50.58
+22593;Tajuru Preserver;Rise of the Eldrazi;Rare;1;2;6;1;0;0;51.83
+22513;It That Betrays;Rise of the Eldrazi;Rare;1;2;5;0;0;0;10.23
+22515;Staggershock;Rise of the Eldrazi;Common;1;1;5;1;0;0;50.15
+241830;Negate;Magic 2011;Common;1;1;6;1;0;0;50.19
+241841;Corrupt;Magic 2011;Uncommon;1;1;6;1;0;0;50.19
+241871;Birds of Paradise;Magic 2011;Rare;1;2;4;0;0;0;5.79
+241871;Birds of Paradise;Magic 2011;Rare;1;2;5;0;0;0;6.11
+241845;Liliana's Caress;Magic 2011;Uncommon;4;7;4;0;0;0;5.10
+241866;Lightning Bolt;Magic 2011;Common;1;1;6;1;0;0;14.06
+241977;Serra Ascendant;Magic 2011;Rare;1;6;4;0;0;0;14.49
+242027;Leyline of Sanctity;Magic 2011;Rare;1;2;6;1;0;0;23.90
+241930;Frost Titan;Magic 2011;Mythic;1;1;5;1;0;0;51.06
+241933;Time Reversal;Magic 2011;Mythic;1;2;6;1;0;0;21.00
+241977;Serra Ascendant;Magic 2011;Rare;1;5;4;0;0;0;14.49
+241977;Serra Ascendant;Magic 2011;Rare;1;7;4;0;0;0;15.75
+242030;Silence;Magic 2011;Rare;1;2;4;0;0;0;6.33
+241975;Nissa Revane;Duels of the Planeswalkers Promos;Mythic;1;1;5;1;0;0;5.13
+242030;Silence;Magic 2011;Rare;1;1;4;0;0;0;6.62
+242517;Sword of Body and Mind;Scars of Mirrodin;Mythic;1;1;6;0;0;0;9.75
+241950;Grave Titan;Magic 2011;Mythic;3;6;5;0;0;0;6.81
+242627;Necrotic Ooze;Scars of Mirrodin;Rare;3;1;5;1;0;0;6.87
+242546;Sylvok Replica;Scars of Mirrodin;Common;1;1;6;1;0;0;50.15
+242546;Sylvok Replica;Scars of Mirrodin;Common;1;1;5;1;0;0;50.15
+242580;Kuldotha Forgemaster;Scars of Mirrodin;Rare;1;1;5;1;0;0;9.99
+242580;Kuldotha Forgemaster;Scars of Mirrodin;Rare;1;1;6;1;0;0;9.99
+242672;Ezuri, Renegade Leader;Scars of Mirrodin;Rare;1;2;5;0;0;0;7.16
+242580;Kuldotha Forgemaster;Scars of Mirrodin;Rare;4;2;6;1;0;0;9.99
+242598;Throne of Geth;Scars of Mirrodin;Uncommon;1;2;5;1;0;0;50.51
+242617;Myr Reservoir;Scars of Mirrodin;Rare;1;1;6;1;0;0;11.00
+242619;Tower of Calamities;Scars of Mirrodin;Rare;1;1;5;1;0;0;50.25
+242650;Blackcleave Cliffs;Scars of Mirrodin;Rare;1;1;5;1;0;0;35.24
+242650;Blackcleave Cliffs;Scars of Mirrodin;Rare;1;2;4;1;0;0;31.81
+242650;Blackcleave Cliffs;Scars of Mirrodin;Rare;1;1;4;1;0;0;33.37
+242662;Inexorable Tide;Scars of Mirrodin;Rare;1;2;5;0;0;0;12.00
+242677;Golem's Heart;Scars of Mirrodin;Uncommon;1;1;6;1;0;0;50.19
+242681;Nim Deathmantle;Scars of Mirrodin;Rare;2;2;6;1;0;0;10.48
+242650;Blackcleave Cliffs;Scars of Mirrodin;Rare;1;4;5;0;0;0;5.55
+242780;Fume Spitter;Scars of Mirrodin;Common;2;1;6;1;0;0;50.25
+242780;Fume Spitter;Scars of Mirrodin;Common;1;1;5;1;0;0;50.25
+242781;Instill Infection;Scars of Mirrodin;Common;1;1;5;1;0;0;50.15
+242792;Hoard-Smelter Dragon;Scars of Mirrodin;Rare;1;1;6;1;0;0;50.25
+242808;Tel-Jilad Fallen;Scars of Mirrodin;Common;1;1;6;1;0;0;50.16
+242845;Tainted Strike;Scars of Mirrodin;Common;1;2;6;1;0;0;25.00
+245054;Sword of Fire and Ice;Judge Rewards Promos;Rare;1;1;2;1;0;0;109.03
+245263;Phyrexian Crusader;Mirrodin Besieged;Rare;1;1;5;0;0;0;8.55
+245263;Phyrexian Crusader;Mirrodin Besieged;Rare;1;1;6;0;0;0;8.69
+245263;Phyrexian Crusader;Mirrodin Besieged;Rare;1;2;5;0;0;0;8.18
+245507;Black Sun's Zenith;Game Day Set Promos;Rare;1;1;5;1;0;0;13.29
+245346;Tezzeret, Agent of Bolas;Mirrodin Besieged;Mythic;1;2;4;0;0;0;5.45
+245346;Tezzeret, Agent of Bolas;Mirrodin Besieged;Mythic;1;2;5;0;0;0;5.74
+245357;Blightsteel Colossus;Mirrodin Besieged;Mythic;1;6;4;0;0;0;22.50
+245344;Green Sun's Zenith;Mirrodin Besieged;Rare;1;6;5;0;0;0;8.60
+245344;Green Sun's Zenith;Mirrodin Besieged;Rare;1;6;4;0;0;0;8.12
+245346;Tezzeret, Agent of Bolas;Mirrodin Besieged;Mythic;1;1;5;0;0;0;5.98
+245732;Kinsbaile Cavalier;Duel Decks: Knights vs. Dragons;Rare;1;1;3;0;0;0;17.99
+245368;Inkmoth Nexus;Mirrodin Besieged;Rare;2;1;5;0;0;0;24.32
+245383;Sword of Feast and Famine;Mirrodin Besieged;Mythic;1;8;1;0;0;0;22.00
+245432;Darksteel Plate;Mirrodin Besieged;Rare;1;2;4;0;0;0;5.34
+245691;Vendilion Clique;Judge Rewards Promos;Rare;2;1;6;1;0;0;35.00
+247326;Ruination;Commander;Rare;1;1;3;0;0;0;7.00
+245816;Phyrexian Metamorph;New Phyrexia;Rare;1;2;5;0;0;0;7.10
+245869;Jin-Gitaxias, Core Augur;New Phyrexia;Mythic;1;1;6;0;0;0;7.81
+248515;Sun Quan, Lord of Wu;From the Vault: Legends;Mythic;1;1;6;1;0;0;24.67
+245869;Jin-Gitaxias, Core Augur;New Phyrexia;Mythic;1;6;6;0;0;0;7.17
+245930;Birthing Pod;New Phyrexia;Rare;1;9;5;0;0;0;9.57
+246746;Kaalia of the Vast (V.1);Commander;Mythic;1;1;4;0;0;0;6.92
+247992;Ponder;Magic 2012;Common;1;2;6;1;0;0;24.99
+247998;Birds of Paradise;Magic 2012;Rare;3;2;5;0;0;0;6.45
+247980;Grand Abolisher;Magic 2012;Rare;1;1;4;0;0;0;10.11
+247992;Ponder;Magic 2012;Common;1;1;5;1;0;0;20.11
+249326;Bloodstained Mire;WCD 2003: Peer Kröger;Special;3;1;5;0;0;0;15.00
+247880;Sorin Markov;Magic 2012;Mythic;1;1;5;0;0;0;5.81
+247939;Primordial Hydra;Magic 2012;Mythic;1;2;5;0;0;0;6.99
+250079;Winter Orb;WCD 1997: Svend Geertsen;Special;1;1;6;0;0;0;89.00
+250450;Sulfur Falls;Innistrad;Rare;1;1;3;1;0;0;6.69
+250450;Sulfur Falls;Innistrad;Rare;1;1;2;1;0;0;6.45
+250553;Snapcaster Mage;Innistrad;Rare;1;6;6;0;0;0;16.15
+250442;Liliana of the Veil;Innistrad;Mythic;1;1;6;0;1;0;20.98
+250450;Sulfur Falls;Innistrad;Rare;1;1;5;1;0;0;7.30
+252470;Increasing Devotion;Dark Ascension;Rare;1;1;5;1;0;0;50.36
+252471;Loyal Cathar / Unhallowed Cathar;Dark Ascension;Common;3;1;6;1;0;0;50.18
+250645;Stony Silence;Innistrad;Rare;1;2;5;1;0;0;10.20
+250647;Heartless Summoning;Innistrad;Rare;1;7;5;0;0;0;6.13
+251933;Animate Dead;Premium Deck Series: Graveborn;Uncommon;1;1;4;1;0;0;5.34
+251962;Entomb;Premium Deck Series: Graveborn;Rare;1;1;6;1;0;0;8.88
+250610;Bloodline Keeper / Lord of Lineage;Innistrad;Rare;1;1;4;0;0;0;11.10
+252520;Mikaeus, the Unhallowed;Dark Ascension;Mythic;1;2;3;0;0;0;14.30
+252520;Mikaeus, the Unhallowed;Dark Ascension;Mythic;1;9;6;0;0;0;16.78
+252531;Predator Ooze;Dark Ascension;Rare;1;2;5;1;0;0;51.12
+252532;Stromkirk Captain;Dark Ascension;Uncommon;1;7;6;1;0;0;20.99
+252569;Saving Grasp;Dark Ascension;Common;5;1;6;1;0;0;50.15
+252502;Sorin, Lord of Innistrad;Dark Ascension;Mythic;1;1;6;0;0;0;6.29
+252569;Saving Grasp;Dark Ascension;Common;2;1;5;1;0;0;50.15
+252515;Counterlash;Dark Ascension;Rare;1;1;5;1;0;0;50.26
+252516;Thought Scour;Dark Ascension;Common;1;7;6;1;0;0;20.00
+252771;Zombie Apocalypse;Game Day Set Promos;Rare;1;1;2;1;0;0;6.00
+252632;Haunted Fengraf;Dark Ascension;Common;1;1;6;1;0;0;50.17
+254243;Descendants' Path;Avacyn Restored;Rare;1;1;5;0;0;0;8.70
+254415;Desolate Lighthouse;Avacyn Restored;Rare;4;1;5;1;0;0;50.31
+254422;Reforge the Soul;Avacyn Restored;Rare;1;1;5;0;0;0;5.82
+254199;Sigarda, Host of Herons;Avacyn Restored;Mythic;1;2;6;0;0;0;6.67
+254199;Sigarda, Host of Herons;Avacyn Restored;Mythic;1;7;6;0;0;0;6.95
+254199;Sigarda, Host of Herons;Avacyn Restored;Mythic;1;2;5;0;0;0;6.55
+254220;Griselbrand;Avacyn Restored;Mythic;2;1;5;0;0;0;13.24
+254225;Craterhoof Behemoth;Avacyn Restored;Mythic;1;4;4;0;0;0;29.90
+254236;Vexing Devil;Avacyn Restored;Rare;1;1;4;1;0;0;8.17
+254243;Descendants' Path;Avacyn Restored;Rare;1;2;5;0;0;0;8.33
+254240;Ghostly Flicker;Avacyn Restored;Common;1;2;6;1;0;0;20.00
+254241;Tamiyo, the Moon Sage;Avacyn Restored;Mythic;1;1;5;0;0;0;6.99
+254689;Borderland Ranger;Avacyn Restored;Common;1;1;5;1;0;0;50.15
+258230;Hallowed Fountain;Return to Ravnica;Rare;1;2;6;1;0;0;28.90
+256389;Vampire Nocturnus;Magic 2013;Mythic;4;6;6;0;0;0;6.48
+256660;Rhox Faithmender;Magic 2013;Rare;1;9;6;0;0;0;5.09
+256752;Primordial Hydra;Duels of the Planeswalkers Promos;Mythic;2;1;6;0;0;0;9.99
+256754;Command Tower;Judge Rewards Promos;Rare;1;1;6;1;0;0;46.50
+256996;Akroma's Memorial;Magic 2013;Mythic;1;2;4;0;0;0;14.98
+257014;Intrepid Hero;Magic 2013;Rare;2;1;6;1;0;0;50.85
+257042;Omniscience;Magic 2013;Mythic;1;1;6;0;0;0;8.50
+257062;Duress;Magic 2013;Common;4;1;5;1;0;0;50.15
+257067;Liliana's Shade;Magic 2013;Common;1;1;6;1;0;0;50.22
+258319;Steam Vents;Return to Ravnica;Rare;1;7;5;0;0;0;15.09
+258354;Cyclonic Rift;Return to Ravnica;Rare;2;6;5;0;0;0;24.49
+258509;Deathrite Shaman;Return to Ravnica;Rare;1;4;6;1;0;0;24.99
+259294;Sylvan Library;Commander's Arsenal;Rare;1;1;6;1;0;0;36.65
+261940;Vedalken Shackles;Modern Masters;Mythic;1;1;5;0;0;0;6.78
+261955;Elspeth, Knight-Errant;Modern Masters;Mythic;1;1;5;0;0;0;8.01
+262022;Pact of Negation;Modern Masters;Rare;2;1;6;0;0;0;11.67
+261927;Vendilion Clique;Modern Masters;Mythic;1;1;6;0;1;0;5.55
+261934;Summoner's Pact;Modern Masters;Rare;1;1;5;1;0;0;16.52
+259828;Breeding Pool;Gatecrash;Rare;1;7;6;0;0;0;19.03
+259836;Watery Grave;Gatecrash;Rare;1;7;4;0;0;0;13.71
+259847;Crypt Ghast;Gatecrash;Rare;1;1;6;1;0;0;69.95
+259847;Crypt Ghast;Gatecrash;Rare;1;4;6;1;0;0;69.95
+262064;Blood Moon;Modern Masters;Rare;1;1;6;0;0;0;11.07
+261959;Glen Elendra Archmage;Modern Masters;Rare;1;1;6;0;0;0;8.18
+262273;Archaeomancer;Magic 2014;Common;1;1;6;1;0;0;5.99
+262284;Jace, Memory Adept;Magic 2014;Mythic;1;1;6;1;0;0;11.00
+262933;Silence;Magic 2014;Rare;1;10;4;0;0;0;6.75
+262380;Mutavault;Magic 2014;Rare;1;2;5;0;0;0;10.41
+262884;Door of Destinies;Magic 2014;Rare;1;10;4;0;0;0;6.99
+264013;Sylvan Caryatid;Buy a Box Promos;Rare;2;4;5;1;0;0;6.00
+264013;Sylvan Caryatid;Buy a Box Promos;Rare;1;2;6;1;0;0;7.50
+264013;Sylvan Caryatid;Buy a Box Promos;Rare;2;4;4;1;0;0;6.00
+264013;Sylvan Caryatid;Buy a Box Promos;Rare;4;5;5;1;0;0;6.00
+264056;Nylea, God of the Hunt;Theros;Mythic;1;1;6;0;0;0;5.85
+264056;Nylea, God of the Hunt;Theros;Mythic;4;1;6;1;0;0;11.99
+264025;Heliod, God of the Sun;Theros;Mythic;4;1;6;1;0;0;9.08
+264006;Thoughtseize;Theros;Rare;1;1;6;0;0;0;17.19
+264025;Heliod, God of the Sun;Theros;Mythic;1;4;6;1;0;0;9.00
+264056;Nylea, God of the Hunt;Theros;Mythic;2;5;6;1;0;0;11.99
+263950;Thassa, God of the Sea;Theros;Mythic;1;1;6;0;0;0;9.58
+264080;Erebos, God of the Dead;Theros;Mythic;1;7;6;0;0;0;10.88
+264058;Sylvan Caryatid;Theros;Rare;2;7;6;1;0;0;6.25
+264022;Chained to the Rocks;Theros;Rare;1;3;6;1;0;0;18.00
+264080;Erebos, God of the Dead;Theros;Mythic;1;5;6;1;0;0;18.95
+264159;Swan Song;Theros;Rare;2;1;5;0;0;0;9.13
+265891;Courser of Kruphix;Born of the Gods;Rare;1;2;6;1;0;0;6.14
+265553;Ephara, God of the Polis;Born of the Gods;Mythic;1;2;5;1;0;0;14.73
+265852;Phenax, God of Deception;Born of the Gods;Mythic;4;1;6;1;0;0;29.99
+265553;Ephara, God of the Polis;Born of the Gods;Mythic;2;2;6;1;0;0;14.86
+265594;Mogis, God of Slaughter;Born of the Gods;Mythic;1;2;6;1;0;0;24.99
+265594;Mogis, God of Slaughter;Born of the Gods;Mythic;3;1;6;1;0;0;24.99
+266600;Ajani, Mentor of Heroes;Journey into Nyx;Mythic;1;7;6;0;0;0;6.73
+266596;Keranos, God of Storms;Journey into Nyx;Mythic;3;1;6;1;0;0;22.64
+266403;Tavern Swindler;Duel Decks: Jace vs. Vraska;Uncommon;1;1;6;0;0;0;7.32
+266600;Ajani, Mentor of Heroes;Journey into Nyx;Mythic;1;7;5;0;0;0;6.62
+266618;Mana Confluence;Journey into Nyx;Rare;1;2;6;0;0;0;29.46
+266595;Godsend;Journey into Nyx;Mythic;1;1;4;0;0;0;7.50
+266561;Iroas, God of Victory;Journey into Nyx;Mythic;4;1;6;1;0;0;34.88
+266631;Eidolon of Rhetoric;Journey into Nyx;Uncommon;2;2;6;1;0;0;5.68
+266635;Pharika, God of Affliction;Journey into Nyx;Mythic;1;1;6;1;0;0;10.33
+267107;Altar of Dementia;Conspiracy;Rare;1;1;6;0;0;0;6.01
+267108;Dack Fayden;Conspiracy;Mythic;1;1;6;0;0;0;12.75
+267246;Custodi Squire;Conspiracy;Common;1;1;6;1;0;0;6.52
+267017;Elspeth, Knight-Errant;Modern Event Deck 2014;Mythic;2;1;6;0;0;0;7.27
+267335;Pernicious Deed;Conspiracy;Mythic;1;7;6;0;0;0;6.92
+267748;Chord of Calling;Magic 2015;Rare;2;2;5;0;0;0;6.70
+267763;The Chain Veil;Magic 2015;Mythic;1;1;5;0;0;0;13.48
+267515;Soul of New Phyrexia;Magic 2015;Mythic;1;1;5;1;0;0;10.76
+267511;Chandra, Pyromaster;Magic 2015;Mythic;1;1;5;1;0;0;6.06
+267593;Elvish Mystic;Magic 2015;Common;2;6;6;1;0;0;9.00
+267512;Obelisk of Urd;Magic 2015;Rare;1;1;6;1;0;0;5.98
+267746;Garruk, Apex Predator;Magic 2015;Mythic;1;1;6;1;0;0;20.55
+269127;Flooded Strand;Khans of Tarkir;Rare;3;7;6;0;0;0;28.87
+268648;Living Death;From the Vault: Annihilation;Mythic;1;1;5;1;0;0;5.91
+269127;Flooded Strand;Khans of Tarkir;Rare;1;9;6;0;0;0;28.87
+269125;Windswept Heath;Khans of Tarkir;Rare;1;1;2;1;0;0;35.00
+269675;Hardened Scales;Khans of Tarkir: Promos;Rare;1;6;6;1;0;0;13.49
+269140;Sorin, Solemn Visitor;Khans of Tarkir;Mythic;1;1;6;1;0;0;6.23
+269331;Hardened Scales;Khans of Tarkir;Rare;1;5;6;1;0;0;6.71
+269331;Hardened Scales;Khans of Tarkir;Rare;1;1;6;1;0;0;7.31
+269335;Deflecting Palm;Khans of Tarkir;Rare;1;1;6;1;0;0;7.05
+269545;Altar of the Brood;Khans of Tarkir;Rare;1;6;6;1;0;0;8.13
+269671;Anafenza, the Foremost;Khans of Tarkir: Promos;Mythic;1;1;6;1;0;0;5.70
+270532;Martial Coup;Commander 2014;Rare;2;1;6;0;0;0;8.81
+270554;Breaching Leviathan;Commander 2014;Rare;1;2;6;0;0;0;6.20
+270485;Stormsurge Kraken;Commander 2014;Rare;1;2;6;0;0;0;5.67
+270516;Cathars' Crusade;Commander 2014;Rare;1;2;1;0;0;0;15.00
+270532;Martial Coup;Commander 2014;Rare;1;2;6;0;0;0;8.44
+270682;Sylvan Safekeeper;Commander 2014;Rare;1;2;1;0;0;0;13.99
+270665;Joraga Warcaller;Commander 2014;Rare;1;2;6;0;0;0;7.00
+270679;Song of the Dryads;Commander 2014;Rare;1;1;5;0;0;0;6.56
+270679;Song of the Dryads;Commander 2014;Rare;1;2;6;0;0;0;6.41
+270682;Sylvan Safekeeper;Commander 2014;Rare;1;2;6;0;0;0;15.38
+270729;Sapphire Medallion;Commander 2014;Rare;1;2;6;0;0;0;14.00
+271444;Ugin, the Spirit Dragon;Fate Reforged;Mythic;1;1;6;0;0;0;26.61
+270657;Ezuri, Renegade Leader;Commander 2014;Rare;1;2;5;0;0;0;7.52
+271575;Whip of Erebos;Clash Pack Promos;Rare;1;2;5;1;0;0;8.95
+273085;Shaman of Forgotten Ways;Dragons of Tarkir;Mythic;1;2;6;0;0;0;5.99
+273132;Dragonlord Dromoka;Dragons of Tarkir;Mythic;1;1;5;0;0;0;8.68
+273145;Collected Company;Dragons of Tarkir;Rare;2;1;6;0;0;0;11.86
+273145;Collected Company;Dragons of Tarkir;Rare;2;1;5;0;0;0;11.64
+273180;Dragonlord Atarka;Dragons of Tarkir;Mythic;1;2;6;0;0;0;8.25
+273106;Narset Transcendent;Dragons of Tarkir;Mythic;1;2;6;0;0;0;8.52
+273106;Narset Transcendent;Dragons of Tarkir;Mythic;1;7;6;0;0;0;8.89
+273129;Dragonlord Kolaghan;Dragons of Tarkir;Mythic;1;1;6;0;0;0;7.57
+273129;Dragonlord Kolaghan;Dragons of Tarkir;Mythic;1;1;5;0;0;0;7.45
+273080;Sidisi, Undead Vizier;Dragons of Tarkir;Rare;1;1;6;1;0;0;16.99
+282049;Feldon of the Third Path;Judge Rewards Promos;Rare;3;1;6;1;0;0;8.54
+282784;Dismember;Modern Masters 2015;Uncommon;1;1;6;1;0;0;6.91
+282789;Primeval Titan;Modern Masters 2015;Mythic;1;1;6;1;0;0;11.65
+282809;Leyline of Sanctity;Modern Masters 2015;Rare;3;1;6;0;0;0;5.09
+282850;Horde of Notions;Modern Masters 2015;Rare;4;1;6;1;0;0;50.33
+282850;Horde of Notions;Modern Masters 2015;Rare;1;1;5;1;0;0;50.32
+282816;All Is Dust;Modern Masters 2015;Rare;1;7;6;0;0;0;5.20
+282324;Tarmogoyf;Modern Masters 2015;Mythic;1;7;6;0;0;0;14.29
+282889;Raise the Alarm;Modern Masters 2015;Common;1;1;6;1;0;0;50.15
+282892;Sunlance;Modern Masters 2015;Common;1;1;6;1;0;0;50.15
+282779;Noble Hierarch;Modern Masters 2015;Rare;1;1;6;0;0;0;9.81
+282779;Noble Hierarch;Modern Masters 2015;Rare;1;1;5;0;0;0;9.62
+282779;Noble Hierarch;Modern Masters 2015;Rare;2;1;6;1;0;0;59.81
+282817;Iona, Shield of Emeria;Modern Masters 2015;Mythic;1;1;6;0;0;0;6.81
+282793;Cryptic Command;Modern Masters 2015;Rare;1;1;4;0;0;0;6.55
+282793;Cryptic Command;Modern Masters 2015;Rare;1;1;5;0;0;0;6.89
+282856;Elesh Norn, Grand Cenobite;Modern Masters 2015;Mythic;1;7;6;0;0;0;15.41
+282823;Nameless Inversion;Modern Masters 2015;Common;3;1;6;1;0;0;50.15
+282854;Dark Confidant;Modern Masters 2015;Mythic;1;1;6;1;0;0;25.29
+283041;Sickleslicer;Modern Masters 2015;Common;2;1;6;1;0;0;50.15
+282914;Telling Time;Modern Masters 2015;Common;1;1;6;1;0;0;50.25
+282937;Shrivel;Modern Masters 2015;Common;1;1;6;1;0;0;50.21
+282949;Combust;Modern Masters 2015;Uncommon;1;1;6;1;0;0;50.19
+282957;Incandescent Soulstoke;Modern Masters 2015;Uncommon;1;1;6;1;0;0;50.90
+282989;Scatter the Seeds;Modern Masters 2015;Common;1;1;5;1;0;0;50.19
+282996;Vines of Vastwood;Modern Masters 2015;Common;1;1;6;1;0;0;51.52
+283010;Nobilis of War;Modern Masters 2015;Rare;1;1;6;1;0;0;50.35
+283371;Nissa, Vastwood Seer // Nissa, Sage Animist;Magic Origins;Mythic;1;7;6;0;0;0;5.79
+283373;Dark Petition;Magic Origins;Rare;1;7;6;0;0;0;6.58
+283193;Liliana, Heretical Healer // Liliana, Defiant Necromancer;Magic Origins;Mythic;1;1;5;0;0;0;5.10
+283452;Alhammarret's Archive;Magic Origins;Mythic;4;2;6;1;0;0;25.90
+283513;Hallowed Moonlight;Magic Origins;Rare;1;7;6;0;0;0;5.30
+283553;Hangarback Walker;Magic Origins;Rare;1;7;5;1;0;0;14.99
+283342;Kytheon, Hero of Akros // Gideon, Battle-Forged;Magic Origins;Mythic;1;1;6;1;0;0;22.00
+285061;Gideon, Ally of Zendikar;Battle for Zendikar: Promos;Mythic;1;7;6;1;0;0;14.99
+285064;Drana, Liberator of Malakir;Battle for Zendikar: Promos;Mythic;1;7;6;1;0;0;19.99
+285740;Mazirek, Kraul Death Priest;Commander 2015;Mythic;2;7;6;0;0;0;10.36
+285805;Mizzix's Mastery;Commander 2015;Rare;1;2;5;0;0;0;7.74
+285806;Arachnogenesis;Commander 2015;Rare;1;1;5;0;0;0;17.23
+285739;Daxos the Returned (V.1);Commander 2015;Mythic;1;1;5;0;0;0;5.14
+284409;Godless Shrine;Zendikar Expeditions;Masterpiece;1;1;6;1;0;0;96.45
+284417;Windswept Heath;Zendikar Expeditions;Masterpiece;1;1;3;1;0;0;91.50
+283624;Caustic Caterpillar;Magic Origins;Common;1;4;6;1;0;0;9.00
+286033;Urza's Incubator;Commander 2015;Rare;1;1;5;0;0;0;18.75
+287044;Kalitas, Traitor of Ghet;Oath of the Gatewatch;Mythic;1;1;5;0;0;0;11.37
+287307;Thought-Knot Seer;Oath of the Gatewatch;Rare;3;1;6;1;0;0;14.05
+287307;Thought-Knot Seer;Oath of the Gatewatch;Rare;1;1;4;1;0;0;13.08
+287050;Wastes (V.1);Oath of the Gatewatch;Land;13;2;6;1;0;0;14.99
+287050;Wastes (V.1);Oath of the Gatewatch;Land;32;1;6;1;0;0;14.99
+287050;Wastes (V.1);Oath of the Gatewatch;Land;1;1;5;1;0;0;14.99
+287053;Kozilek, the Great Distortion;Oath of the Gatewatch;Mythic;2;1;5;0;0;0;6.01
+287051;Wastes (V.3);Oath of the Gatewatch;Land;1;1;6;1;0;0;19.99
+287051;Wastes (V.3);Oath of the Gatewatch;Land;12;2;6;1;0;0;19.99
+287051;Wastes (V.3);Oath of the Gatewatch;Land;1;5;4;1;0;0;19.99
+285961;Pathbreaker Ibex;Commander 2015;Rare;1;1;5;0;0;0;15.80
+287299;Reality Smasher;Oath of the Gatewatch;Rare;4;1;6;1;0;0;6.66
+287318;Zendikar Resurgent;Oath of the Gatewatch;Rare;4;2;6;1;0;0;5.39
+287319;Matter Reshaper;Oath of the Gatewatch;Rare;1;1;6;1;0;0;6.92
+289224;Duskwatch Recruiter / Krallenhorde Howler;Shadows over Innistrad;Uncommon;1;2;6;1;0;0;5.95
+290137;Control Magic;Eternal Masters;Rare;1;1;5;1;0;0;5.39
+289306;Thing in the Ice / Awoken Horror;Shadows over Innistrad: Promos;Rare;1;1;6;1;0;0;10.47
+290134;Toxic Deluge;Eternal Masters;Rare;1;7;5;0;0;0;10.75
+287590;Eldrazi Displacer;Oath of the Gatewatch: Promos;Rare;2;1;5;1;0;0;6.20
+288885;Anguished Unmaking;Game Day Set Promos;Rare;1;2;5;1;0;0;9.95
+288915;Angel of Deliverance;Shadows over Innistrad;Rare;1;1;5;1;0;0;25.00
+288984;Westvale Abbey / Ormendahl, Profane Prince;Shadows over Innistrad;Rare;1;7;6;0;0;0;5.10
+289095;Second Harvest;Shadows over Innistrad;Rare;3;6;6;1;0;0;6.24
+289200;Cryptolith Rite;Shadows over Innistrad;Rare;1;2;5;0;0;0;8.93
+289200;Cryptolith Rite;Shadows over Innistrad;Rare;1;6;6;1;0;0;14.64
+290140;Entomb;Eternal Masters;Rare;1;1;5;0;0;0;9.34
+290192;Karakas;Eternal Masters;Mythic;1;1;4;1;0;0;50.64
+290209;Maelstrom Wanderer;Eternal Masters;Mythic;1;1;5;0;0;0;8.42
+290224;Green Sun's Zenith;Eternal Masters;Rare;1;1;4;1;0;0;17.03
+291004;Liliana, the Last Hope;Eldritch Moon;Mythic;1;10;5;0;0;0;5.55
+291004;Liliana, the Last Hope;Eldritch Moon;Mythic;1;3;6;0;0;0;5.41
+291004;Liliana, the Last Hope;Eldritch Moon;Mythic;3;1;6;0;0;0;5.64
+290235;Sinkhole;Eternal Masters;Rare;1;1;6;0;0;0;7.99
+290321;Heritage Druid;Eternal Masters;Rare;1;1;6;1;0;0;10.04
+290379;Blood Artist;Eternal Masters;Uncommon;2;7;5;1;0;0;5.50
+290475;Relic of Progenitus;Eternal Masters;Uncommon;1;1;5;1;0;0;11.72
+290939;Tree of Perdition;Eldritch Moon;Mythic;1;3;6;0;0;0;5.58
+290981;Eldritch Evolution;Eldritch Moon;Rare;1;1;6;0;0;0;7.63
+290982;Collective Brutality;Eldritch Moon;Rare;1;2;6;1;0;0;12.20
+290988;Tamiyo, Field Researcher;Eldritch Moon;Mythic;1;7;6;0;0;0;6.73
+292484;Panharmonicon;Kaladesh;Rare;1;4;6;1;0;0;6.61
+290988;Tamiyo, Field Researcher;Eldritch Moon;Mythic;1;2;6;0;0;0;6.46
+291010;Cryptbreaker;Eldritch Moon;Rare;1;2;6;0;0;0;6.56
+291214;Spell Queller;Eldritch Moon: Promos;Rare;1;3;6;1;0;0;12.50
+291755;Burning Wish;Conspiracy: Take the Crown;Rare;1;1;5;1;0;0;6.34
+291769;Daretti, Ingenious Iconoclast;Conspiracy: Take the Crown;Mythic;1;1;5;0;0;0;20.53
+291774;Keeper of Keys;Conspiracy: Take the Crown;Rare;1;1;5;1;0;0;5.22
+291776;Serum Visions;Conspiracy: Take the Crown;Uncommon;1;1;6;1;0;0;5.26
+292465;Inventors' Fair;Kaladesh;Rare;2;6;6;1;0;0;19.99
+292481;Rashmi, Eternities Crafter;Kaladesh;Mythic;1;1;5;1;0;0;5.77
+292650;Static Orb;Kaladesh Inventions;Masterpiece;4;1;6;1;0;0;70.00
+292492;Botanical Sanctum;Kaladesh;Rare;1;2;5;0;0;0;8.06
+292492;Botanical Sanctum;Kaladesh;Rare;1;1;6;1;0;0;14.18
+292492;Botanical Sanctum;Kaladesh;Rare;1;2;6;1;0;0;13.56
+292548;Aetherflux Reservoir;Kaladesh;Rare;1;7;6;0;0;0;7.31
+292548;Aetherflux Reservoir;Kaladesh;Rare;1;4;6;1;0;0;13.40
+292548;Aetherflux Reservoir;Kaladesh;Rare;4;5;6;1;0;0;13.40
+292548;Aetherflux Reservoir;Kaladesh;Rare;1;2;6;1;0;0;13.40
+292548;Aetherflux Reservoir;Kaladesh;Rare;1;1;5;1;0;0;10.13
+292633;Aether Vial;Kaladesh Inventions;Masterpiece;3;1;6;1;0;0;168.60
+292934;Aetherflux Reservoir;Kaladesh: Promos;Rare;1;4;6;1;0;0;24.99
+292934;Aetherflux Reservoir;Kaladesh: Promos;Rare;4;5;6;1;0;0;24.99
+292942;Botanical Sanctum;Kaladesh: Promos;Rare;1;2;6;1;0;0;19.50
+293482;Reyhan, Last of the Abzan;Commander 2016;Rare;1;7;6;1;0;0;6.22
+293483;Coastal Breach;Commander 2016;Rare;1;2;6;0;0;0;5.83
+293501;Tymna the Weaver;Commander 2016;Rare;1;1;4;1;0;0;33.00
+293507;Iroas, God of Victory;Commander 2016;Mythic;1;1;6;0;0;0;15.33
+293514;Crystalline Crawler;Commander 2016;Rare;2;1;6;0;0;0;7.82
+293641;Burgeoning;Commander 2016;Rare;1;1;6;0;0;0;17.31
+294832;Paradox Engine;Aether Revolt;Mythic;1;2;6;0;0;0;6.91
+294832;Paradox Engine;Aether Revolt;Mythic;3;1;6;0;0;0;7.21
+293676;Thrasios, Triton Hero;Commander 2016;Rare;1;1;5;1;0;0;24.97
+294761;Metallic Mimic;Aether Revolt;Rare;1;1;5;0;0;0;9.02
+294761;Metallic Mimic;Aether Revolt;Rare;1;2;6;0;0;0;8.79
+294761;Metallic Mimic;Aether Revolt;Rare;1;1;6;1;0;0;13.29
+294811;Hope of Ghirapur;Aether Revolt;Rare;1;2;6;1;0;0;7.00
+294829;Walking Ballista;Aether Revolt;Rare;1;1;6;0;0;0;14.82
+294829;Walking Ballista;Aether Revolt;Rare;1;2;6;0;0;0;14.18
+293551;Emrakul, the Aeons Torn;DCI Promos;Mythic;3;1;6;1;0;0;56.60
+293637;Benefactor's Draught;Commander 2016;Rare;1;3;6;0;0;0;11.11
+295065;Paradox Engine;Aether Revolt: Promos;Mythic;2;1;6;1;0;0;18.99
+295067;Gonti's Aether Heart;Aether Revolt: Promos;Mythic;1;1;6;1;0;0;17.50
+295814;Misty Rainforest;Modern Masters 2017;Rare;1;1;6;0;0;0;22.82
+295814;Misty Rainforest;Modern Masters 2017;Rare;1;1;6;1;0;0;28.64
+295816;Arid Mesa;Modern Masters 2017;Rare;1;7;5;0;0;0;16.64
+295838;Griselbrand;Modern Masters 2017;Mythic;1;1;6;1;0;0;26.01
+295850;Phantasmal Image;Modern Masters 2017;Rare;2;1;6;0;0;0;5.04
+295879;Blood Moon;Modern Masters 2017;Rare;1;1;6;0;0;0;10.16
+295893;Tarmogoyf;Modern Masters 2017;Mythic;4;1;6;1;0;0;40.84
+295924;Cyclonic Rift;Modern Masters 2017;Rare;1;1;5;0;0;0;26.26
+297131;Cascading Cataracts;Amonkhet;Rare;4;2;6;1;0;0;7.99
+297131;Cascading Cataracts;Amonkhet;Rare;4;1;6;1;0;0;7.99
+296596;Worship;Amonkhet Invocations;Masterpiece;4;1;6;1;0;0;21.39
+296604;Chain Lightning;Amonkhet Invocations;Masterpiece;3;1;6;1;0;0;34.95
+296676;Fetid Pools;Amonkhet;Rare;1;1;6;1;0;0;6.28
+296779;Vizier of the Menagerie;Amonkhet;Mythic;4;1;6;1;0;0;8.13
+298129;Kaalia of the Vast;Commander Anthology;Mythic;1;1;5;1;0;0;9.02
+298168;Lightning Greaves;Commander Anthology;Uncommon;1;1;6;0;0;0;7.17
+298036;Stranglehold;Commander Anthology;Rare;2;1;6;0;0;0;7.95
+298060;Freyalise, Llanowar's Fury;Commander Anthology;Mythic;1;1;6;1;0;0;6.20
+298060;Freyalise, Llanowar's Fury;Commander Anthology;Mythic;1;1;5;1;0;0;6.10
+298096;Song of the Dryads;Commander Anthology;Rare;1;1;5;0;0;0;7.17
+298184;Thousand-Year Elixir;Commander Anthology;Rare;1;1;6;0;0;0;7.72
+298567;Capsize;Amonkhet Invocations;Masterpiece;4;1;6;1;0;0;41.00
+298650;Neheb, the Eternal;Hour of Devastation;Mythic;1;7;6;0;0;0;8.68
+298650;Neheb, the Eternal;Hour of Devastation;Mythic;2;1;5;0;0;0;8.34
+298678;The Scarab God;Hour of Devastation;Mythic;1;1;5;0;0;0;12.33
+298691;Razaketh, the Foulblooded;Hour of Devastation;Mythic;2;1;6;0;0;0;11.09
+298691;Razaketh, the Foulblooded;Hour of Devastation;Mythic;1;7;6;0;0;0;11.09
+298691;Razaketh, the Foulblooded;Hour of Devastation;Mythic;1;1;4;0;0;0;10.33
+298738;Gaddock Teeg;Judge Rewards Promos;Rare;1;1;5;1;0;0;15.53
+299889;Land Equilibrium;Legends Italian;Rare;2;5;5;0;0;0;46.73
+299904;Telekinesis;Legends Italian;Rare;1;5;5;0;0;0;10.66
+299932;Living Plane;Legends Italian;Rare;1;5;6;0;0;0;86.18
+299951;Willow Satyr;Legends Italian;Rare;1;5;6;0;0;0;30.28
+299988;Quarum Trench Gnomes;Legends Italian;Rare;1;5;5;0;0;0;9.76
+299991;Storm World;Legends Italian;Rare;1;5;3;0;0;0;13.94
+299997;Winds of Change;Legends Italian;Uncommon;1;5;6;0;0;0;6.73
+300019;Infinite Authority;Legends Italian;Rare;1;5;4;0;0;0;5.95
+300041;Al-abara's Carpet;Legends Italian;Rare;1;5;5;0;0;0;11.21
+299013;Neheb, the Eternal;Hour of Devastation: Promos;Mythic;1;4;6;1;0;0;34.00
+300322;Fractured Identity;Commander 2017;Rare;1;2;5;0;0;0;7.95
+301312;Primal Amulet / Primal Wellspring;Ixalan;Rare;1;5;4;0;0;0;6.90
+300322;Fractured Identity;Commander 2017;Rare;1;1;6;0;0;0;8.44
+300324;Ramos, Dragon Engine;Commander 2017;Mythic;1;2;5;1;0;0;6.45
+300377;Kindred Dominance;Commander 2017;Rare;1;1;6;0;0;0;9.77
+301437;Cryptic Command;Iconic Masters;Rare;1;1;6;0;0;0;7.57
+301437;Cryptic Command;Iconic Masters;Rare;1;1;5;0;0;0;7.45
+301440;Flusterstorm;Iconic Masters;Rare;1;1;6;0;0;0;21.02
+301444;Jin-Gitaxias, Core Augur;Iconic Masters;Mythic;1;1;6;0;0;0;7.73
+301209;Revel in Riches;Ixalan;Rare;1;9;6;0;0;0;6.77
+301218;Carnage Tyrant;Ixalan;Mythic;3;1;6;0;0;0;8.80
+301218;Carnage Tyrant;Ixalan;Mythic;1;9;6;0;0;0;8.80
+301218;Carnage Tyrant;Ixalan;Mythic;1;2;6;0;0;0;8.43
+301226;Gishath, Sun's Avatar;Ixalan;Mythic;1;9;6;0;0;0;35.00
+301312;Primal Amulet / Primal Wellspring;Ixalan;Rare;1;2;2;0;0;0;6.90
+301405;Growing Rites of Itlimoc / Itlimoc, Cradle of the Sun;Ixalan;Rare;1;2;5;0;0;0;13.95
+312689;Kytheon, Hero of Akros // Gideon, Battle-Forged;From the Vault: Transform;Mythic;3;1;6;1;0;0;7.99
+301412;Auriok Champion;Iconic Masters;Rare;1;1;4;1;0;0;11.01
+301412;Auriok Champion;Iconic Masters;Rare;3;1;6;0;0;0;8.52
+301537;Grove of the Burnwillows;Iconic Masters;Rare;3;1;6;1;0;0;6.70
+301591;Bloodghast;Iconic Masters;Rare;2;7;6;1;0;0;20.00
+302075;Vanquisher's Banner;Ixalan: Promos;Rare;1;1;6;1;0;0;27.50
+302093;Vraska, Relic Seeker;Ixalan: Promos;Mythic;1;1;6;1;0;0;12.49
+311231;Time Warp;Explorers of Ixalan;Mythic;1;1;5;0;0;0;14.72
+312683;Bloodline Keeper / Lord of Lineage;From the Vault: Transform;Mythic;4;1;6;1;0;0;13.72
+312688;Jace, Vryn's Prodigy // Jace, Telepath Unbound;From the Vault: Transform;Mythic;1;1;6;1;0;0;9.17
+315266;Pendelhaven;Judge Rewards Promos;Mythic;1;1;6;1;0;0;10.40
+315287;Tendershoot Dryad;Rivals of Ixalan;Rare;1;7;6;0;0;0;9.39
+315287;Tendershoot Dryad;Rivals of Ixalan;Rare;1;2;6;0;0;0;8.99
+315288;Journey to Eternity // Atzal, Cave of Eternity;Rivals of Ixalan;Rare;1;2;6;0;0;0;5.91
+315293;The Immortal Sun;Rivals of Ixalan;Mythic;1;2;6;0;0;0;13.12
+315294;Kumena, Tyrant of Orazca;Rivals of Ixalan;Mythic;1;2;6;0;0;0;5.90
+315297;Elenda, the Dusk Rose;Rivals of Ixalan;Mythic;1;2;6;0;0;0;8.74
+315305;Huatli, Radiant Champion;Rivals of Ixalan;Mythic;1;2;6;0;0;0;5.65
+315332;Polyraptor;Rivals of Ixalan;Mythic;1;2;6;0;0;0;17.99
+315356;Azor's Gateway // Sanctum of the Sun;Rivals of Ixalan;Mythic;1;1;6;1;0;0;9.77
+315376;Trapjaw Tyrant;Rivals of Ixalan;Mythic;1;2;6;0;0;0;9.00
+315378;Curious Obsession;Rivals of Ixalan;Uncommon;1;1;5;0;0;0;5.70
+315378;Curious Obsession;Rivals of Ixalan;Uncommon;3;2;5;0;0;0;5.47
+315409;Pitiless Plunderer;Rivals of Ixalan;Uncommon;1;1;5;0;0;0;7.86
+315413;Twilight Prophet;Rivals of Ixalan;Mythic;1;2;6;0;0;0;8.96
+319029;Protean Hulk;Masters 25;Rare;1;1;5;0;0;0;6.71
+319030;Vendilion Clique;Masters 25;Mythic;1;1;6;1;0;0;12.50
+319035;Eidolon of the Great Revel;Masters 25;Rare;1;1;6;1;0;0;23.35
+316234;Goblin Welder;Duel Decks: Elves vs. Inventors;Mythic;1;1;5;1;0;0;11.99
+318987;Red Elemental Blast;Masters 25;Uncommon;3;1;5;0;0;0;6.81
+319253;Pact of Negation;Masters 25;Rare;1;1;6;0;0;0;11.57
+319254;Luminarch Ascension;Masters 25;Rare;1;1;6;0;0;0;10.30
+320579;Counterspell;Signature Spellbook: Jace;Rare;1;1;6;1;0;0;7.45
+320580;Brainstorm;Signature Spellbook: Jace;Rare;3;1;6;1;0;0;5.32
+319288;Rest in Peace;Masters 25;Rare;1;1;6;1;0;0;16.51
+319228;Twilight Mire;Masters 25;Rare;1;1;6;1;0;0;11.17
+319243;Animar, Soul of Elements;Masters 25;Mythic;1;1;6;0;0;0;6.77
+315630;Angrath, the Flame-Chained;Rivals of Ixalan: Promos;Mythic;1;1;1;1;0;0;11.41
+316216;Jace, the Mind Sculptor;Masters 25;Mythic;2;1;6;1;0;0;72.82
+316216;Jace, the Mind Sculptor;Masters 25;Mythic;1;1;6;0;0;0;27.92
+319528;Simian Spirit Guide;Masters 25;Uncommon;4;1;6;1;0;0;6.11
+320577;Mystical Tutor;Signature Spellbook: Jace;Rare;1;1;6;0;0;0;6.27
+320577;Mystical Tutor;Signature Spellbook: Jace;Rare;3;1;6;0;0;0;6.27
+358408;Archfiend of Despair;Battlebond;Mythic;1;1;3;0;0;0;15.10
+320850;Llanowar Elves;Open House Promos;Common;2;2;5;1;0;0;7.01
+355247;Cabal Stronghold;Dominaria;Rare;2;2;6;0;0;0;5.71
+355247;Cabal Stronghold;Dominaria;Rare;1;2;3;0;0;0;5.14
+356980;Sea of Clouds;Battlebond;Rare;1;1;6;0;0;0;7.05
+358245;Mu Yanling;Global Series Jiang Yanggu & Mu Yanling;Mythic;1;1;5;1;0;0;9.05
+358396;Doubling Season;Battlebond;Mythic;1;1;6;0;0;0;39.50
+358410;True-Name Nemesis;Battlebond;Mythic;1;1;5;0;0;0;5.09
+358259;Pir, Imaginative Rascal;Battlebond;Rare;1;1;6;0;0;0;11.04
+358269;Toothy, Imaginary Friend;Battlebond;Rare;3;1;6;0;0;0;9.59
+358568;Diabolic Intent;Battlebond;Rare;1;1;6;0;0;0;9.41
+358600;Bramble Sovereign;Battlebond;Mythic;1;1;6;0;0;0;6.52
+358604;Spellseeker;Battlebond;Rare;1;1;5;0;0;0;17.23
+358753;Goblin Welder;Commander Anthology II;Rare;1;1;5;0;0;0;13.63
+359831;Sarkhan, Dragonsoul;Core 2019;Mythic;1;2;5;1;0;0;8.95
+358829;Crystalline Crawler;Commander Anthology II;Rare;1;1;5;0;0;0;12.28
+358840;Junk Diver;Commander Anthology II;Rare;1;1;6;0;0;0;5.70
+359701;Liliana, the Necromancer;Core 2019;Mythic;1;2;6;1;0;0;8.99
+358841;Lightning Greaves;Commander Anthology II;Uncommon;1;1;6;0;0;0;6.20
+358874;Wurmcoil Engine;Commander Anthology II;Mythic;1;1;6;0;0;0;14.40
+360901;Chandra, Torch of Defiance;San Diego Comic-Con 2018 Promos;Mythic;1;1;6;1;0;0;129.95
+360902;Nissa, Vital Force;San Diego Comic-Con 2018 Promos;Mythic;1;1;6;1;0;0;102.94
+360014;Omniscience;Core 2019;Mythic;1;1;6;0;0;0;6.58
+359859;Nicol Bolas, the Ravager // Nicol Bolas, the Arisen;Core 2019;Mythic;2;1;6;0;0;0;26.48
+359859;Nicol Bolas, the Ravager // Nicol Bolas, the Arisen;Core 2019;Mythic;1;1;5;0;0;0;26.02
+359968;Scapeshift;Core 2019;Mythic;1;1;5;0;0;0;13.04
+360072;Sarkhan, Fireblood;Core 2019;Mythic;2;1;6;0;0;0;13.02
+358876;Arcane Lighthouse;Commander Anthology II;Uncommon;2;1;6;0;0;0;5.78
+360999;Palladia-Mors, the Ruiner;Core 2019: Promos;Mythic;1;1;3;1;0;0;5.17
+361706;Retrofitter Foundry;Commander 2018;Rare;2;1;6;0;0;0;18.11
+361777;Avenger of Zendikar;Commander 2018;Mythic;1;1;6;0;0;0;6.23
+361778;Estrid's Invocation;Commander 2018;Rare;1;1;6;0;0;0;10.86
+361778;Estrid's Invocation;Commander 2018;Rare;1;2;6;0;0;0;10.39
+360898;Gideon of the Trials;San Diego Comic-Con 2018 Promos;Mythic;1;1;6;1;0;0;31.51
+360899;Jace, Cunning Castaway;San Diego Comic-Con 2018 Promos;Mythic;1;1;6;1;0;0;28.66
+360900;Liliana, Untouched by Death;San Diego Comic-Con 2018 Promos;Mythic;1;1;6;1;0;0;129.17
+361802;Yuriko, the Tiger's Shadow;Commander 2018;Rare;1;2;6;0;0;0;5.13
+361781;Tuvasa the Sunlit;Commander 2018;Mythic;1;1;6;1;0;0;5.23
+361788;Nylea's Colossus;Commander 2018;Rare;1;1;5;0;0;0;11.22
+361788;Nylea's Colossus;Commander 2018;Rare;1;2;5;0;0;0;11.00
+361788;Nylea's Colossus;Commander 2018;Rare;1;1;6;0;0;0;11.80
+363550;Watery Grave;Guilds of Ravnica;Rare;1;1;4;1;0;0;20.59
+363550;Watery Grave;Guilds of Ravnica;Rare;1;1;6;0;0;0;14.24
+366187;Noble Hierarch;Ultimate Masters;Rare;3;1;6;0;0;0;11.26
+366168;Goryo's Vengeance;Ultimate Box Toppers;Mythic;1;1;6;1;0;0;39.99
+366231;Urborg, Tomb of Yawgmoth;Ultimate Masters;Rare;1;1;6;1;0;0;45.89
+366180;Through the Breach;Ultimate Box Toppers;Mythic;2;1;6;1;0;0;13.25
+363616;Ral, Izzet Viceroy;Guilds of Ravnica: Mythic Edition;Masterpiece;1;1;6;1;0;0;20.00
+366218;Creeping Tar Pit;Ultimate Box Toppers;Mythic;1;1;6;1;0;0;11.95
+363852;Assassin's Trophy;Guilds of Ravnica;Rare;1;7;5;0;0;0;7.21
+364112;Doom Whisperer;Guilds of Ravnica;Mythic;1;2;5;0;0;0;5.90
+366231;Urborg, Tomb of Yawgmoth;Ultimate Masters;Rare;1;1;6;0;0;0;32.13
+366792;Entomb;Ultimate Masters;Rare;1;1;6;1;0;0;17.99
+366792;Entomb;Ultimate Masters;Rare;2;1;6;0;0;0;9.21
+366803;Glen Elendra Archmage;Ultimate Masters;Rare;1;1;5;0;0;0;6.75
+366792;Entomb;Ultimate Masters;Rare;1;1;5;0;0;0;9.05
+366816;Back to Basics;Ultimate Masters;Rare;3;1;6;0;0;0;9.82
+371847;Cruel Celebrant;War of the Spark;Uncommon;2;4;6;1;0;0;9.90
+368075;Hallowed Fountain;Ravnica Allegiance;Rare;1;1;6;0;0;0;12.65
+368077;Blood Crypt;Ravnica Allegiance;Rare;2;1;6;0;0;0;19.53
+368079;Breeding Pool;Ravnica Allegiance;Rare;2;1;6;0;0;0;19.10
+371841;Teferi, Time Raveler;War of the Spark;Rare;1;1;6;0;0;0;14.18
+371847;Cruel Celebrant;War of the Spark;Uncommon;1;2;6;1;0;0;9.90
+374454;Flusterstorm;Buy a Box Promos;Rare;3;2;6;0;0;0;17.59
+374514;Fiery Islet;Modern Horizons;Rare;1;1;6;0;0;0;9.10
+374514;Fiery Islet;Modern Horizons;Rare;1;1;5;1;0;0;37.37
+374517;Waterlogged Grove;Modern Horizons;Rare;1;1;6;1;0;0;24.52
+374517;Waterlogged Grove;Modern Horizons;Rare;1;1;6;0;0;0;6.08
+374523;Prismatic Vista;Modern Horizons;Rare;1;1;6;0;0;0;30.98
+372191;Finale of Promise;War of the Spark;Mythic;2;1;6;1;0;0;9.90
+372239;Nicol Bolas, Dragon-God;War of the Spark;Mythic;1;1;6;1;0;0;23.39
+372283;Ugin, the Ineffable;War of the Spark;Rare;1;1;6;1;0;0;10.17
+374424;Force of Negation;Modern Horizons;Rare;1;1;6;1;0;0;58.26
+374508;Sunbaked Canyon;Modern Horizons;Rare;3;1;6;0;0;0;17.14
+374511;Nurturing Peatland;Modern Horizons;Rare;4;1;6;0;0;0;7.21
+374514;Fiery Islet;Modern Horizons;Rare;1;2;6;0;0;0;7.59
+374514;Fiery Islet;Modern Horizons;Rare;1;2;6;1;0;0;50.00
+374550;Urza, Lord High Artificer;Modern Horizons;Mythic;1;1;5;0;0;0;13.89
+374460;Force of Vigor;Modern Horizons;Rare;1;1;6;1;0;0;51.99
+375375;Echo of Eons;Modern Horizons;Mythic;1;1;5;0;0;0;14.23
+375375;Echo of Eons;Modern Horizons;Mythic;1;1;6;1;0;0;79.99
+374571;Goblin Engineer;Modern Horizons;Rare;3;3;6;0;0;0;6.61
+374694;Mox Tantalite;Modern Horizons;Mythic;1;2;5;0;0;0;7.08
+374976;Sling-Gang Lieutenant;Modern Horizons;Uncommon;1;1;4;1;0;0;7.99
+375012;Sword of Sinew and Steel;Modern Horizons;Mythic;1;2;5;1;0;0;18.95
+375375;Echo of Eons;Modern Horizons;Mythic;1;1;6;0;0;0;14.48
+375012;Sword of Sinew and Steel;Modern Horizons;Mythic;4;1;6;1;0;0;19.99
+375054;Hexdrinker;Modern Horizons;Mythic;1;1;6;0;0;0;6.41
+375117;Kaya's Guile;Modern Horizons;Rare;1;1;6;1;0;0;9.45
+375270;On Thin Ice;Modern Horizons;Rare;2;3;6;1;0;0;8.88
+378615;Leyline of Anticipation;Core 2020;Rare;1;1;6;1;0;0;6.73
+378651;Cavalier of Dawn;Core 2020;Mythic;1;2;6;0;0;0;10.26
+380250;Cavalier of Dawn (V.1);Core 2020: Extras;Mythic;1;2;6;0;0;0;20.00
+378651;Cavalier of Dawn;Core 2020;Mythic;1;1;4;0;0;0;9.98
+378651;Cavalier of Dawn;Core 2020;Mythic;1;1;6;0;0;0;10.72
+378651;Cavalier of Dawn;Core 2020;Mythic;1;2;3;0;0;0;9.15
+378651;Cavalier of Dawn;Core 2020;Mythic;1;2;5;0;0;0;10.07
+378693;Sorin, Imperious Bloodlord;Core 2020;Mythic;3;1;5;0;0;0;16.06
+378693;Sorin, Imperious Bloodlord;Core 2020;Mythic;1;1;6;0;0;0;16.36
+380097;Leyline of Sanctity (V.1);Core 2020: Extras;Rare;1;2;5;0;0;0;5.79
+380154;Scheming Symmetry (V.1);Core 2020: Extras;Rare;1;1;6;1;0;0;12.49
+380226;Field of the Dead (V.1);Core 2020: Extras;Rare;1;2;6;1;0;0;24.95
+382365;Chandra, Awakened Inferno (V.2);Core 2020: Extras;Mythic;1;1;5;1;0;0;30.00
+403634;Rankle, Master of Pranks (V.1);Throne of Eldraine: Promos;Mythic;1;1;6;1;0;0;14.99
+382371;Vivien, Arkbow Ranger (V.2);Core 2020: Extras;Mythic;1;1;3;1;0;0;6.44
+392327;Second Harvest;Commander 2019;Rare;4;1;6;0;0;0;6.18
+392627;Bone Miser;Commander 2019;Rare;1;1;6;0;0;0;11.62
+399999;Questing Beast;Throne of Eldraine;Mythic;3;1;6;0;0;0;6.41
+389667;Chulane, Teller of Tales;Throne of Eldraine: Extras;Mythic;1;1;4;1;0;0;13.31
+391227;K'rrik, Son of Yawgmoth;Commander 2019;Rare;2;1;6;0;0;0;6.77
+391677;Dockside Extortionist;Commander 2019;Rare;1;2;6;0;0;0;58.36
+391677;Dockside Extortionist;Commander 2019;Rare;1;1;6;0;0;0;61.01
+398924;Garruk, Cursed Huntsman;Throne of Eldraine: Extras;Mythic;1;1;5;0;0;0;6.32
+403994;Questing Beast (V.2);Throne of Eldraine: Promos;Mythic;1;1;6;1;0;0;10.23
+404804;Nissa, Who Shakes the World;Throne of Eldraine: Promos;Rare;1;1;6;1;0;0;5.57
+404809;Spark Double;Throne of Eldraine: Promos;Rare;1;2;6;1;0;0;7.00
+417196;Expropriate;Mystery Booster;Mythic;2;1;6;0;0;0;18.04
+422206;Priest of Titania;Mystery Booster;Common;2;1;6;0;0;0;5.20
+418726;Grave Titan;Mystery Booster;Mythic;1;1;6;0;0;0;7.18
+419321;Torment of Hailfire;Mystery Booster;Rare;1;1;6;0;0;0;14.66
+420301;Kiki-Jiki, Mirror Breaker;Mystery Booster;Mythic;1;1;6;0;0;0;6.80
+420301;Kiki-Jiki, Mirror Breaker;Mystery Booster;Mythic;3;1;6;0;0;0;6.80
+415786;Elesh Norn, Grand Cenobite;Mystery Booster;Mythic;2;1;6;0;0;0;14.80
+420491;Purphoros, God of the Forge;Mystery Booster;Mythic;3;1;6;0;0;0;13.95
+421401;Birds of Paradise;Mystery Booster;Rare;1;1;6;0;0;0;6.96
+421491;Carpet of Flowers;Mystery Booster;Uncommon;1;1;6;0;0;0;14.28
+422361;Selvala, Heart of the Wilds;Mystery Booster;Mythic;2;1;6;0;0;0;9.24
+421336;Asceticism;Mystery Booster;Rare;2;1;6;0;0;0;5.32
+422646;Animar, Soul of Elements;Mystery Booster;Mythic;1;1;6;0;0;0;6.40
+427421;Ashiok, Dream Render;Secret Lair Drop Series;Uncommon;1;1;6;1;0;0;5.69
+423581;Dolmen Gate;Mystery Booster;Rare;1;1;6;0;0;0;9.39
+422671;Aura Shards;Mystery Booster;Uncommon;1;1;6;0;0;0;7.25
+423151;Sliver Hivelord;Mystery Booster;Mythic;2;1;6;0;0;0;7.68
+423201;Time Sieve;Mystery Booster;Rare;2;1;6;0;0;0;6.29
+423681;Herald's Horn;Mystery Booster;Uncommon;1;1;6;0;0;0;5.42
+423431;Alhammarret's Archive;Mystery Booster;Mythic;1;1;6;0;0;0;8.34
+423521;Coat of Arms;Mystery Booster;Rare;2;1;6;0;0;0;12.98
+430974;Uro, Titan of Nature's Wrath;Theros Beyond Death: Extras;Mythic;1;1;6;0;0;0;26.83
+430059;Klothys, God of Destiny;Theros Beyond Death;Mythic;1;1;6;1;0;0;8.80
+431289;Thassa's Oracle;Theros Beyond Death;Rare;1;1;6;1;0;0;21.95
+430394;Klothys, God of Destiny;Theros Beyond Death: Extras;Mythic;2;1;6;0;0;0;6.28
+431289;Thassa's Oracle;Theros Beyond Death;Rare;1;1;4;1;0;0;20.43
+431289;Thassa's Oracle;Theros Beyond Death;Rare;1;1;5;0;0;0;10.94
+431294;Thassa's Oracle;Theros Beyond Death: Extras;Rare;1;1;6;1;0;0;75.10
+431314;Dryad of the Ilysian Grove;Theros Beyond Death;Rare;1;2;6;0;0;0;8.53
+431469;Dryad of the Ilysian Grove;Theros Beyond Death: Extras;Rare;1;1;6;0;0;0;18.52
+434799;Anguished Unmaking;Theros Beyond Death: Promos;Rare;1;1;6;1;0;0;9.89
+434819;Heroic Intervention;Theros Beyond Death: Promos;Rare;1;1;6;1;0;0;16.99
+432489;Heliod's Intervention;Theros Beyond Death: Extras;Rare;1;1;6;1;0;0;17.00
+443543;Undead Warchief;Mystery Booster;Rare;3;1;6;1;0;0;7.99
+450893;Vivien, Monsters' Advocate;Ikoria: Lair of Behemoths;Mythic;1;2;6;0;0;0;6.72
+443298;Minamo, School at Water's Edge;Mystery Booster;Rare;1;1;5;1;0;0;20.43
+443463;Shizo, Death's Storehouse;Mystery Booster;Rare;1;1;6;1;0;0;9.04
+450893;Vivien, Monsters' Advocate;Ikoria: Lair of Behemoths;Mythic;1;7;6;1;0;0;6.85
+443413;Reki, the History of Kamigawa;Mystery Booster;Rare;1;1;6;1;0;0;7.12
+451003;Vivien, Monsters' Advocate;Ikoria: Lair of Behemoths: Extras;Mythic;1;2;6;0;0;0;6.63
+434989;Kroxa, Titan of Death's Hunger (V.1);Theros Beyond Death: Promos;Mythic;1;1;6;1;0;0;6.15
+435184;Setessan Champion (V.1);Theros Beyond Death: Promos;Rare;1;2;6;1;0;0;13.26
+441643;Meren of Clan Nel Toth;Secret Lair Drop Series;Mythic;1;1;6;1;0;0;44.19
+443033;Braid of Fire;Mystery Booster;Rare;1;1;6;1;0;0;7.62
+451833;Nethroi, Apex of Death (V.1);Ikoria: Lair of Behemoths: Extras;Mythic;1;1;6;1;0;0;9.98
+452213;Deflecting Swat;Commander: Ikoria;Rare;4;1;6;0;0;0;26.54
+451803;Yidaro, Wandering Monster (V.2);Ikoria: Lair of Behemoths: Extras;Rare;1;1;6;1;0;0;6.31
+453113;Fierce Guardianship;Commander: Ikoria;Rare;2;1;6;0;0;0;36.73
+452003;Shark Typhoon;Ikoria: Lair of Behemoths;Rare;2;1;6;0;0;0;11.91
+451898;Fiend Artisan;Ikoria: Lair of Behemoths;Mythic;3;1;6;1;0;0;20.60
+451928;Drannith Magistrate;Ikoria: Lair of Behemoths;Rare;1;1;6;0;0;0;15.58
+454953;Kinnan, Bonder Prodigy;Ikoria: Lair of Behemoths;Mythic;1;7;6;0;0;0;7.95
+453993;Beast Whisperer;Commander: Ikoria;Rare;1;1;6;0;0;0;5.49
+454323;Lightning Greaves;Commander: Ikoria;Uncommon;3;1;6;0;0;0;6.04
+454323;Lightning Greaves;Commander: Ikoria;Uncommon;1;1;6;0;0;0;6.04
+454833;Eerie Ultimatum;Ikoria: Lair of Behemoths;Rare;1;7;6;0;0;0;7.35
+455023;Savai Triome;Ikoria: Lair of Behemoths: Extras;Rare;1;1;5;0;0;0;15.30
+455003;Ketria Triome;Ikoria: Lair of Behemoths: Extras;Rare;1;1;5;0;0;0;16.68
+455008;Raugrin Triome;Ikoria: Lair of Behemoths;Rare;1;1;6;1;0;0;17.34
+455023;Savai Triome;Ikoria: Lair of Behemoths: Extras;Rare;1;2;6;0;0;0;14.89
+455008;Raugrin Triome;Ikoria: Lair of Behemoths;Rare;1;1;6;1;0;0;17.34
+455008;Raugrin Triome;Ikoria: Lair of Behemoths;Rare;1;7;6;0;0;0;16.07
+455018;Savai Triome;Ikoria: Lair of Behemoths;Rare;1;1;6;0;0;0;14.98
+461319;Raugrin Triome (V.1);Ikoria: Lair of Behemoths: Promos;Rare;1;2;6;0;0;0;16.00
+466274;Azusa, Lost but Seeking;Core 2021;Rare;1;2;6;1;0;0;5.19
+466309;Teferi, Master of Time (V.3);Core 2021: Extras;Mythic;1;1;6;0;0;0;8.47
+466314;Teferi, Master of Time (V.4);Core 2021: Extras;Mythic;1;1;4;0;0;0;9.11
+466324;Teferi, Master of Time (V.6);Core 2021: Extras;Mythic;1;1;6;1;0;0;11.90
+466324;Teferi, Master of Time (V.6);Core 2021: Extras;Mythic;1;1;6;0;0;0;9.36
+466344;Liliana, Waker of the Dead (V.1);Core 2021: Extras;Mythic;1;2;6;0;0;0;8.82
+466384;Grim Tutor;Core 2021: Extras;Mythic;1;2;6;1;0;0;21.98
+466384;Grim Tutor;Core 2021: Extras;Mythic;1;2;6;0;0;0;14.64
+461349;Luminous Broodmoth (V.1);Ikoria: Lair of Behemoths: Promos;Mythic;1;2;6;0;0;0;9.99
+461539;Splendid Reclamation;Ikoria: Lair of Behemoths: Promos;Rare;1;1;6;1;0;0;6.07
+461309;Ketria Triome (V.1);Ikoria: Lair of Behemoths: Promos;Rare;1;2;6;0;0;0;13.22
+465669;Pyroblast;Signature Spellbook: Chandra;Rare;1;1;6;0;0;0;6.29
+466234;Ugin, the Spirit Dragon;Core 2021;Mythic;1;2;5;1;0;0;29.87
+466234;Ugin, the Spirit Dragon;Core 2021;Mythic;3;1;6;0;0;0;29.01
+455583;Ruinous Ultimatum;Ikoria: Lair of Behemoths: Extras;Rare;1;1;6;0;0;0;11.19
+467834;Baneslayer Angel;Core 2021: Extras;Mythic;1;1;6;0;0;0;10.36
+467839;Mangara, the Diplomat;Core 2021: Extras;Mythic;1;2;6;0;0;0;17.00
+467869;Liliana, Death Mage;Core 2021: Extras;Mythic;1;1;6;1;0;0;8.37
+462564;Kaalia of the Vast;Double Masters;Mythic;1;1;6;0;0;0;7.53
+455538;Winota, Joiner of Forces;Ikoria: Lair of Behemoths;Mythic;1;7;6;0;0;0;6.78
+468044;Massacre Wurm;Core 2021: Extras;Mythic;1;1;6;0;0;0;5.80
+474294;Linvala, Keeper of Silence;Jumpstart;Mythic;1;1;5;0;0;0;16.61
+472549;Tinybones, Trinket Thief;Jumpstart;Mythic;2;1;6;0;0;0;13.36
+482689;Jace, the Mind Sculptor;Double Masters;Mythic;1;1;6;0;0;0;28.61
+482769;Engineered Explosives;Double Masters;Rare;1;2;6;0;0;0;13.70
+482769;Engineered Explosives;Double Masters;Rare;1;1;6;1;0;0;22.38
+482689;Jace, the Mind Sculptor;Double Masters;Mythic;1;3;6;0;0;0;27.37
+482669;Wurmcoil Engine;Double Masters;Mythic;1;1;6;0;0;0;14.34
+482734;Karn Liberated;Double Masters: Extras;Mythic;1;1;6;1;0;0;51.16
+482749;Sword of War and Peace;Double Masters;Mythic;1;1;6;1;0;0;11.46
+482739;Sword of War and Peace;Double Masters: Extras;Mythic;1;1;6;0;0;0;21.29
+476094;Conspicuous Snoop (V.2);Core 2021: Promos;Rare;1;1;6;1;0;0;19.00
+482829;Noble Hierarch;Double Masters;Rare;1;1;6;1;0;0;15.92
+483964;Vengevine;Double Masters;Mythic;1;2;6;0;0;0;8.43
+482829;Noble Hierarch;Double Masters;Rare;1;1;6;0;0;0;11.04
+482714;Urza's Power Plant;Double Masters: Extras;Rare;2;1;6;1;0;0;25.99
+482729;Karn Liberated;Double Masters;Mythic;2;1;6;0;0;0;15.72
+484024;Wooded Bastion;Double Masters;Rare;2;1;6;0;0;0;7.06
+484039;Chord of Calling;Double Masters;Rare;1;1;6;1;0;0;9.05
+482729;Karn Liberated;Double Masters;Mythic;1;1;6;1;0;0;26.84
+482834;Voice of Resurgence;Double Masters;Rare;1;1;6;1;0;0;7.98
+483184;Noble Hierarch;Double Masters: Extras;Rare;1;1;6;1;0;0;20.18
+483769;Breya, Etherium Shaper;Double Masters;Mythic;2;1;6;1;0;0;10.01
+483914;Dark Confidant;Double Masters;Mythic;1;2;6;0;0;0;16.87
+483964;Vengevine;Double Masters;Mythic;2;1;6;0;0;0;8.80
+483989;Trinisphere;Double Masters;Mythic;1;1;6;1;0;0;18.66
+485934;Blood Moon;Double Masters: Extras;Rare;1;1;6;1;0;0;41.85
+485934;Blood Moon;Double Masters: Extras;Rare;1;1;6;1;0;0;41.85
+485959;Batterskull;Double Masters;Mythic;2;1;6;0;0;0;5.71
+484014;Mystic Gate;Double Masters;Rare;3;1;6;0;0;0;9.00
+484019;Sunken Ruins;Double Masters;Rare;2;1;6;0;0;0;19.26
+486039;Ad Nauseam;Double Masters;Rare;2;1;6;0;0;0;9.91
+486044;Thoughtseize;Double Masters;Rare;1;3;6;0;0;0;19.57
+486124;Karrthus, Tyrant of Jund;Double Masters;Mythic;1;1;5;1;0;0;5.49
+486154;Sword of Body and Mind;Double Masters;Mythic;4;1;6;0;0;0;9.00
+484279;Kuldotha Forgemaster;Double Masters;Rare;2;1;6;0;0;0;5.10
+484359;Walking Ballista;Double Masters;Rare;1;1;6;0;0;0;16.07
+484369;Force of Will;Double Masters;Mythic;1;1;6;1;0;0;100.60
+484559;Time Sieve;Double Masters;Rare;3;1;6;0;0;0;6.60
+485929;Blood Moon;Double Masters;Rare;1;1;6;0;0;0;11.80
+484319;Hammer of Nazahn;Double Masters;Rare;1;2;6;0;0;0;5.68
+485964;Batterskull;Double Masters: Extras;Mythic;2;1;6;0;0;0;13.78
+485984;Avacyn, Angel of Hope;Double Masters: Extras;Mythic;3;1;6;1;0;0;123.71
+486194;Sword of Light and Shadow;Double Masters: Extras;Mythic;1;1;6;0;0;0;28.99
+484519;Mazirek, Kraul Death Priest;Double Masters;Rare;1;1;6;0;0;0;10.67
+492054;Spectator Seating;Commander Legends;Rare;1;1;6;0;0;0;7.73
+492059;Training Center;Commander Legends;Rare;3;1;6;0;0;0;8.20
+492059;Training Center;Commander Legends;Rare;1;2;6;0;0;0;7.86
+486524;Imperial Recruiter;Double Masters;Mythic;1;1;6;0;0;0;7.06
+494569;Valakut Awakening // Valakut Stoneforge;Zendikar Rising;Rare;1;2;6;0;0;0;6.21
+494569;Valakut Awakening // Valakut Stoneforge;Zendikar Rising;Rare;1;1;6;0;0;0;6.47
+494594;Omnath, Locus of Creation;Zendikar Rising: Extras;Mythic;1;1;6;0;0;0;16.51
+494734;Sea of Clouds;Zendikar Rising Expeditions;Mythic;1;2;6;1;0;0;15.83
+492049;Rejuvenating Springs;Commander Legends;Rare;2;1;6;0;0;0;5.26
+486904;Rugged Prairie;Double Masters;Rare;1;1;6;1;0;0;7.13
+486909;Twilight Mire;Double Masters;Rare;1;1;6;0;0;0;6.83
+491944;Worldly Tutor;Commander Collection: Green;Rare;1;1;6;0;0;0;10.13
+494794;Clearwater Pathway // Murkwater Pathway;Zendikar Rising: Extras;Rare;3;1;6;0;0;0;8.47
+494799;Cragcrown Pathway // Timbercrown Pathway;Zendikar Rising: Extras;Rare;1;1;6;0;0;0;7.25
+494909;Windswept Heath;Zendikar Rising Expeditions;Mythic;1;2;6;1;0;0;149.00
+492049;Rejuvenating Springs;Commander Legends;Rare;2;2;6;0;0;0;5.05
+494994;Copperline Gorge;Zendikar Rising Expeditions;Mythic;1;1;6;0;0;0;6.65
+492079;Spectator Seating;Commander Legends: Extras;Rare;2;2;6;0;0;0;16.00
+492084;Training Center;Commander Legends: Extras;Rare;1;2;6;0;0;0;19.00
+492089;Undergrowth Stadium;Commander Legends: Extras;Rare;1;2;6;0;0;0;19.89
+492074;Rejuvenating Springs;Commander Legends: Extras;Rare;1;2;6;1;0;0;39.99
+495079;Blackcleave Cliffs;Zendikar Rising Expeditions;Mythic;1;1;6;0;0;0;11.86
+495079;Blackcleave Cliffs;Zendikar Rising Expeditions;Mythic;1;1;6;1;0;0;24.39
+495569;Archon of Emeria;Zendikar Rising: Extras;Rare;1;1;6;0;0;0;5.57
+495569;Archon of Emeria;Zendikar Rising: Extras;Rare;2;7;6;0;0;0;5.57
+495740;Shatterskull Smashing // Shatterskull, the Hammer Pass;Zendikar Rising;Mythic;2;1;5;0;0;0;7.94
+495089;Bountiful Promenade;Zendikar Rising Expeditions;Mythic;1;1;6;1;0;0;13.00
+494769;Cragcrown Pathway // Timbercrown Pathway;Zendikar Rising;Rare;1;1;6;1;0;0;6.91
+494769;Cragcrown Pathway // Timbercrown Pathway;Zendikar Rising;Rare;1;2;6;0;0;0;6.30
+494774;Branchloft Pathway // Boulderloft Pathway;Zendikar Rising;Rare;1;1;6;0;0;0;5.62
+494784;Needleverge Pathway // Pillarverge Pathway;Zendikar Rising;Rare;1;1;6;0;0;0;5.81
+495099;Creeping Tar Pit;Zendikar Rising Expeditions;Mythic;1;2;6;0;0;0;5.55
+494934;Misty Rainforest;Zendikar Rising Expeditions;Mythic;1;1;6;0;0;0;46.20
+495044;Skyclave Apparition;Zendikar Rising: Extras;Rare;1;7;5;1;0;0;9.90
+497930;Emrakul, the Aeons Torn;The List;Mythic;1;1;6;0;0;0;22.45
+497945;Enlightened Tutor;The List;Uncommon;1;1;4;0;0;0;17.28
+495434;Emeria's Call // Emeria, Shattered Skyclave;Zendikar Rising;Mythic;1;1;6;1;0;0;14.17
+498330;Lightning Bolt (V.1);The List;Rare;1;1;6;0;0;0;8.53
+498385;Memnite;The List;Uncommon;1;1;6;0;0;0;5.33
+498440;Mycosynth Golem;The List;Rare;2;1;6;0;0;0;22.21
+495990;Sea Gate Restoration // Sea Gate, Reborn;Zendikar Rising;Mythic;1;1;6;0;0;0;22.82
+496030;Moraug, Fury of Akoum;Zendikar Rising;Mythic;1;2;6;0;0;0;6.80
+496445;Lithoform Engine;Zendikar Rising: Extras;Mythic;1;1;6;0;0;0;6.51
+496465;Maddening Cacophony;Zendikar Rising: Extras;Rare;1;1;6;1;0;0;5.50
+496510;Scute Swarm;Zendikar Rising: Extras;Rare;1;7;6;0;0;0;6.14
+496610;Glasspool Mimic // Glasspool Shore;Zendikar Rising: Extras;Rare;1;7;6;0;0;0;7.64
+496610;Glasspool Mimic // Glasspool Shore;Zendikar Rising: Extras;Rare;1;2;6;1;0;0;8.26
+496670;Forsaken Monument;Zendikar Rising: Extras;Mythic;4;1;6;0;0;0;9.18
+498505;Nylea, God of the Hunt;The List;Mythic;1;1;6;0;0;0;7.03
+498605;Progenitus;The List;Mythic;1;1;6;0;0;0;7.73
+498295;Land Tax;The List;Mythic;1;1;6;0;0;0;24.49
+501385;Brightclimb Pathway // Grimclimb Pathway;Zendikar Rising: Promos;Rare;1;1;6;1;0;0;7.00
+498690;Scroll Rack;The List;Rare;1;1;6;0;0;0;21.14
+498760;Song of the Dryads;The List;Rare;1;1;6;0;0;0;6.78
+498850;Thought-Knot Seer;The List;Rare;1;1;6;0;0;0;6.00
+498925;Vampire Nocturnus;The List;Mythic;1;1;6;0;0;0;7.16
+498935;Vesuva;The List;Rare;2;1;6;0;0;0;10.72
+499040;Patron Wizard;The List;Rare;3;1;6;0;0;0;5.03
+510050;Xenagos, God of Revels;Commander Legends: Extras;Mythic;2;2;6;1;0;0;15.76
+509910;Tevesh Szat, Doom of Fools;Commander Legends;Mythic;1;2;6;1;0;0;16.90
+499015;Wrath of God;The List;Rare;1;1;6;0;0;0;5.72
+509930;Vampiric Tutor;Commander Legends;Mythic;1;2;6;1;0;0;34.00
+510405;Court of Cunning;Commander Legends: Extras;Rare;1;2;6;0;0;0;6.05
+510455;Kodama of the East Tree;Commander Legends;Rare;1;2;6;1;0;0;7.79
+510130;Vial Smasher the Fierce;Commander Legends: Extras;Mythic;2;2;6;1;0;0;13.17
+510195;Three Visits;Commander Legends;Uncommon;1;1;6;0;0;0;5.48
+510785;Scroll Rack;Commander Legends;Mythic;1;2;6;1;0;0;21.89
+510785;Scroll Rack;Commander Legends;Mythic;1;1;6;0;0;0;19.46
+510790;Scroll Rack;Commander Legends: Extras;Mythic;1;2;6;0;0;0;24.95
+510790;Scroll Rack;Commander Legends: Extras;Mythic;1;2;6;1;0;0;37.49
+510225;Maelstrom Wanderer;Commander Legends: Extras;Mythic;1;2;6;1;0;0;6.90
+510875;Preordain;Commander Legends: Extras;Common;1;2;6;0;0;0;13.49
+510885;Sweet-Gum Recluse;Commander Legends: Extras;Rare;4;1;6;1;0;0;9.99
+510310;Malcolm, Keen-Eyed Navigator;Commander Legends: Extras;Uncommon;2;1;6;1;0;0;5.59
+510965;Thrasios, Triton Hero;Commander Legends: Extras;Mythic;2;2;6;1;0;0;28.00
+510975;Rings of Brighthearth;Commander Legends: Extras;Rare;1;2;6;0;0;0;5.90
+510310;Malcolm, Keen-Eyed Navigator;Commander Legends: Extras;Uncommon;2;2;6;1;0;0;5.37
+510345;Port Razer;Commander Legends: Extras;Mythic;1;2;5;1;0;0;11.99
+510560;Jeska, Thrice Reborn;Commander Legends: Extras;Mythic;3;1;6;0;0;0;6.14
+510725;Najeela, the Blade-Blossom;Commander Legends: Extras;Mythic;1;2;6;1;0;0;16.36
+510740;Arcane Signet;Commander Legends: Extras;Uncommon;1;2;6;1;0;0;17.83
+510830;Jeska, Thrice Reborn;Commander Legends;Mythic;1;1;5;0;0;0;5.65
+510925;Ramos, Dragon Engine;Commander Legends: Extras;Mythic;2;2;6;1;0;0;7.50
+512925;Ishai, Ojutai Dragonspeaker;Commander Legends: Extras;Mythic;1;2;5;1;0;0;6.20
+511275;Thought Vessel;Commander Legends: Extras;Uncommon;1;2;6;1;0;0;6.14
+511340;Reshape the Earth;Commander Legends;Mythic;1;2;6;0;0;0;5.60
+510525;Court of Ambition;Commander Legends: Extras;Rare;2;2;6;0;0;0;7.95
+510545;Court of Grace;Commander Legends: Extras;Rare;1;2;6;1;0;0;13.90
+512230;Tana, the Bloodsower;Commander Legends: Extras;Mythic;1;2;6;1;0;0;6.11
+513665;Akroma, Vision of Ixidor;Commander Legends;Mythic;1;2;6;0;0;0;5.38
+513665;Akroma, Vision of Ixidor;Commander Legends;Mythic;1;1;6;0;0;0;5.60
+512030;Wheel of Misfortune;Commander Legends;Rare;1;2;6;1;0;0;5.35
+512880;Sakashima of a Thousand Faces;Commander Legends;Mythic;1;2;6;0;0;0;24.00
+512880;Sakashima of a Thousand Faces;Commander Legends;Mythic;1;1;6;1;0;0;34.95
+512880;Sakashima of a Thousand Faces;Commander Legends;Mythic;1;1;5;0;0;0;24.66
+512935;Arcane Denial (V.2);Commander Legends: Extras;Common;1;2;6;0;0;0;7.03
+512945;Counterspell (V.2);Commander Legends: Extras;Common;1;2;6;1;0;0;7.49
+514724;Aesi, Tyrant of Gyre Strait;Commander Legends: Extras;Mythic;4;1;6;1;0;0;19.99
+527440;Darkbore Pathway // Slitherbore Pathway;Kaldheim;Rare;2;1;6;0;0;0;8.82
+527465;Hengegate Pathway // Mistgate Pathway;Kaldheim: Extras;Rare;4;1;6;0;0;0;11.18
+527470;Barkchannel Pathway // Tidechannel Pathway;Kaldheim;Rare;1;1;6;0;0;0;5.83
+528982;Cavern of Souls;The List;Rare;1;1;6;0;0;0;45.68
+527475;Barkchannel Pathway // Tidechannel Pathway;Kaldheim: Extras;Rare;3;1;6;0;0;0;6.70
+529047;Herald's Horn;The List;Uncommon;2;1;6;0;0;0;5.53
+527520;Kaya the Inexorable;Kaldheim: Extras;Mythic;1;1;6;1;0;0;9.11
+527445;Darkbore Pathway // Slitherbore Pathway;Kaldheim: Extras;Rare;1;1;6;1;0;0;11.67
+527460;Hengegate Pathway // Mistgate Pathway;Kaldheim;Rare;4;1;6;0;0;0;10.07
+527460;Hengegate Pathway // Mistgate Pathway;Kaldheim;Rare;2;1;5;0;0;0;9.87
+527530;Halvar, God of Battle // Sword of the Realms;Kaldheim: Extras;Mythic;1;1;5;0;0;0;9.76
+527575;Youthful Valkyrie;Kaldheim: Extras;Uncommon;1;1;5;0;0;0;10.50
+527575;Youthful Valkyrie;Kaldheim: Extras;Uncommon;4;1;6;0;0;0;10.71
+529027;Freyalise, Llanowar's Fury;The List;Mythic;1;1;6;0;0;0;5.91
+529087;Kaya, Ghost Assassin;The List;Mythic;1;1;6;0;0;0;7.00
+527515;Kaya the Inexorable;Kaldheim;Mythic;2;1;6;1;0;0;6.33
+529487;Alrund's Epiphany;Kaldheim: Extras;Mythic;1;1;6;0;0;0;5.79
+529527;Goldspan Dragon;Kaldheim;Mythic;3;1;6;0;0;0;12.54
+529367;Elvish Warmaster;Kaldheim: Extras;Rare;1;1;6;1;0;0;6.30
+529482;Alrund's Epiphany;Kaldheim;Mythic;1;1;6;1;0;0;7.15
+529512;Vorinclex, Monstrous Raider (V.2);Kaldheim: Extras;Mythic;1;1;6;0;0;0;45.00
+530342;Koma, Cosmos Serpent;Kaldheim;Mythic;1;1;6;0;0;0;11.95
+530367;Esika's Chariot;Kaldheim;Rare;1;1;6;0;0;0;10.42
+529302;Valki, God of Lies // Tibalt, Cosmic Impostor;Kaldheim;Mythic;1;2;6;0;0;0;8.32
+529307;Valki, God of Lies // Tibalt, Cosmic Impostor (V.1);Kaldheim: Extras;Mythic;1;1;6;0;0;0;11.19
+529312;Valki, God of Lies // Tibalt, Cosmic Impostor (V.2);Kaldheim: Extras;Mythic;4;1;6;0;0;0;10.00
+530687;The World Tree;Kaldheim: Extras;Rare;1;1;6;1;0;0;11.89
+530677;Maskwood Nexus;Kaldheim: Extras;Rare;1;7;5;1;0;0;19.94
+530682;Faceless Haven;Kaldheim: Extras;Rare;1;1;6;1;0;0;5.03
+530872;Toralf, God of Fury // Toralf's Hammer;Kaldheim: Extras;Mythic;1;1;6;1;0;0;7.38
+532262;Righteous Valkyrie;Kaldheim;Rare;1;1;6;0;0;0;5.65
+532262;Righteous Valkyrie;Kaldheim;Rare;1;1;5;0;0;0;5.56
+532357;Birgi, God of Storytelling // Harnfel, Horn of Bounty;Kaldheim;Rare;4;1;6;1;0;0;19.99
+530817;Starnheim Unleashed;Kaldheim;Mythic;2;1;6;0;0;0;5.01
+532992;Righteous Valkyrie;Kaldheim: Extras;Rare;2;1;6;0;0;0;7.52
+530822;Starnheim Unleashed;Kaldheim: Extras;Mythic;3;1;6;0;0;0;5.51
+533032;Haunting Voyage;Kaldheim;Mythic;1;1;6;0;0;0;6.37
+532367;Birgi, God of Storytelling // Harnfel, Horn of Bounty;Kaldheim: Extras;Rare;3;1;6;1;0;0;19.99
+532952;Orvar, the All-Form;Kaldheim;Mythic;1;1;6;1;0;0;17.99
+533142;Pact of the Serpent;Commander: Kaldheim;Rare;1;1;6;0;0;0;5.73
+542961;Master of the Pearl Trident;Time Spiral Remastered: Extras;Time Shifted;1;2;6;0;0;0;5.49
+545166;Monastery Swiftspear;Time Spiral Remastered: Extras;Time Shifted;1;1;6;1;0;0;57.71
+545221;Magus of the Moon;Time Spiral Remastered;Rare;1;2;6;0;0;0;9.86
+545221;Magus of the Moon;Time Spiral Remastered;Rare;1;1;6;0;0;0;10.30
+545241;Tarmogoyf;Time Spiral Remastered;Mythic;1;1;6;0;0;0;14.75
+542961;Master of the Pearl Trident;Time Spiral Remastered: Extras;Time Shifted;4;1;6;1;0;0;149.99
+542996;Pact of Negation;Time Spiral Remastered;Rare;1;1;6;0;0;0;11.17
+543411;Leyline of the Void;Time Spiral Remastered: Extras;Time Shifted;1;2;6;0;0;0;11.73
+543656;Dismember;Time Spiral Remastered: Extras;Time Shifted;2;1;6;1;0;0;50.00
+542771;Silence;Time Spiral Remastered: Extras;Time Shifted;1;2;6;0;0;0;7.43
+546901;Primeval Titan;Time Spiral Remastered: Extras;Time Shifted;1;2;6;0;0;0;6.57
+547691;Tolaria West;Time Spiral Remastered;Rare;1;1;6;1;0;0;9.22
+543726;Thoughtseize;Time Spiral Remastered: Extras;Time Shifted;3;2;6;0;0;0;26.93
+536252;Tyvar Kell (V.2);Kaldheim: Promos;Mythic;1;1;6;1;0;0;6.36
+536257;Vorinclex, Monstrous Raider (V.2);Kaldheim: Promos;Mythic;1;1;6;0;0;0;1000.00
+542471;Prismari Command;Strixhaven: School of Mages: Extras;Rare;1;1;6;0;0;0;9.40
+547716;Abrupt Decay;Time Spiral Remastered: Extras;Time Shifted;2;2;6;0;0;0;5.30
+547716;Abrupt Decay;Time Spiral Remastered: Extras;Time Shifted;1;1;6;0;0;0;5.52
+548301;Urborg, Tomb of Yawgmoth;Time Spiral Remastered;Rare;3;1;6;0;0;0;30.75
+548301;Urborg, Tomb of Yawgmoth;Time Spiral Remastered;Rare;1;2;6;0;0;0;29.41
+547766;Wastes;Time Spiral Remastered: Extras;Time Shifted;1;2;6;1;0;0;20.00
+548221;Akroma's Memorial;Time Spiral Remastered;Mythic;1;1;4;1;0;0;19.95
+556940;Mizzix's Mastery (V.1);Mystical Archive;Mythic;1;7;6;0;0;0;8.11
+556296;Adrix and Nev, Twincasters;Commander: Strixhaven;Mythic;1;1;4;1;0;0;13.26
+548421;Vanquisher's Banner;Time Spiral Remastered: Extras;Time Shifted;1;2;6;0;0;0;5.96
+548426;Arch of Orazca;Time Spiral Remastered: Extras;Time Shifted;1;1;6;1;0;0;8.81
+548436;Mystic Sanctuary;Time Spiral Remastered: Extras;Time Shifted;1;2;6;0;0;0;5.16
+554118;Professor Onyx;Strixhaven: School of Mages;Mythic;1;1;6;0;0;0;9.68
+556418;Counterspell (V.1);Mystical Archive;Rare;1;1;6;1;0;0;9.42
+557087;Teferi's Protection (V.2);Mystical Archive;Mythic;1;7;6;0;0;0;33.81
+557088;Blue Sun's Zenith (V.2);Mystical Archive;Mythic;1;7;6;1;0;0;15.19
+557648;Crackle with Power;Strixhaven: School of Mages;Mythic;1;1;5;1;0;0;11.49
+559075;Curiosity Crafter;Commander: Strixhaven;Rare;1;1;6;0;0;0;7.69
+559076;Deekah, Fractal Theorist;Commander: Strixhaven;Rare;1;1;6;0;0;0;5.17
+558557;Archaeomancer's Map;Commander: Strixhaven: Extras;Rare;1;1;4;0;0;0;11.57
+557922;Liliana, the Last Hope;The List;Mythic;1;1;6;0;0;0;7.57
+557953;Unbound Flourishing;The List;Mythic;2;1;6;0;0;0;12.28
+558051;Mila, Crafty Companion // Lukka, Wayward Bonder;Strixhaven: School of Mages: Extras;Mythic;1;2;6;1;0;0;9.79
+558062;Vanishing Verse;Strixhaven: School of Mages: Extras;Rare;2;1;6;0;0;0;5.32
+558062;Vanishing Verse;Strixhaven: School of Mages: Extras;Rare;1;2;6;0;0;0;5.11
+558105;Beledros Witherbloom;Strixhaven: School of Mages;Mythic;1;1;6;0;0;0;13.00
+558823;Veyran, Voice of Duality;Commander: Strixhaven: Extras;Mythic;1;2;6;0;0;0;25.99
+557131;Despark (V.2);Mystical Archive;Rare;1;7;6;1;0;0;5.84
+559266;Blue Sun's Zenith (V.3);Mystical Archive;Mythic;1;1;6;0;0;0;5.99
+559379;Crux of Fate (V.4);Mystical Archive;Mythic;1;7;6;1;0;0;9.84
+559352;Teferi's Protection (V.4);Mystical Archive;Mythic;1;7;6;1;0;0;33.56
+559403;Faithless Looting (V.4);Mystical Archive;Rare;1;7;6;1;0;0;9.34
+559540;Incarnation Technique;Commander: Strixhaven: Extras;Rare;1;2;6;0;0;0;10.49
+559656;Gyome, Master Chef;Commander: Strixhaven;Mythic;2;1;6;1;0;0;14.99
+559656;Gyome, Master Chef;Commander: Strixhaven;Mythic;3;1;5;1;0;0;14.99
+559656;Gyome, Master Chef;Commander: Strixhaven;Mythic;2;1;6;1;0;0;14.99
+559662;Blossoming Bogbeast;Commander: Strixhaven;Rare;1;1;6;0;0;0;8.87
+559662;Blossoming Bogbeast;Commander: Strixhaven;Rare;2;1;6;0;0;0;8.87
+559745;Pest Infestation;Commander: Strixhaven: Extras;Rare;1;1;6;0;0;0;11.17
+560565;Blex, Vexing Pest // Search for Blex;Strixhaven: School of Mages: Promos;Mythic;1;2;6;1;0;0;5.89
+564645;Urza's Saga;Modern Horizons 2;Rare;3;2;6;0;0;0;40.48
+564646;Verdant Catacombs;Modern Horizons 2;Rare;1;1;6;1;0;0;20.41
+564646;Verdant Catacombs;Modern Horizons 2;Rare;1;1;6;0;0;0;16.71
+560916;Magma Opus (V.2);Strixhaven: School of Mages: Promos;Mythic;1;1;6;0;0;0;8.99
+564645;Urza's Saga;Modern Horizons 2;Rare;1;2;6;1;0;0;76.66
+564641;Arid Mesa;Modern Horizons 2;Rare;4;1;6;0;0;0;14.38
+565729;Grief;Modern Horizons 2: Extras;Mythic;1;1;6;0;0;0;56.24
+564641;Arid Mesa;Modern Horizons 2;Rare;1;2;6;0;0;0;13.68
+564642;Marsh Flats;Modern Horizons 2;Rare;1;1;6;1;0;0;18.20
+564643;Misty Rainforest;Modern Horizons 2;Rare;3;1;6;0;0;0;22.26
+564644;Scalding Tarn;Modern Horizons 2;Rare;1;2;6;0;0;0;22.67
+564644;Scalding Tarn;Modern Horizons 2;Rare;1;1;5;0;0;0;23.29
+564645;Urza's Saga;Modern Horizons 2;Rare;2;1;6;0;0;0;42.32
+564651;Urza's Saga;Modern Horizons 2: Extras;Rare;1;1;6;1;0;0;71.30
+566323;Imperial Recruiter (V.1);Modern Horizons 2;Mythic;2;1;6;0;0;0;5.95
+564651;Urza's Saga;Modern Horizons 2: Extras;Rare;1;2;6;0;0;0;40.67
+564661;Verdant Catacombs (V.3);Modern Horizons 2: Extras;Rare;1;2;6;1;0;0;29.89
+566453;Dress Down;Modern Horizons 2: Extras;Rare;1;1;6;1;0;0;6.33
+566456;Ignoble Hierarch (V.2);Modern Horizons 2: Extras;Rare;2;1;5;1;0;0;11.06
+566456;Ignoble Hierarch (V.2);Modern Horizons 2: Extras;Rare;1;1;6;1;0;0;11.26
+566438;Tourach, Dread Cantor;Modern Horizons 2;Mythic;4;1;6;0;0;0;5.99
+566525;Esper Sentinel;Modern Horizons 2;Rare;1;1;6;0;0;0;23.22
+566525;Esper Sentinel;Modern Horizons 2;Rare;1;1;6;0;0;0;23.22
+566451;Scion of Draco (V.1);Modern Horizons 2: Extras;Mythic;3;2;6;0;0;0;8.20
+566612;Endurance;Modern Horizons 2;Mythic;1;1;6;0;0;0;45.33
+565741;Cabal Coffers (V.1);Modern Horizons 2;Mythic;4;1;6;0;0;0;12.79
+565929;Chatterfang, Squirrel General;Modern Horizons 2;Mythic;1;1;6;1;0;0;6.53
+566126;Sword of Hearth and Home;Modern Horizons 2;Mythic;3;1;6;0;0;0;7.51
+566131;Sword of Hearth and Home (V.2);Modern Horizons 2: Extras;Mythic;1;1;6;0;0;0;9.09
+566142;Grist, the Hunger Tide;Modern Horizons 2;Mythic;1;2;6;0;0;0;7.76
+566142;Grist, the Hunger Tide;Modern Horizons 2;Mythic;2;1;6;0;0;0;8.10
+566307;Grist, the Hunger Tide (V.1);Modern Horizons 2: Extras;Mythic;1;2;5;0;0;0;13.89
+566555;Kaldra Compleat;Modern Horizons 2: Extras;Mythic;1;1;6;1;0;0;9.34
+566480;Ragavan, Nimble Pilferer;Modern Horizons 2;Mythic;1;1;4;0;0;0;46.73
+566654;Academy Manufactor;Modern Horizons 2: Extras;Rare;1;7;6;0;0;0;6.95
+567743;Archmage's Charm (V.2);Modern Horizons: Retro Frame Cards;Rare;1;1;6;1;0;0;8.73
+567757;Force of Vigor (V.2);Modern Horizons: Retro Frame Cards;Rare;1;2;6;1;0;0;36.50
+567747;Urza, Lord High Artificer (V.2);Modern Horizons: Retro Frame Cards;Mythic;1;1;6;1;0;0;31.34
+567745;Force of Negation (V.2);Modern Horizons: Retro Frame Cards;Rare;1;2;6;1;0;0;56.36
+566767;Dauthi Voidwalker;Modern Horizons 2;Rare;2;1;6;1;0;0;13.50
+566862;Ice-Fang Coatl (V.1);Modern Horizons: Retro Frame Cards;Rare;1;1;6;1;0;0;7.27
+566865;Murktide Regent;Modern Horizons 2: Extras;Mythic;1;1;6;1;0;0;33.03
+567140;Ponder;Secret Lair Drop Series;Rare;5;1;6;0;0;0;16.99
+567142;Teferi, Hero of Dominaria;Secret Lair Drop Series;Mythic;1;1;6;0;0;0;42.11
+567143;Shalai, Voice of Plenty;Secret Lair Drop Series;Rare;4;1;6;0;0;0;16.00
+567678;Svyelun of Sea and Sky (V.3);Modern Horizons 2: Extras;Mythic;4;1;6;1;0;0;6.59
+568445;Marsh Flats;Modern Horizons 2: Promos;Rare;1;1;6;1;0;0;20.16
+568824;Bruvac the Grandiloquent;The List;Mythic;1;1;6;0;0;0;37.25
+571062;Circle of Dreams Druid;Adventures in the Forgotten Realms;Rare;1;1;6;0;0;0;5.87
+568814;Aether Vial;The List;Uncommon;1;1;6;0;0;0;12.59
+571091;Ebondeath, Dracolich;Adventures in the Forgotten Realms;Mythic;2;1;6;0;0;0;6.18
+569037;Tiamat;Adventures in the Forgotten Realms;Mythic;2;1;6;0;0;0;6.44
+569038;Tiamat;Adventures in the Forgotten Realms: Extras;Mythic;1;1;5;0;0;0;13.66
+569043;Tasha's Hideous Laughter;Adventures in the Forgotten Realms;Rare;4;1;6;0;0;0;6.45
+570978;Hive of the Eye Tyrant;Adventures in the Forgotten Realms;Rare;1;1;6;0;0;0;7.67
+571053;Den of the Bugbear;Adventures in the Forgotten Realms;Rare;4;1;6;0;0;0;8.23
+571942;Dragonlord Dromoka;The List;Mythic;1;1;6;0;0;0;9.38
+571054;Den of the Bugbear;Adventures in the Forgotten Realms: Extras;Rare;1;1;6;1;0;0;15.99
+568854;Splinter Twin;The List;Rare;1;1;6;0;0;0;7.88
+571440;Old Gnawbone;Adventures in the Forgotten Realms;Mythic;1;1;6;0;0;0;22.45
+571540;Treasure Vault;Adventures in the Forgotten Realms;Rare;4;1;6;0;0;0;8.00
+571848;Acererak the Archlich;Adventures in the Forgotten Realms;Mythic;1;1;6;0;0;0;8.17
+571857;Inferno of the Star Mounts;Adventures in the Forgotten Realms;Mythic;1;1;6;0;0;0;5.96
+572262;Phantasmal Image;Commander: Adventures in the Forgotten Realms;Rare;1;2;6;0;0;0;5.30
+572262;Phantasmal Image;Commander: Adventures in the Forgotten Realms;Rare;2;1;6;0;0;0;5.52
+572215;Klauth, Unrivaled Ancient;Commander: Adventures in the Forgotten Realms;Mythic;1;2;6;1;0;0;21.44
+571877;Treasure Vault;Adventures in the Forgotten Realms: Extras;Rare;2;1;6;0;0;0;8.94
+571877;Treasure Vault;Adventures in the Forgotten Realms: Extras;Rare;1;1;5;0;0;0;8.80
+571936;Captivating Vampire;The List;Rare;1;1;6;0;0;0;9.87
+571953;Hermit Druid;The List;Rare;1;1;6;0;0;0;11.56
+572202;Maddening Hex;Commander: Adventures in the Forgotten Realms;Rare;2;1;6;0;0;0;9.10
+572337;Kindred Summons;Commander: Adventures in the Forgotten Realms;Rare;2;1;6;0;0;0;6.15
+572467;Tasha's Hideous Laughter (V.1);Adventures in the Forgotten Realms: Promos;Rare;1;1;6;1;0;0;1000.00
+572520;Mordenkainen (V.1);Adventures in the Forgotten Realms: Promos;Mythic;1;1;6;1;0;0;9.58
+572523;Ebondeath, Dracolich (V.1);Adventures in the Forgotten Realms: Promos;Mythic;1;1;6;1;0;0;9.99
+572548;Teleportation Circle (V.2);Adventures in the Forgotten Realms: Promos;Rare;1;1;6;1;0;0;16.48
+572579;Werewolf Pack Leader (V.2);Adventures in the Forgotten Realms: Promos;Rare;2;1;6;1;0;0;5.59
+572618;Tiamat (V.2);Adventures in the Forgotten Realms: Promos;Mythic;2;1;6;0;0;0;8.99
+572638;Minn, Wily Illusionist;Commander: Adventures in the Forgotten Realms: Extras;Rare;1;2;6;0;0;0;5.30
+572647;Grim Hireling;Commander: Adventures in the Forgotten Realms: Extras;Rare;1;1;6;0;0;0;9.46
+574708;Overgrown Farmland;Innistrad: Midnight Hunt: Extras;Rare;1;1;6;1;0;0;10.00
+573824;Wrenn and Seven;Innistrad: Midnight Hunt: Extras;Mythic;1;1;6;0;0;0;9.96
+574796;Unnatural Growth;Innistrad: Midnight Hunt: Extras;Rare;1;1;6;1;0;0;7.57
+574704;Deserted Beach;Innistrad: Midnight Hunt: Extras;Rare;3;1;6;1;0;0;15.13
+574851;Tainted Adversary;Innistrad: Midnight Hunt;Mythic;2;1;6;1;0;0;5.11
+574852;Tainted Adversary;Innistrad: Midnight Hunt: Extras;Mythic;1;1;6;0;0;0;5.64
+573812;Wrenn and Seven;Innistrad: Midnight Hunt;Mythic;1;7;6;0;0;0;8.37
+574760;Overgrown Farmland;Innistrad: Midnight Hunt;Rare;1;1;6;0;0;0;6.36
+574882;Bloodthirsty Adversary;Innistrad: Midnight Hunt;Mythic;1;1;6;1;0;0;6.69
+574899;Bloodthirsty Adversary;Innistrad: Midnight Hunt: Extras;Mythic;1;1;6;1;0;0;9.06
+574957;Reckless Stormseeker // Storm-Charged Slasher;Innistrad: Midnight Hunt;Rare;2;1;6;0;0;0;5.63
+574967;Teferi, Who Slows the Sunset;Innistrad: Midnight Hunt;Mythic;1;1;6;0;0;0;6.52
+574968;Teferi, Who Slows the Sunset;Innistrad: Midnight Hunt: Extras;Mythic;1;1;6;1;0;0;9.69
+575338;Fire Covenant;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;3;1;6;1;0;0;25.30
+575340;Fracturing Gust;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;1;0;0;53.81
+575337;Drown in the Loch;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;1;1;6;0;0;0;25.59
+575347;Gamble;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;0;0;0;13.86
+575348;Nature's Lore;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;0;0;0;27.11
+575349;Preordain;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;2;1;6;0;0;0;29.95
+575350;Wrath of God;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;0;0;0;11.96
+575339;Fractured Identity;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;3;1;6;1;0;0;59.99
+575339;Fractured Identity;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;0;0;0;9.99
+575335;All Is Dust;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;1;0;0;16.99
+575335;All Is Dust;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;0;0;0;14.00
+575336;Artifact Mutation;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;3;1;6;1;0;0;52.49
+575337;Drown in the Loch;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;3;1;6;0;0;0;25.59
+575338;Fire Covenant;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;0;0;0;19.99
+575337;Drown in the Loch;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;3;1;6;1;0;0;30.13
+575346;Decree of Pain;Secret Lair Drop Series: Dr. Lair's Secretorium Superdrop;Rare;4;1;6;0;0;0;5.95
+575379;Drown in Dreams (V.1);Commander: Innistrad: Midnight Hunt;Rare;1;1;6;0;0;0;5.14
+575379;Drown in Dreams (V.1);Commander: Innistrad: Midnight Hunt;Rare;3;1;6;0;0;0;5.14
+581196;Impact Tremors;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;2;1;6;1;0;0;14.00
+581200;Primal Vigor;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;22.88
+581211;Birds of Paradise;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;9.83
+575660;Poppet Stitcher // Poppet Factory;Innistrad: Midnight Hunt: Promos;Mythic;1;1;6;1;0;0;8.78
+575957;Lier, Disciple of the Drowned (V.2);Innistrad: Midnight Hunt: Promos;Mythic;1;1;6;0;0;0;10.00
+576042;Unholy Grotto;The List;Rare;1;1;6;0;0;0;10.45
+581237;Spell Queller;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;10.46
+581239;Archaeomancer;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;1;1;6;0;0;0;18.95
+581239;Archaeomancer;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;22.99
+581241;Bloom Tender;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;29.95
+581241;Bloom Tender;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;1;1;6;0;0;0;27.43
+581243;Mesa Enchantress;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;1;1;6;0;0;0;7.67
+581243;Mesa Enchantress;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;57.67
+581244;Meteor Golem;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;6.06
+577154;Arcane Signet (V.2);Secret Lair Drop Series;Rare;4;1;6;1;0;0;42.50
+577363;Morophon, the Boundless;Innistrad: Midnight Hunt: Promos;Mythic;1;2;6;1;0;0;50.00
+577363;Morophon, the Boundless;Innistrad: Midnight Hunt: Promos;Mythic;1;1;6;0;0;0;26.00
+581190;Whir of Invention;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;7.47
+581222;Wasteland;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;27.50
+581225;Dryad of the Ilysian Grove;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;2;1;6;0;0;0;42.71
+581230;Metallic Mimic;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;1;1;6;0;0;0;17.09
+581230;Metallic Mimic;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;15.78
+581232;Sakura-Tribe Elder;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;14.94
+581263;Sheoldred, Whispering One;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;5;1;6;1;0;0;10.20
+581285;Mother of Runes (V.3);Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;4;1;6;1;0;0;8.18
+581287;Mother of Runes (V.4);Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;2;1;6;1;0;0;17.66
+581327;Olivia, Crimson Bride (V.1);Innistrad: Crimson Vow: Extras;Mythic;1;1;5;0;0;0;12.92
+581327;Olivia, Crimson Bride (V.1);Innistrad: Crimson Vow: Extras;Mythic;1;1;6;0;0;0;13.14
+581266;Vorinclex, Voice of Hunger;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;4;1;6;1;0;0;6.73
+581266;Vorinclex, Voice of Hunger;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;4;1;6;0;0;0;6.60
+581274;Mother of Runes (V.1);Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;1;1;6;1;0;0;9.98
+581283;Mother of Runes (V.2);Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Rare;3;1;6;1;0;0;11.13
+581259;Elesh Norn, Grand Cenobite;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;4;1;6;0;0;0;20.49
+581259;Elesh Norn, Grand Cenobite;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;4;1;6;1;0;0;22.09
+581261;Jin-Gitaxias, Core Augur;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;4;1;6;1;0;0;55.66
+581261;Jin-Gitaxias, Core Augur;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;4;1;6;0;0;0;5.66
+581263;Sheoldred, Whispering One;Secret Lair Drop Series: All-Natural, Totally Refreshing Superdrop;Mythic;4;1;6;0;0;0;9.50
+581345;Deathcap Glade;Innistrad: Crimson Vow;Rare;3;1;6;0;0;0;10.09
+581346;Deathcap Glade;Innistrad: Crimson Vow: Extras;Rare;1;1;6;0;0;0;10.77
+581347;Dreamroot Cascade;Innistrad: Crimson Vow;Rare;3;1;6;0;0;0;6.87
+581350;Sundown Pass;Innistrad: Crimson Vow;Rare;3;1;6;0;0;0;7.09
+581351;Sundown Pass;Innistrad: Crimson Vow: Extras;Rare;1;1;6;0;0;0;7.53
+581351;Sundown Pass;Innistrad: Crimson Vow: Extras;Rare;1;1;5;0;0;0;7.40
+581354;Olivia, Crimson Bride;Innistrad: Crimson Vow;Mythic;2;1;6;0;0;0;8.79
+581356;Sorin the Mirthless;Innistrad: Crimson Vow;Mythic;4;1;6;0;0;0;8.36
+581654;Chandra, Dressed to Kill;Innistrad: Crimson Vow;Mythic;1;1;6;0;0;0;11.99
+581654;Chandra, Dressed to Kill;Innistrad: Crimson Vow;Mythic;1;1;6;1;0;0;14.67
+581666;Hallowed Haunting;Innistrad: Crimson Vow;Mythic;1;1;6;0;0;0;12.40
+581666;Hallowed Haunting;Innistrad: Crimson Vow;Mythic;1;1;5;0;0;0;12.18
+581688;Toxrill, the Corrosive;Innistrad: Crimson Vow;Mythic;1;2;6;0;0;0;17.60
+581688;Toxrill, the Corrosive;Innistrad: Crimson Vow;Mythic;1;1;6;0;0;0;18.40
+581689;Toxrill, the Corrosive;Innistrad: Crimson Vow: Extras;Mythic;3;1;6;0;0;0;17.56
+581905;Cultivator Colossus;Innistrad: Crimson Vow;Mythic;3;1;6;0;0;0;11.41
+583996;Umbris, Fear Manifest (V.1);Commander: Innistrad: Crimson Vow;Mythic;1;2;6;0;0;0;7.34
+582246;Henrika Domnathi // Henrika, Infernal Seer (V.2);Innistrad: Crimson Vow: Extras;Mythic;3;1;6;0;0;0;5.74
+582912;Avabruck Caretaker // Hollowhenge Huntmaster;Innistrad: Crimson Vow;Mythic;3;1;6;0;0;0;8.91
+583916;Blood Moon;The List;Rare;1;1;6;0;0;0;11.37
+583973;Unwinding Clock;The List;Rare;1;1;5;0;0;0;5.27
+584502;Spirit Cleric Token (White */*);Innistrad: Crimson Vow: Extras;Token;3;1;6;0;0;0;5.20
+584504;Slug Token (Black 1/1);Innistrad: Crimson Vow: Extras;Token;2;1;6;0;0;0;6.12
+584505;Vampire Token (Black 2/3);Innistrad: Crimson Vow: Extras;Token;3;1;6;0;0;0;5.38
+605019;Atsushi, the Blazing Sky;Kamigawa: Neon Dynasty;Mythic;1;1;6;1;0;0;8.38
+605052;Sanctum Prelate;Secret Lair Drop Series: Out of Time Superdrop;Mythic;4;1;6;1;0;0;5.10
+605053;Carpet of Flowers;Secret Lair Drop Series: Out of Time Superdrop;Rare;2;1;6;1;0;0;58.44
+605054;Sphere of Safety;Secret Lair Drop Series: Out of Time Superdrop;Rare;3;1;6;1;0;0;50.00
+605060;Brazen Borrower // Petty Theft;Secret Lair Drop Series: Out of Time Superdrop;Mythic;4;1;6;1;0;0;33.15
+605061;Vindictive Lich;Secret Lair Drop Series: Out of Time Superdrop;Rare;4;1;6;1;0;0;5.38
+605063;Ohran Frostfang;Secret Lair Drop Series: Out of Time Superdrop;Rare;4;1;6;1;0;0;29.99
+605070;Wrexial, the Risen Deep;Secret Lair Drop Series;Mythic;4;1;6;1;0;0;5.13
+605070;Wrexial, the Risen Deep;Secret Lair Drop Series;Mythic;1;1;5;1;0;0;5.03
+605019;Atsushi, the Blazing Sky;Kamigawa: Neon Dynasty;Mythic;1;1;5;1;0;0;8.24
+605020;Kaito Shizuki;Kamigawa: Neon Dynasty;Mythic;2;1;6;0;0;0;6.02
+605051;Teferi, Time Raveler;Secret Lair Drop Series: Out of Time Superdrop;Rare;1;1;6;0;0;0;24.62
+605051;Teferi, Time Raveler;Secret Lair Drop Series: Out of Time Superdrop;Rare;3;1;6;0;0;0;24.62
+605055;Karmic Guide;Secret Lair Drop Series: Out of Time Superdrop;Rare;4;1;6;1;0;0;9.70
+605057;Sliver Hivelord;Secret Lair Drop Series: Out of Time Superdrop;Mythic;3;1;6;1;0;0;24.75
+605059;Spellskite;Secret Lair Drop Series: Out of Time Superdrop;Rare;4;1;6;1;0;0;7.11
+586718;Island (V.2);Unfinity;Land;1;1;6;1;0;0;5.83
+605049;Dack Fayden;Secret Lair Drop Series: Out of Time Superdrop;Mythic;4;1;6;0;0;0;8.75
+607192;Junji, the Midnight Sky;Kamigawa: Neon Dynasty;Mythic;1;7;6;0;0;0;6.90
+606992;The Wandering Emperor (V.1);Kamigawa: Neon Dynasty: Extras;Mythic;1;1;6;0;0;0;32.55
+607021;Boseiju, Who Endures (V.1);Kamigawa: Neon Dynasty: Extras;Rare;1;1;4;0;0;0;50.64
+607045;Ao, the Dawn Sky (V.1);Kamigawa: Neon Dynasty: Extras;Mythic;2;1;6;0;0;0;6.74
+607192;Junji, the Midnight Sky;Kamigawa: Neon Dynasty;Mythic;1;4;6;0;0;0;6.34
+607192;Junji, the Midnight Sky;Kamigawa: Neon Dynasty;Mythic;1;1;6;1;0;0;8.05
+608606;Kappa Cannoneer (V.1);Commander: Kamigawa: Neon Dynasty;Rare;3;1;6;0;0;0;5.93
+607194;Junji, the Midnight Sky (V.2);Kamigawa: Neon Dynasty: Extras;Mythic;1;2;6;0;0;0;10.21
+608604;Cyberdrive Awakener (V.1);Commander: Kamigawa: Neon Dynasty;Rare;1;1;6;0;0;0;5.63
+608628;Yoshimaru, Ever Faithful (V.1);Commander: Kamigawa: Neon Dynasty;Mythic;1;1;6;0;0;0;6.54
+608604;Cyberdrive Awakener (V.1);Commander: Kamigawa: Neon Dynasty;Rare;1;2;6;0;0;0;5.40
+608606;Kappa Cannoneer (V.1);Commander: Kamigawa: Neon Dynasty;Rare;1;1;6;0;0;0;5.93
+608956;Rhythm of the Wild;Commander: Kamigawa: Neon Dynasty;Uncommon;3;1;6;0;0;0;5.76
+609023;March of Otherworldly Light (V.1);Kamigawa: Neon Dynasty: Promos;Rare;1;2;6;1;0;0;6.29
+609064;Boseiju, Who Endures (V.1);Kamigawa: Neon Dynasty: Promos;Rare;1;1;6;1;0;0;62.65
+609559;Sakashima's Student;The List;Rare;1;1;6;0;0;0;14.93
+611271;Spara's Headquarters;Streets of New Capenna;Rare;1;1;5;0;0;0;10.63
+611271;Spara's Headquarters;Streets of New Capenna;Rare;1;1;6;0;0;0;10.82
+611272;Xander's Lounge;Streets of New Capenna;Rare;1;1;6;0;0;0;10.53
+611273;Ziatora's Proving Ground;Streets of New Capenna;Rare;2;1;6;0;0;0;10.17
+611273;Ziatora's Proving Ground;Streets of New Capenna;Rare;1;1;6;0;0;0;10.17
+650830;Ancient Brass Dragon;Commander Legends: Battle for Baldur's Gate;Mythic;1;1;6;0;0;0;16.84
+609591;Hidetsugu Consumes All // Vessel of the All-Consuming;Kamigawa: Neon Dynasty: Promos;Mythic;1;1;6;1;0;0;8.99
+609871;Swords to Plowshares;Secret Lair Drop Series: MSCHF;Rare;4;1;6;1;0;0;20.99
+609872;Grim Tutor;Secret Lair Drop Series: MSCHF;Mythic;3;1;6;1;0;0;16.48
+609873;Blood Moon;Secret Lair Drop Series: MSCHF;Rare;4;1;6;1;0;0;28.00
+611227;Spellskite;Secret Lair Drop Series;Rare;4;1;6;1;0;0;5.42
+611270;Raffine's Tower;Streets of New Capenna;Rare;1;1;6;1;0;0;14.98
+609875;Teferi's Puzzle Box;Secret Lair Drop Series: MSCHF;Rare;4;1;6;1;0;0;5.85
+611271;Spara's Headquarters;Streets of New Capenna;Rare;1;1;6;0;0;0;10.82
+609432;Eiganjo, Seat of the Empire (V.2);Kamigawa: Neon Dynasty: Promos;Rare;1;2;4;1;0;0;1000.00
+650836;Bountiful Promenade;Commander Legends: Battle for Baldur's Gate;Rare;1;1;6;0;0;0;6.99
+650837;Luxury Suite;Commander Legends: Battle for Baldur's Gate;Rare;1;1;6;0;0;0;9.32
+650840;Sea of Clouds;Commander Legends: Battle for Baldur's Gate;Rare;3;1;6;0;0;0;7.19
+650841;Spire Garden;Commander Legends: Battle for Baldur's Gate;Rare;1;1;6;0;0;0;7.37
+651283;Elspeth Resplendent (V.2);Streets of New Capenna: Extras;Mythic;1;1;6;0;0;0;7.78
+651287;Ledger Shredder;Streets of New Capenna: Extras;Rare;1;1;6;0;0;0;15.94
+651866;Unlicensed Hearse;Streets of New Capenna;Rare;3;1;6;0;0;0;8.24
+651866;Unlicensed Hearse;Streets of New Capenna;Rare;1;2;6;0;0;0;7.90
+651882;Unlicensed Hearse;Streets of New Capenna: Extras;Rare;1;1;6;1;0;0;15.12
+652201;Titan of Industry;Streets of New Capenna;Mythic;3;1;6;0;0;0;6.00
+651362;Elspeth Resplendent;Streets of New Capenna;Mythic;1;1;6;0;0;0;5.33
+651375;Ob Nixilis, the Adversary;Streets of New Capenna;Mythic;2;1;6;0;0;0;8.11
+651637;Professional Face-Breaker;Streets of New Capenna;Rare;1;2;5;0;0;0;5.06
+651766;Luxior, Giada's Gift;Streets of New Capenna;Mythic;4;1;6;0;0;0;5.75
+652282;Zacama, Primal Calamity;The List;Mythic;1;1;6;0;0;0;7.04
+652281;Urabrask, Heretic Praetor (V.2);Streets of New Capenna: Extras;Mythic;1;1;5;0;0;0;5.73
+652104;Bootleggers' Stash;Streets of New Capenna;Mythic;2;1;6;0;0;0;6.31
+652441;Seize the Spotlight;Commander: Streets of New Capenna;Rare;3;1;6;0;0;0;5.37
+652410;Smuggler's Share;Commander: Streets of New Capenna;Rare;4;1;6;0;0;0;9.31
+652439;Rain of Riches;Commander: Streets of New Capenna;Rare;4;1;6;0;0;0;5.63
+652441;Seize the Spotlight;Commander: Streets of New Capenna;Rare;1;1;6;0;0;0;5.37
+652894;Scute Swarm;Commander: Streets of New Capenna;Rare;3;1;6;0;0;0;5.86
+652404;Damning Verdict;Commander: Streets of New Capenna;Rare;3;1;6;0;0;0;9.99
+652404;Damning Verdict;Commander: Streets of New Capenna;Rare;1;1;6;0;0;0;9.99
+652864;Avenger of Zendikar;Commander: Streets of New Capenna;Mythic;3;1;6;0;0;0;5.15
+652405;Grand Crescendo;Commander: Streets of New Capenna;Rare;1;1;6;0;0;0;8.59
+652864;Avenger of Zendikar;Commander: Streets of New Capenna;Mythic;1;1;6;0;0;0;5.15
+652405;Grand Crescendo;Commander: Streets of New Capenna;Rare;2;1;6;0;0;0;8.59
+652894;Scute Swarm;Commander: Streets of New Capenna;Rare;1;1;6;0;0;0;5.86
+653086;Ledger Shredder (V.2);Streets of New Capenna: Promos;Rare;1;2;5;1;0;0;16.56
+653191;Ziatora's Proving Ground (V.2);Streets of New Capenna: Promos;Rare;1;1;6;0;0;0;9.79
+653191;Ziatora's Proving Ground (V.2);Streets of New Capenna: Promos;Rare;1;2;6;1;0;0;9.71
+653027;Twilight Mire;Commander: Streets of New Capenna;Rare;4;1;6;0;0;0;5.49
+653070;Luxior, Giada's Gift (V.2);Streets of New Capenna: Promos;Mythic;1;1;6;1;0;0;7.49
+659368;Legion Loyalty;Commander Legends: Battle for Baldur's Gate;Mythic;1;1;6;0;0;0;5.48
+653180;Unlicensed Hearse (V.2);Streets of New Capenna: Promos;Rare;1;1;6;1;0;0;9.95
+653181;Unlicensed Hearse (V.1);Streets of New Capenna: Promos;Rare;1;1;5;1;0;0;19.12
+659269;Protection Racket;Commander: Streets of New Capenna: Promos;Rare;1;1;6;1;0;0;14.99
+659521;Weathered Sentinels;Commander: Streets of New Capenna: Promos;Rare;1;2;5;1;0;0;19.95
+658448;Battle Angels of Tyr;Commander Legends: Battle for Baldur's Gate;Mythic;3;1;6;0;0;0;21.88
+659243;Grand Crescendo;Commander: Streets of New Capenna: Promos;Rare;1;1;6;1;0;0;27.49
+660813;White Plume Adventurer;Commander Legends: Battle for Baldur's Gate: Extras;Rare;3;1;6;0;0;0;6.18
+660813;White Plume Adventurer;Commander Legends: Battle for Baldur's Gate: Extras;Rare;1;1;6;0;0;0;6.18
+661376;Black Market Connections (V.1);Commander Legends: Battle for Baldur's Gate: Extras;Rare;1;2;6;0;0;0;32.76
+660263;Kindred Discovery;Commander Legends: Battle for Baldur's Gate;Rare;2;1;6;0;0;0;9.83
+662059;Lightning Greaves;Commander Legends: Battle for Baldur's Gate: Extras;Uncommon;1;1;6;0;0;0;6.43
+660273;Balor;Commander Legends: Battle for Baldur's Gate;Mythic;1;1;6;0;0;0;6.56
+660706;Archivist of Oghma;Commander Legends: Battle for Baldur's Gate;Rare;2;1;6;0;0;0;10.44
+662139;Legion Loyalty;Commander Legends: Battle for Baldur's Gate: Promos;Mythic;1;1;6;1;0;0;7.44
+662759;Seasoned Dungeoneer (V.2);Commander Legends: Battle for Baldur's Gate: Extras;Rare;1;1;6;0;0;0;6.36
+664262;Dockside Extortionist (V.1);Double Masters 2022: Extras;Mythic;1;7;6;0;0;0;67.77
+664277;Kozilek, Butcher of Truth (V.3);Double Masters 2022: Extras;Mythic;1;1;6;1;0;0;102.04
+663195;Ashiok, Dream Render;Secret Lair Drop Series: February Superdrop 2022;Rare;1;1;6;1;0;0;12.13
+664235;Bitterblossom;Double Masters 2022;Mythic;1;7;6;0;0;0;20.48
+663975;Liliana, the Last Hope;Double Masters 2022;Mythic;1;1;6;0;0;0;6.83
+662759;Seasoned Dungeoneer (V.2);Commander Legends: Battle for Baldur's Gate: Extras;Rare;3;1;6;0;0;0;6.36
+663976;Imperial Seal;Double Masters 2022;Mythic;1;1;6;1;0;0;92.45
+664049;Bloom Tender;Double Masters 2022;Rare;1;7;6;0;0;0;10.21
+664067;Phyrexian Altar;Double Masters 2022;Rare;1;7;6;0;0;0;22.10
+663972;Mana Vault;Double Masters 2022;Mythic;1;1;6;0;0;0;40.81
+662271;Boo Token (Red 1/1);Commander Legends: Battle for Baldur's Gate: Extras;Token;1;1;6;0;0;0;7.32
+664281;Liliana, the Last Hope (V.1);Double Masters 2022: Extras;Mythic;3;1;6;0;0;0;11.19
+664937;Anguished Unmaking;Double Masters 2022: Extras;Rare;1;7;6;0;0;0;19.41
+664954;Pithing Needle (V.2);Double Masters 2022: Extras;Rare;1;1;6;1;0;0;9.89
+664297;Damnation;Double Masters 2022;Rare;1;7;6;0;0;0;16.49
+664853;Emrakul, the Aeons Torn;Double Masters 2022;Mythic;1;1;6;0;0;0;19.84
+664297;Damnation;Double Masters 2022;Rare;1;1;6;0;0;0;16.49
+664397;Supreme Verdict (V.1);Double Masters 2022: Extras;Rare;1;1;6;0;0;0;7.34
+664874;Animar, Soul of Elements;Double Masters 2022;Mythic;2;1;6;0;0;0;6.81
+664530;Lightning Bolt;Double Masters 2022: Extras;Uncommon;1;1;6;1;0;0;5.51
+664531;Seasoned Pyromancer (V.1);Double Masters 2022: Extras;Mythic;1;1;6;0;0;0;26.63
+664767;Elenda, the Dusk Rose;Double Masters 2022;Mythic;1;7;6;0;0;0;8.34
+664853;Emrakul, the Aeons Torn;Double Masters 2022;Mythic;1;7;6;0;0;0;19.84
+665160;Aurelia, the Warleader;Double Masters 2022;Mythic;1;1;6;0;0;0;6.33
+668456;Concordant Crossroads;Secret Lair Drop Series: April Superdrop 2022;Rare;1;1;6;1;0;0;16.62
+665210;Panharmonicon;Double Masters 2022;Rare;1;7;6;0;0;0;5.25
+665213;City of Brass;Double Masters 2022;Rare;1;7;6;0;0;0;12.41
+665213;City of Brass;Double Masters 2022;Rare;1;7;6;1;0;0;18.00
+665740;Surgical Extraction;Double Masters 2022;Rare;3;1;6;0;0;0;5.20
+665740;Surgical Extraction;Double Masters 2022;Rare;1;7;6;0;0;0;5.20
+665779;Hydroid Krasis;Double Masters 2022;Rare;2;7;6;0;0;0;5.06
+665809;Smothering Tithe (V.1);Double Masters 2022: Extras;Rare;1;7;6;0;0;0;28.42
+665813;Surgical Extraction (V.1);Double Masters 2022: Extras;Rare;2;1;6;0;0;0;7.01
+665813;Surgical Extraction (V.1);Double Masters 2022: Extras;Rare;1;7;6;1;0;0;13.91
+671393;Adarkar Wastes;Dominaria United;Rare;1;1;6;0;0;0;6.18
+671549;Liliana of the Veil;Dominaria United: Extras;Mythic;1;1;6;1;0;0;25.85
+671359;Sheoldred, the Apocalypse;Dominaria United;Mythic;2;1;6;0;0;0;92.21
+671635;Plaza of Heroes;Dominaria United;Rare;2;1;6;0;0;0;8.34
+672353;Leaf-Crowned Visionary;Dominaria United;Rare;1;1;6;0;0;0;5.94
+672277;Tiller Engine;Commander: Dominaria United: Extras;Rare;1;1;6;0;0;0;5.24
+672312;Leyline Binding;Dominaria United;Rare;4;1;6;1;0;0;15.45
+672353;Leaf-Crowned Visionary;Dominaria United;Rare;1;1;5;0;0;0;5.85
+671737;Plaza of Heroes;Dominaria United: Extras;Rare;1;1;5;1;0;0;11.07
+671743;The Reaver Cleaver;Commander: Dominaria United;Rare;3;1;6;0;0;0;11.83
+671749;Two-Headed Hellkite;Commander: Dominaria United;Rare;3;1;6;0;0;0;7.18
+671941;Serra Paragon;Dominaria United;Mythic;1;1;6;0;0;0;8.08
+672215;Shizo, Death's Storehouse;Commander: Dominaria United;Rare;3;1;6;0;0;0;7.82
+672215;Shizo, Death's Storehouse;Commander: Dominaria United;Rare;1;1;6;0;0;0;7.82
+673418;Leyline Binding (V.1);Dominaria United: Promos;Rare;1;1;6;1;0;0;18.01
+674260;Burgeoning;Secret Lair Drop Series: June Superdrop 2022;Rare;3;1;6;1;0;0;21.99
+674265;Elspeth, Knight-Errant;Secret Lair Drop Series: June Superdrop 2022;Mythic;1;1;6;1;0;0;7.36
+674274;Mystic Remora;Secret Lair Drop Series: June Superdrop 2022;Rare;4;1;6;0;0;0;28.99
+674274;Mystic Remora;Secret Lair Drop Series: June Superdrop 2022;Rare;4;1;6;1;0;0;44.99
+674306;Talisman of Indulgence (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;1;1;6;0;0;0;10.50
+674306;Talisman of Indulgence (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;3;1;6;0;0;0;10.50
+673804;Sheoldred, the Apocalypse (V.2);Dominaria United: Promos;Mythic;1;1;6;0;0;0;120.00
+673840;Timeless Lotus (V.2);Dominaria United: Promos;Mythic;1;1;6;0;0;0;8.60
+673845;Plaza of Heroes (V.2);Dominaria United: Promos;Rare;1;1;6;0;0;0;10.99
+673921;Elvish Champion;The List;Rare;1;1;6;0;0;0;7.72
+673921;Elvish Champion;The List;Rare;1;1;6;0;0;0;7.72
+673937;Helm of the Host;The List;Rare;1;1;6;0;0;0;6.03
+674259;Utopia Sprawl;Secret Lair Drop Series: June Superdrop 2022;Rare;4;1;6;0;0;0;14.15
+674259;Utopia Sprawl;Secret Lair Drop Series: June Superdrop 2022;Rare;4;1;6;1;0;0;13.37
+674260;Burgeoning;Secret Lair Drop Series: June Superdrop 2022;Rare;4;1;6;0;0;0;16.99
+674309;Talisman of Resilience (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;8.66
+674389;Manaweft Sliver;Secret Lair Drop Series;Rare;6;1;6;1;0;0;6.12
+674310;Talisman of Hierarchy (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;3;1;6;0;0;0;9.79
+674313;Talisman of Conviction (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;8.40
+674321;Talisman of Impulse (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;6.07
+674322;Talisman of Progress (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;10.51
+674325;Talisman of Curiosity (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;7.67
+674314;Talisman of Creativity (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;9.77
+674317;Talisman of Dominance (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;12.77
+674318;Talisman of Unity (V.1);Secret Lair Drop Series: August Superdrop 2022;Rare;4;1;6;0;0;0;7.46
+674378;Diffusion Sliver;Secret Lair Drop Series;Rare;2;1;6;1;0;0;5.03
+674743;The Red Terror;Universes Beyond: Warhammer 40,000;Rare;1;1;6;0;0;0;6.63
+676509;Pyrite Spellbomb;Secret Lair Drop Series;Rare;3;1;6;0;0;0;5.95
+674971;Grim Tutor;Secret Lair Drop Series: Fortnite;Mythic;4;1;6;0;0;0;15.32
+674975;Triumph of the Hordes;Secret Lair Drop Series: Fortnite;Rare;4;1;6;0;0;0;26.70
+675282;Temple of the False God;Universes Beyond: Warhammer 40,000;Uncommon;1;1;6;1;0;0;7.79
+675342;Biotransference;Universes Beyond: Warhammer 40,000;Rare;1;1;6;0;0;0;6.78
+675712;Vexilus Praetor;Universes Beyond: Warhammer 40,000;Rare;1;1;6;0;0;0;6.55
+674984;Smuggler's Copter;Secret Lair Drop Series: Fortnite;Rare;4;1;6;0;0;0;7.05
+674987;Wrath of God;Secret Lair Drop Series: Fortnite;Rare;4;1;6;0;0;0;6.00
+674988;Etherium Sculptor;Secret Lair Drop Series: Fortnite;Rare;4;1;6;0;0;0;5.65
+676038;Comet, Stellar Pup;Unfinity;Mythic;1;1;6;0;0;0;10.06
+678194;Urza, Lord Protector // Urza, Planeswalker;The Brothers' War;Mythic;4;1;6;0;0;0;7.75
+678547;Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant (V.2);Universes Beyond: Transformers;Mythic;1;1;6;0;0;0;5.38
+682327;Loran of the Third Path;The Brothers' War;Rare;3;1;6;0;0;0;8.57
+682330;Brotherhood's End;The Brothers' War;Rare;2;1;6;0;0;0;5.09
+682330;Brotherhood's End;The Brothers' War;Rare;2;1;6;0;0;0;5.09
+681773;Titania, Voice of Gaea // Titania, Gaea Incarnate;The Brothers' War;Mythic;3;1;6;0;0;0;9.28
+681774;Mishra, Claimed by Gix // Mishra, Lost to Phyrexia;The Brothers' War;Mythic;2;1;6;0;0;0;6.71
+682295;Ashnod's Altar (V.1);Retro Frame Artifacts;Rare;1;1;6;0;0;0;5.53
+682332;Diabolic Intent;The Brothers' War;Rare;3;1;6;0;0;0;7.97
+681766;Teferi, Temporal Pilgrim;The Brothers' War;Mythic;3;1;6;0;0;0;8.44
+681768;Gix, Yawgmoth Praetor;The Brothers' War;Mythic;1;1;3;1;0;0;10.64
+681768;Gix, Yawgmoth Praetor;The Brothers' War;Mythic;3;1;6;0;0;0;7.86
+681768;Gix, Yawgmoth Praetor;The Brothers' War;Mythic;1;1;5;0;0;0;7.71
+682083;Teferi, Temporal Pilgrim;The Brothers' War: Extras;Mythic;2;1;6;0;0;0;7.96
+682643;Altar of Dementia (V.2);Retro Frame Artifacts;Mythic;1;1;6;1;0;0;14.34
+682656;One with the Multiverse;The Brothers' War: Extras;Mythic;1;1;6;0;0;0;6.71
+682652;Loran of the Third Path;The Brothers' War: Extras;Rare;4;1;6;0;0;0;9.89
+682868;Rootpath Purifier (V.1);Commander: The Brothers' War: Extras;Mythic;1;1;6;0;0;0;9.57
+683445;Cityscape Leveler;The Brothers' War;Mythic;3;1;6;0;0;0;25.81
+682880;Urza's Workshop (V.2);Commander: The Brothers' War: Extras;Rare;2;1;6;0;0;0;11.68
+682908;Mox Amber (V.1);Retro Frame Artifacts;Mythic;1;1;6;0;0;0;27.40
+682951;Mesmeric Orb (V.2);Retro Frame Artifacts;Mythic;1;7;6;1;0;0;9.00
+683330;Awaken the Woods;The Brothers' War;Mythic;2;1;6;0;0;0;12.88
+683361;The Stone Brain;The Brothers' War: Extras;Rare;1;1;6;1;0;0;6.49
+682691;Diabolic Intent;The Brothers' War: Extras;Rare;1;7;6;1;0;0;13.50
+685087;Brotherhood's End (V.2);The Brothers' War: Promos;Rare;1;2;5;1;0;0;5.37
+685013;Gix, Yawgmoth Praetor (V.2);The Brothers' War: Promos;Mythic;1;2;6;0;0;0;6.49
+685013;Gix, Yawgmoth Praetor (V.2);The Brothers' War: Promos;Mythic;2;1;6;0;0;0;6.49
+685402;Arclight Phoenix;Secret Lair Drop Series: 30th Anniversary Countdown Kit;Mythic;1;1;6;0;0;0;9.10
+685699;Birds of Paradise (V.1);Secret Lair Drop Series: Extra Life 2022;Rare;3;1;6;0;0;0;15.67
+685700;Birds of Paradise (V.2);Secret Lair Drop Series: Extra Life 2022;Rare;4;1;6;0;0;0;14.81
+685701;Lathliss, Dragon Queen (V.1);Secret Lair Drop Series: Extra Life 2022;Rare;4;1;6;0;0;0;5.79
+686298;Archaeomancer's Map;The List;Rare;1;1;6;0;0;0;8.02
+686381;Preston, the Vanisher;Jumpstart 2022;Rare;2;1;6;0;0;0;14.29
+686371;Lita, Mechanical Engineer;Jumpstart 2022;Mythic;2;1;6;0;0;0;15.16
+686371;Lita, Mechanical Engineer;Jumpstart 2022;Mythic;1;3;6;0;0;0;14.50
+686380;Pirated Copy;Jumpstart 2022;Mythic;2;1;6;0;0;0;11.53
+686380;Pirated Copy;Jumpstart 2022;Mythic;1;1;6;0;0;0;11.53
+685702;Lathliss, Dragon Queen (V.2);Secret Lair Drop Series: Extra Life 2022;Rare;4;1;6;0;0;0;5.13
+686310;Balan, Wandering Knight;Jumpstart 2022;Rare;2;1;6;0;0;0;11.41
+686325;Kiki-Jiki, Mirror Breaker;Jumpstart 2022;Mythic;1;1;6;0;0;0;8.45
+685703;Sliver Legion (V.2);Secret Lair Drop Series: Extra Life 2022;Mythic;4;1;6;0;0;0;26.09
+685704;Sliver Legion (V.1);Secret Lair Drop Series: Extra Life 2022;Mythic;4;1;6;0;0;0;39.99
+686386;Runadi, Behemoth Caller;Jumpstart 2022;Rare;1;1;6;0;0;0;5.16
+686386;Runadi, Behemoth Caller;Jumpstart 2022;Rare;1;1;6;0;0;0;5.16
+686452;Panharmonicon;Jumpstart 2022;Rare;1;1;6;0;0;0;6.06
+686456;Tamiyo, the Moon Sage;Jumpstart 2022;Mythic;1;1;6;0;0;0;5.05
+686481;Spellstutter Sprite;Jumpstart 2022;Common;1;1;6;0;0;0;7.51
+686504;Vendilion Clique;Jumpstart 2022;Mythic;1;1;6;0;0;0;5.80
+686810;Rhystic Study;Jumpstart 2022;Rare;1;3;6;0;0;0;30.98
+686739;The Mightstone and Weakstone // Urza, Planeswalker;The Brothers' War: Promos;Rare;1;1;6;1;0;0;6.40
+686809;Brazen Cannonade;Jumpstart 2022;Rare;1;1;6;0;0;0;7.21
+686810;Rhystic Study;Jumpstart 2022;Rare;1;1;6;0;0;0;32.38
+686865;Righteous Valkyrie;Jumpstart 2022;Rare;1;3;6;0;0;0;6.10
+686865;Righteous Valkyrie;Jumpstart 2022;Rare;1;1;6;0;0;0;6.36
+686959;Benevolent Hydra;Jumpstart 2022;Rare;1;3;6;0;0;0;10.24
+686966;Phyrexian Reclamation;Jumpstart 2022;Uncommon;1;1;6;0;0;0;5.04
+686781;Auntie Blyte, Bad Influence;Jumpstart 2022;Mythic;1;1;6;0;0;0;6.21
+687176;Goldspan Dragon;Jumpstart 2022;Mythic;1;1;6;0;0;0;13.04
+687041;Preordain;Jumpstart 2022;Common;2;1;6;0;0;0;5.14
+688337;Magus of the Wheel;Secret Lair Drop Series: December Superdrop 2022;Rare;4;1;6;0;0;0;9.99
+688340;The Scarab God;Secret Lair Drop Series: December Superdrop 2022;Mythic;3;1;6;0;0;0;29.99
+688219;Ghalta, Primal Hunger;Secret Lair Drop Series: December Superdrop 2022;Rare;4;1;6;0;0;0;9.99
+688222;Blightsteel Colossus;Secret Lair Drop Series: December Superdrop 2022;Mythic;4;1;6;0;0;0;44.99
+688252;Darksteel Colossus;Secret Lair Drop Series: December Superdrop 2022;Mythic;4;1;6;0;0;0;9.99
+688322;Kess, Dissident Mage;Secret Lair Drop Series: December Superdrop 2022;Mythic;4;1;6;0;0;0;9.99
+687466;Braids, Arisen Nightmare;Game Day Promos;Rare;1;2;5;1;0;0;7.92
+688332;Etali, Primal Storm;Secret Lair Drop Series: December Superdrop 2022;Rare;4;1;6;0;0;0;9.99
+688353;Birds of Paradise (V.2);Dominaria Remastered: Extras;Rare;2;1;6;0;0;0;7.86
+688331;Seize the Day;Secret Lair Drop Series: December Superdrop 2022;Rare;4;1;6;0;0;0;9.99
+688184;Ulamog, the Ceaseless Hunger;Secret Lair Drop Series: December Superdrop 2022;Mythic;4;1;6;0;0;0;44.99
+688187;Doubling Cube;Secret Lair Drop Series: December Superdrop 2022;Rare;4;1;6;0;0;0;9.99
+688394;Entomb (V.1);Dominaria Remastered: Extras;Rare;1;1;5;0;0;0;9.06
+688354;Birds of Paradise (V.1);Dominaria Remastered: Extras;Rare;1;1;6;1;0;0;39.42
+688371;Dark Depths (V.2);Dominaria Remastered: Extras;Mythic;1;1;6;1;0;0;14.85
+688392;Enlightened Tutor;Dominaria Remastered;Rare;1;1;6;1;0;0;18.17
+688393;Entomb (V.2);Dominaria Remastered: Extras;Rare;1;1;6;1;0;0;10.96
+688395;Entomb;Dominaria Remastered;Rare;3;1;6;0;0;0;9.25
+688394;Entomb (V.1);Dominaria Remastered: Extras;Rare;3;1;6;0;0;0;9.23
+688478;No Mercy (V.1);Dominaria Remastered: Extras;Mythic;2;1;6;1;0;0;15.27
+688469;Mystical Tutor (V.2);Dominaria Remastered: Extras;Rare;1;2;6;0;0;0;8.70
+688472;Mystic Remora (V.1);Dominaria Remastered: Extras;Rare;1;1;6;1;0;0;11.85
+688472;Mystic Remora (V.1);Dominaria Remastered: Extras;Rare;1;7;6;0;0;0;6.91
+688477;No Mercy (V.2);Dominaria Remastered: Extras;Mythic;1;7;6;0;0;0;10.74
+688456;Lyra Dawnbringer (V.2);Dominaria Remastered: Extras;Mythic;4;1;6;0;0;0;7.99
+688471;Mystical Tutor;Dominaria Remastered;Rare;2;1;6;0;0;0;8.64
+688722;Gamble;Dominaria Remastered;Rare;1;1;6;0;0;0;5.38
+688575;Worldly Tutor;Dominaria Remastered;Rare;1;1;6;1;0;0;10.08
+688517;Sneak Attack;Dominaria Remastered: Extras;Mythic;1;1;6;1;0;0;21.75
+688561;Vampiric Tutor (V.1);Dominaria Remastered: Extras;Mythic;1;1;6;0;0;0;32.67
+688571;Worldgorger Dragon (V.1);Dominaria Remastered: Extras;Mythic;1;7;6;1;0;0;6.99
+688575;Worldly Tutor;Dominaria Remastered;Rare;1;1;5;0;0;0;9.61
+692148;Nissa, Ascended Animist;Phyrexia: All Will Be One;Mythic;1;1;6;0;0;0;5.52
+692393;Mondrak, Glory Dominus;Phyrexia: All Will Be One;Mythic;1;1;6;0;0;0;21.68
+692409;Mondrak, Glory Dominus (V.1);Phyrexia: All Will Be One: Extras;Mythic;1;1;6;1;0;0;22.49
+692431;Seachrome Coast;Phyrexia: All Will Be One: Extras;Rare;1;1;6;1;0;0;6.60
+692437;Skrelv, Defector Mite (V.2);Phyrexia: All Will Be One: Extras;Rare;1;1;6;1;0;0;10.50
+688855;Gamble (V.1);Dominaria Remastered: Extras;Rare;1;1;6;0;0;0;5.29
+689721;Elesh Norn, Mother of Machines;Phyrexia: All Will Be One;Mythic;1;1;6;0;0;0;26.90
+692373;Skrelv, Defector Mite;Phyrexia: All Will Be One;Rare;2;1;6;1;0;0;6.55
+692378;Blackcleave Cliffs;Phyrexia: All Will Be One;Rare;1;1;6;1;0;0;5.77
+692378;Blackcleave Cliffs;Phyrexia: All Will Be One;Rare;1;1;6;1;0;0;5.77
+692378;Blackcleave Cliffs;Phyrexia: All Will Be One;Rare;1;7;6;1;0;0;7.97
+689723;Phyrexian Obliterator;Phyrexia: All Will Be One;Mythic;1;1;6;0;0;0;8.33
+692393;Mondrak, Glory Dominus;Phyrexia: All Will Be One;Mythic;1;1;6;1;0;0;22.45
+689723;Phyrexian Obliterator;Phyrexia: All Will Be One;Mythic;1;2;5;0;0;0;7.84
+692704;Venerated Rotpriest;Phyrexia: All Will Be One: Extras;Rare;1;7;6;1;0;0;12.98
+693350;Flawless Maneuver;Commander: Phyrexia: All Will Be One;Rare;1;1;6;0;0;0;6.98
+693350;Flawless Maneuver;Commander: Phyrexia: All Will Be One;Rare;3;1;6;0;0;0;6.98
+692867;Tyrranax Rex;Phyrexia: All Will Be One;Mythic;1;1;6;0;0;0;6.62
+692870;Sword of Forge and Frontier;Phyrexia: All Will Be One;Mythic;1;1;5;0;0;0;9.66
+692870;Sword of Forge and Frontier;Phyrexia: All Will Be One;Mythic;1;1;6;0;0;0;9.83
+692870;Sword of Forge and Frontier;Phyrexia: All Will Be One;Mythic;1;1;6;1;0;0;11.35
+692870;Sword of Forge and Frontier;Phyrexia: All Will Be One;Mythic;1;2;6;0;0;0;9.41
+692898;Tyrranax Rex (V.1);Phyrexia: All Will Be One: Extras;Mythic;1;1;6;0;0;0;6.63
+693254;Norn's Choirmaster;Commander: Phyrexia: All Will Be One;Rare;4;1;6;0;0;0;5.48
+693270;Clever Concealment;Commander: Phyrexia: All Will Be One;Rare;1;1;6;0;0;0;8.31
+693270;Clever Concealment;Commander: Phyrexia: All Will Be One;Rare;3;1;6;0;0;0;8.31
+693388;Staff of the Storyteller;Commander: Phyrexia: All Will Be One: Extras;Rare;2;1;6;0;0;0;10.05
+693393;Norn's Choirmaster;Commander: Phyrexia: All Will Be One: Extras;Rare;1;7;6;0;0;0;5.42
+695512;Vraska, Betrayal's Sting (V.2);Phyrexia: All Will Be One: Promos;Mythic;1;1;6;0;0;0;18.69
+694333;Ichormoon Gauntlet;Phyrexia: All Will Be One;Mythic;2;1;6;0;0;0;7.99
+695510;Phyrexian Obliterator (V.2);Phyrexia: All Will Be One: Promos;Mythic;1;1;6;0;0;0;13.19
+695462;The Mycosynth Gardens (V.1);Phyrexia: All Will Be One: Promos;Rare;1;2;6;1;0;0;8.53
+697762;Faerie Mastermind;March of the Machine;Rare;1;1;5;1;0;0;12.01
+695533;Venerated Rotpriest (V.2);Phyrexia: All Will Be One: Promos;Rare;1;1;6;0;0;0;5.14
+693394;Clever Concealment;Commander: Phyrexia: All Will Be One: Extras;Rare;1;1;6;0;0;0;10.99
+701761;Mount Doom;The Lord of the Rings: Tales of Middle-earth;Mythic;4;1;6;0;0;0;5.41
+701761;Mount Doom;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;1;0;0;7.69
+694175;All Will Be One;Phyrexia: All Will Be One;Mythic;1;1;6;1;0;0;11.50
+695300;Mycosynth Lattice;The List;Mythic;2;1;6;0;0;0;8.82
+695308;Sword of Feast and Famine;The List;Mythic;1;1;6;0;0;0;25.12
+695409;Phyrexian Arena (V.1);Phyrexia: All Will Be One: Promos;Rare;1;1;6;1;0;0;5.26
+697962;Breach the Multiverse;March of the Machine: Extras;Rare;2;1;6;1;0;0;6.43
+697767;Chandra, Hope's Beacon;March of the Machine;Mythic;1;1;6;0;0;0;8.26
+697958;Chandra, Hope's Beacon;March of the Machine: Extras;Mythic;2;1;6;0;0;0;8.82
+701676;The One Ring;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;70.81
+701676;The One Ring;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;1;0;0;103.05
+701768;Tom Bombadil;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;7.54
+701769;Mount Doom;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;9.61
+701769;Mount Doom;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;3;1;6;0;0;0;6.65
+703493;Invasion of Tarkir // Defiant Thundermaw;March of the Machine;Mythic;4;1;6;0;0;0;6.95
+704162;Skithiryx, the Blight Dragon (V.2);Multiverse Legends;Mythic;1;1;6;1;0;0;18.72
+704163;Skithiryx, the Blight Dragon (V.1);Multiverse Legends;Mythic;1;1;6;0;0;0;7.31
+704166;Ragavan, Nimble Pilferer (V.1);Multiverse Legends;Mythic;2;1;6;1;0;0;66.18
+704166;Ragavan, Nimble Pilferer (V.1);Multiverse Legends;Mythic;1;1;6;0;0;0;49.90
+703459;Etali, Primal Conqueror // Etali, Primal Sickness;March of the Machine;Rare;1;2;6;0;0;0;5.85
+703137;Archangel Elspeth;March of the Machine: Extras;Mythic;1;1;6;1;0;0;7.56
+703222;Wrenn and Realmbreaker;March of the Machine: Extras;Mythic;1;1;6;1;0;0;14.32
+703457;Elesh Norn // The Argent Etchings;March of the Machine;Mythic;1;1;6;0;0;0;9.95
+703478;Invasion of New Phyrexia // Teferi Akosa of Zhalfir;March of the Machine;Mythic;1;7;6;1;0;0;5.93
+703561;Sword of Once and Future;March of the Machine: Extras;Mythic;1;7;6;1;0;0;16.99
+703587;Elesh Norn // The Argent Etchings (V.1);March of the Machine: Extras;Mythic;1;1;6;0;0;0;9.71
+704054;Tribute to the World Tree;March of the Machine;Rare;3;1;6;0;0;0;7.15
+704155;Elesh Norn, Grand Cenobite (V.1);Multiverse Legends;Mythic;2;1;6;0;0;0;12.55
+704175;Atraxa, Praetors' Voice (V.1);Multiverse Legends;Mythic;1;1;6;0;0;0;12.20
+705481;Bitterthorn, Nissa's Animus;Commander: March of the Machine;Rare;1;1;6;0;0;0;9.35
+705481;Bitterthorn, Nissa's Animus;Commander: March of the Machine;Rare;2;1;6;0;0;0;9.35
+705447;Chivalric Alliance;Commander: March of the Machine;Rare;2;1;6;0;0;0;5.51
+705447;Chivalric Alliance;Commander: March of the Machine;Rare;2;1;6;0;0;0;5.51
+705453;Nesting Dovehawk;Commander: March of the Machine;Rare;3;1;6;0;0;0;7.57
+705481;Bitterthorn, Nissa's Animus;Commander: March of the Machine;Rare;1;1;6;0;0;0;9.35
+704390;Ozolith, the Shattered Spire;March of the Machine;Rare;2;1;6;0;0;0;6.58
+704920;Sheoldred // The True Scriptures (V.1);March of the Machine: Extras;Mythic;1;7;6;0;0;0;20.41
+704945;Tribute to the World Tree;March of the Machine: Extras;Rare;1;1;5;1;0;0;9.01
+705048;Umori, the Collector (V.4);Multiverse Legends;Rare;1;1;6;1;0;0;598.13
+705555;Adeline, Resplendent Cathar;Commander: March of the Machine;Rare;4;1;6;0;0;0;12.27
+704286;Invasion of Gobakhan // Lightshield Array;March of the Machine;Rare;4;1;6;0;0;0;6.31
+710172;Calix, Guided by Fate;March of the Machine: The Aftermath;Mythic;1;1;6;0;0;0;25.30
+705887;Academy Manufactor;Commander: March of the Machine;Rare;2;1;6;0;0;0;6.61
+705887;Academy Manufactor;Commander: March of the Machine;Rare;2;1;6;0;0;0;6.61
+706405;Goro-Goro and Satoru (V.2);Commander: March of the Machine: Extras;Mythic;1;1;6;1;0;0;8.95
+705836;Kalonian Hydra;Commander: March of the Machine;Mythic;2;1;6;0;0;0;5.55
+705836;Kalonian Hydra;Commander: March of the Machine;Mythic;2;1;6;0;0;0;5.55
+706152;Phyrexian Crusader;The List;Rare;1;1;6;0;0;0;8.45
+706195;Ketria Triome;The List;Rare;1;1;6;0;0;0;12.11
+706304;Etali, Primal Conqueror // Etali, Primal Sickness (V.1);March of the Machine: Promos;Rare;1;1;6;1;0;0;9.75
+706391;Sword of Once and Future (V.1);March of the Machine: Promos;Mythic;1;1;6;1;0;0;11.75
+710196;Nissa, Resurgent Animist;March of the Machine: The Aftermath;Mythic;2;1;6;0;0;0;34.35
+710196;Nissa, Resurgent Animist;March of the Machine: The Aftermath;Mythic;1;1;6;0;0;0;34.33
+710205;Sarkhan, Soul Aflame;March of the Machine: The Aftermath;Mythic;3;1;6;0;0;0;7.55
+710192;Nahiri, Forged in Fury;March of the Machine: The Aftermath;Mythic;2;1;6;0;0;0;5.22
+710186;Karn, Legacy Reforged;March of the Machine: The Aftermath;Mythic;1;1;6;0;0;0;12.35
+710194;Narset, Enlightened Exile;March of the Machine: The Aftermath;Mythic;3;1;6;0;0;0;7.91
+710209;Training Grounds;March of the Machine: The Aftermath;Rare;3;1;6;0;0;0;5.83
+710211;Tyvar the Bellicose;March of the Machine: The Aftermath;Mythic;1;1;6;0;0;0;6.13
+710453;Narset, Enlightened Exile (V.1);March of the Machine: The Aftermath: Extras;Mythic;1;1;6;0;0;0;8.54
+710456;Ob Nixilis, Captive Kingpin (V.1);March of the Machine: The Aftermath: Extras;Mythic;1;1;6;0;0;0;16.48
+710819;Toxin Sliver (V.2);Secret Lair Drop Series;Rare;1;1;6;1;0;0;20.64
+715911;Nazgûl (V.4);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;4;1;6;0;0;0;9.54
+715912;Nazgûl (V.5);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;2;1;6;0;0;0;10.28
+715913;Nazgûl (V.6);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;4;1;6;0;0;0;9.27
+715914;Nazgûl (V.7);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;4;1;6;0;0;0;9.06
+715915;Nazgûl (V.8);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;2;1;6;0;0;0;10.93
+714592;Legion's Landing / Adanto, the First Fort;Secret Lair Commander Deck: From Cute to Brute;Rare;1;1;6;0;0;0;5.33
+715923;Witch-king of Angmar;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;9.28
+715888;Gandalf the White;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;8.64
+715888;Gandalf the White;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;0;0;0;8.64
+715888;Gandalf the White;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;8.64
+715900;Call of the Ring;The Lord of the Rings: Tales of Middle-earth;Rare;1;1;6;1;0;0;5.57
+715907;Nazgûl;The Lord of the Rings: Tales of Middle-earth;Uncommon;3;1;6;0;0;0;10.47
+715908;Nazgûl (V.1);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;4;1;6;0;0;0;9.17
+715908;Nazgûl (V.1);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;1;1;6;1;0;0;20.68
+715909;Nazgûl (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Uncommon;4;1;6;0;0;0;9.60
+715917;Orcish Bowmasters;The Lord of the Rings: Tales of Middle-earth;Rare;1;1;6;1;0;0;62.56
+715954;Aragorn, the Uniter;The Lord of the Rings: Tales of Middle-earth;Mythic;3;1;6;0;0;0;7.37
+715954;Aragorn, the Uniter;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;7.37
+715967;Sauron, the Dark Lord;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;8.38
+715938;Delighted Halfling;The Lord of the Rings: Tales of Middle-earth;Rare;1;1;6;1;0;0;18.20
+715938;Delighted Halfling;The Lord of the Rings: Tales of Middle-earth;Rare;1;1;6;0;0;0;15.16
+716046;Barad-dûr (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;2;1;6;1;0;0;8.67
+716049;Shadow of the Enemy;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;5.50
+716050;Minas Tirith (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;0;0;0;7.48
+716050;Minas Tirith (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;0;0;0;7.48
+716050;Minas Tirith (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;1;0;0;8.58
+716050;Minas Tirith (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;2;1;6;0;0;0;7.48
+715938;Delighted Halfling;The Lord of the Rings: Tales of Middle-earth;Rare;2;1;6;0;0;0;15.16
+715943;Last March of the Ents;The Lord of the Rings: Tales of Middle-earth;Mythic;3;1;6;0;0;0;10.84
+716063;Gandalf the White (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;23.17
+716063;Gandalf the White (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;22.87
+715943;Last March of the Ents;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;1;0;0;12.01
+715967;Sauron, the Dark Lord;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;0;0;0;8.38
+715967;Sauron, the Dark Lord;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;8.38
+716029;Witch-king of Angmar (V.1);The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;15.08
+716043;Boromir, Warden of the Tower (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;1;0;0;7.28
+716053;Hew the Entwood;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;6.55
+716054;Aragorn, the Uniter (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;29.50
+716027;Saruman of Many Colors (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;22.38
+716027;Saruman of Many Colors (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;29.42
+716083;The One Ring (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;61.86
+716157;Frodo, Determined Hero (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;0;0;0;9.98
+716194;Gollum, Scheming Guide (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;0;0;0;13.19
+716071;Delighted Halfling (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;1;0;0;22.14
+716078;Last March of the Ents;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;12.16
+716078;Last March of the Ents;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;12.16
+716079;Minas Tirith (V.1);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;0;0;0;6.18
+716297;Andúril, Flame of the West;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;1;0;0;6.64
+717109;Lórien Revealed;The Lord of the Rings: Tales of Middle-earth;Common;1;1;6;1;0;0;6.88
+717109;Lórien Revealed;The Lord of the Rings: Tales of Middle-earth;Common;2;1;6;1;0;0;6.88
+717124;Flame of Anor;The Lord of the Rings: Tales of Middle-earth;Rare;2;1;6;0;0;0;7.86
+716950;Palantír of Orthanc;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;0;0;0;18.61
+716950;Palantír of Orthanc;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;1;0;0;30.51
+716275;Spiteful Banditry;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;0;0;0;6.98
+716950;Palantír of Orthanc;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;0;0;0;18.61
+716989;Flowering of the White Tree;The Lord of the Rings: Tales of Middle-earth;Rare;1;1;6;1;0;0;5.30
+716275;Spiteful Banditry;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;0;0;0;6.98
+716275;Spiteful Banditry;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;1;0;0;9.70
+716993;Mithril Coat;The Lord of the Rings: Tales of Middle-earth;Rare;4;1;6;0;0;0;6.12
+716993;Mithril Coat;The Lord of the Rings: Tales of Middle-earth;Rare;1;2;6;0;0;0;5.83
+717130;Dawn of a New Age;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;5.51
+717130;Dawn of a New Age;The Lord of the Rings: Tales of Middle-earth;Mythic;2;1;6;0;0;0;5.51
+717130;Dawn of a New Age;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;0;0;0;5.51
+717130;Dawn of a New Age;The Lord of the Rings: Tales of Middle-earth;Mythic;1;1;6;1;0;0;7.79
+717333;Forth Eorlingas!;Commander: The Lord of the Rings: Tales of Middle-earth;Rare;1;1;6;0;0;0;33.80
+717409;Door of Destinies;Commander: The Lord of the Rings: Tales of Middle-earth;Rare;1;1;6;0;0;0;6.73
+717752;Spiteful Banditry;The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;0;0;0;9.82
+717781;Galadriel of Lothlórien (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;1;0;0;8.01
+717781;Galadriel of Lothlórien (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;2;1;6;1;0;0;8.01
+717730;Elrond, Master of Healing (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;1;0;0;5.60
+717781;Galadriel of Lothlórien (V.2);The Lord of the Rings: Tales of Middle-earth: Extras;Rare;2;1;6;0;0;0;6.28
+717914;Ancient Tomb (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;2;1;6;1;0;0;73.00
+717929;Cavern of Souls (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;65.55
+717942;Horizon Canopy (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;2;1;6;1;0;0;16.19
+717944;Karakas (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;18.78
+717946;Kor Haven (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;10.56
+717949;Minamo, School at Water's Edge (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;25.59
+717962;Shinka, the Bloodsoaked Keep (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;15.67
+717969;Wasteland (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;36.29
+717914;Ancient Tomb (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;73.00
+717821;Arwen, Weaver of Hope;Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Rare;1;1;6;0;0;0;9.11
+717899;Ensnaring Bridge (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;20.33
+717906;Rings of Brighthearth (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;9.38
+717908;Shadowspear (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;32.36
+717922;Boseiju, Who Shelters All (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;11.19
+717911;Sword of Hearth and Home (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;2;1;6;1;0;0;9.51
+717766;Flame of Anor;The Lord of the Rings: Tales of Middle-earth: Extras;Rare;2;1;6;0;0;0;9.00
+717927;Castle Ardenvale (V.1);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;7.98
+718451;Flame of Anor;The Lord of the Rings: Tales of Middle-earth: Promos;Rare;1;1;6;1;0;0;20.00
+718006;Thorn of Amethyst (V.2);Commander: The Lord of the Rings: Tales of Middle-earth: Extras;Mythic;1;1;6;1;0;0;200.00
+720261;Tinybones, Trinket Thief;Secret Lair Drop Series: Summer Superdrop 2023;Mythic;2;1;6;0;0;0;22.86
+720260;Muxus, Goblin Grandee;Secret Lair Drop Series: Summer Superdrop 2023;Rare;4;1;6;0;0;0;10.50
+718473;The One Ring;The Lord of the Rings: Tales of Middle-earth: Promos;Mythic;1;1;6;1;0;0;200.00
+718478;Minas Tirith;The Lord of the Rings: Tales of Middle-earth: Promos;Rare;1;1;6;1;0;0;7.32
+720256;Reassembling Skeleton;Secret Lair Drop Series: Summer Superdrop 2023;Rare;2;1;6;0;0;0;9.26
+720257;Shattergang Brothers;Secret Lair Drop Series: Summer Superdrop 2023;Mythic;4;1;6;0;0;0;6.62
+720259;Twilight Prophet;Secret Lair Drop Series: Summer Superdrop 2023;Mythic;1;1;6;0;0;0;11.49
+720262;Omnath, Locus of Rage;Secret Lair Drop Series: Summer Superdrop 2023;Mythic;3;1;6;0;0;0;14.72
+720263;Bottomless Pit;Secret Lair Drop Series: Summer Superdrop 2023;Rare;2;1;6;0;0;0;9.44
+720264;Necrogen Mists;Secret Lair Drop Series: Summer Superdrop 2023;Rare;2;1;6;0;0;0;8.91
+720265;Wurm Token (Green 5/5 Trample);Secret Lair Drop Series: Summer Superdrop 2023;Token;2;1;6;0;0;0;5.45
+720251;Nemesis of Reason;Secret Lair Drop Series: Summer Superdrop 2023;Rare;2;1;6;0;0;0;5.63
+720253;Goblin Matron;Secret Lair Drop Series: Summer Superdrop 2023;Rare;4;1;6;0;0;0;18.37
+720266;Goblin Lackey;Secret Lair Drop Series: Summer Superdrop 2023;Rare;4;1;6;0;0;0;17.92
+720268;Goblin Recruiter;Secret Lair Drop Series: Summer Superdrop 2023;Rare;4;1;6;0;0;0;11.81
+721727;Capture of Jingzhou;Commander Masters;Mythic;1;1;6;0;0;0;24.84
+718720;Dolmen Gate;The List;Rare;1;1;6;0;0;0;9.02
+721726;Personal Tutor;Commander Masters;Rare;1;1;6;0;0;0;9.35
+722885;Three Visits;Commander Masters: Extras;Uncommon;3;1;6;0;0;0;5.98
+722901;For the Ancestors;Commander Masters: Extras;Rare;4;1;6;0;0;0;5.33
+721899;Grand Abolisher;Commander Masters;Rare;1;1;6;0;0;0;10.30
+722024;Finale of Devastation (V.2);Commander Masters: Extras;Mythic;1;1;6;1;0;0;45.41
+722529;Bloodchief Ascension;Commander Masters;Rare;1;1;6;1;0;0;6.55
+722888;Herald's Horn;Commander Masters: Extras;Uncommon;3;1;6;0;0;0;5.39
+722660;Vandalblast;Commander Masters: Extras;Uncommon;4;1;6;0;0;0;5.99
+722866;Hatchery Sliver;Commander Masters: Extras;Rare;4;1;6;0;0;0;6.09
+722878;Sliver Gravemother (V.1);Commander Masters: Extras;Mythic;4;1;6;1;0;0;10.65
+722880;Titan of Littjara (V.1);Commander Masters: Extras;Rare;3;1;6;0;0;0;7.88
+722889;Zhulodok, Void Gorger (V.1);Commander Masters: Extras;Mythic;4;1;6;1;0;0;9.72
+723002;The Chain Veil;Commander Masters: Extras;Mythic;4;1;6;0;0;0;6.62
+723057;Ghoulish Impetus (V.1);Commander Masters: Extras;Rare;3;1;6;0;0;0;5.95
+723057;Ghoulish Impetus (V.1);Commander Masters: Extras;Rare;1;1;6;0;0;0;5.97
+723097;Composer of Spring (V.1);Commander Masters: Extras;Rare;4;1;6;0;0;0;6.92
+723114;Lightning Greaves;Commander Masters;Uncommon;2;1;6;0;0;0;5.93
+723082;Dryad of the Ilysian Grove;Commander Masters: Extras;Rare;3;1;6;0;0;0;8.89
+723122;Flayer of Loyalties;Commander Masters: Extras;Rare;4;1;6;0;0;0;6.21
+723123;Rise of the Eldrazi;Commander Masters: Extras;Rare;4;1;6;0;0;0;12.70
+723126;Darksteel Monolith;Commander Masters: Extras;Rare;3;1;6;0;0;0;9.58
+723132;It That Betrays;Commander Masters: Extras;Rare;4;1;6;0;0;0;5.28
+723625;Reliquary Tower;Commander Masters: Extras;Uncommon;4;1;6;0;0;0;5.99
+723709;Mystic Gate;Commander Masters: Extras;Rare;3;1;6;0;0;0;5.19
+725333;Talion, the Kindly Lord;Wilds of Eldraine;Mythic;1;1;6;0;0;0;6.37
+727098;Rapunzel - Gifted with Healing;The First Chapter;Legendary;1;2;6;0;0;0;54.59
+728381;Grave Pact (V.1);Enchanting Tales;Mythic;1;1;6;0;0;0;9.24
+727007;Mickey Mouse - Detective;Promos;Promo;1;1;5;1;0;0;24.99
+727082;Ariel - Spectacular Singer;The First Chapter;Super Rare;1;2;6;0;0;0;9.50
+727103;Stitch - Rock Star;The First Chapter;Super Rare;1;2;6;0;0;0;11.00
+727103;Stitch - Rock Star;The First Chapter;Super Rare;1;1;6;0;0;0;10.49
+728035;Virtue of Knowledge // Vantress Visions;Wilds of Eldraine;Mythic;1;1;6;1;0;0;6.70
+728037;Beseech the Mirror;Wilds of Eldraine;Mythic;1;1;6;0;0;0;31.29
+728035;Virtue of Knowledge // Vantress Visions;Wilds of Eldraine;Mythic;1;1;6;0;0;0;5.44
+728035;Virtue of Knowledge // Vantress Visions;Wilds of Eldraine;Mythic;3;1;6;0;0;0;5.44
+728397;Land Tax (V.1);Enchanting Tales;Mythic;1;1;6;0;0;0;13.62
+728398;Blood Moon (V.1);Enchanting Tales;Mythic;2;1;6;0;0;0;10.09
+728105;Agatha's Soul Cauldron;Wilds of Eldraine;Mythic;2;1;6;0;0;0;44.29
+728384;Defense of the Heart (V.1);Enchanting Tales;Mythic;1;1;6;0;0;0;7.42
+728384;Defense of the Heart (V.1);Enchanting Tales;Mythic;1;1;6;0;0;0;7.42
+728391;Smothering Tithe (V.1);Enchanting Tales;Mythic;1;1;6;0;0;0;15.72
+728391;Smothering Tithe (V.1);Enchanting Tales;Mythic;1;1;6;0;0;0;15.72
+728391;Smothering Tithe (V.1);Enchanting Tales;Mythic;1;1;6;1;0;0;19.15
+728406;Doubling Season (V.1);Enchanting Tales;Mythic;1;1;6;1;0;0;35.90
+728489;Parallel Lives (V.1);Enchanting Tales;Mythic;2;1;6;0;0;0;17.72
+728521;Grave Pact (V.2);Enchanting Tales;Mythic;2;1;6;0;0;0;10.51
+728523;Bitterblossom (V.2);Enchanting Tales;Mythic;1;1;6;0;0;0;17.03
+728526;Smothering Tithe (V.2);Enchanting Tales;Mythic;1;1;6;0;0;0;39.64
+728527;Aggravated Assault (V.2);Enchanting Tales;Rare;1;1;6;1;0;0;10.61
+728414;Virtue of Loyalty // Ardenvale Fealty;Wilds of Eldraine;Mythic;1;1;6;0;0;0;8.92
+729237;The Queen - Wicked and Vain;The First Chapter;Super Rare;1;2;6;0;0;0;5.15
+728520;Necropotence (V.2);Enchanting Tales;Mythic;1;1;6;0;0;0;15.96
+729251;Beast - Wolfsbane;The First Chapter;Legendary;2;1;6;0;0;0;7.25
+729256;Genie - On the Job (V.1);The First Chapter;Super Rare;1;2;6;0;0;0;5.50
+729265;Kuzco - Temperamental Emperor;The First Chapter;Rare;1;2;6;0;0;0;10.75
+729265;Kuzco - Temperamental Emperor;The First Chapter;Rare;1;2;6;1;0;0;29.50
+728533;Defense of the Heart (V.2);Enchanting Tales;Mythic;1;1;6;0;0;0;9.23
+729221;Jafar - Keeper of Secrets;The First Chapter;Rare;1;2;6;1;0;0;8.00
+729225;Maleficent - Biding Her Time;The First Chapter;Rare;2;2;6;0;0;0;7.50
+729269;Mickey Mouse - Artful Rogue (V.1);The First Chapter;Super Rare;2;2;6;1;0;0;9.50
+729299;Mickey Mouse - Brave Little Tailor;The First Chapter;Legendary;1;1;6;0;0;0;15.59
+729316;Be Prepared;The First Chapter;Rare;1;1;6;1;0;0;18.50
+729325;Ariel - Whoseit Collector;The First Chapter;Rare;1;2;6;1;0;0;8.00
+729330;Belle - Strange but Special (V.1);The First Chapter;Legendary;1;1;6;0;0;0;28.00
+729330;Belle - Strange but Special (V.1);The First Chapter;Legendary;1;2;6;0;0;0;37.00
+729330;Belle - Strange but Special (V.1);The First Chapter;Legendary;1;2;6;1;0;0;65.00
+729351;Let It Go;The First Chapter;Rare;1;2;6;0;0;0;8.10
+729380;Te Kā - Heartless;The First Chapter;Legendary;1;2;6;0;0;0;18.00
+729381;Tinker Bell - Giant Fairy (V.1);The First Chapter;Super Rare;1;2;6;0;0;0;17.50
+729400;Maui - Hero to All (V.2);The First Chapter;Enchanted;1;1;6;1;0;0;137.50
+729401;Aurora - Dreaming Guardian (V.2);The First Chapter;Enchanted;1;1;6;1;0;0;175.00
+729393;Hades - King of Olympus (V.2);The First Chapter;Enchanted;1;2;6;1;0;0;195.00
+731654;Embercleave;The List;Mythic;1;1;6;0;0;0;6.95
+732572;Bruna, the Fading Light / Brisela, Voice of Nightmares (V.1);Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;3;1;6;1;0;0;9.29
+732573;Archangel of Thune;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Mythic;4;1;6;1;0;0;31.48
+730060;Brazen Borrower // Petty Theft;Commander: Wilds of Eldraine;Mythic;4;1;6;0;0;0;7.23
+730297;Court of Garenbrig;Commander: Wilds of Eldraine;Rare;1;1;6;0;0;0;5.65
+730300;Throne of Eldraine;Commander: Wilds of Eldraine;Rare;1;1;6;0;0;0;9.51
+730300;Throne of Eldraine;Commander: Wilds of Eldraine;Rare;1;1;6;0;0;0;9.51
+730313;Virtue of Loyalty // Ardenvale Fealty;Wilds of Eldraine: Extras;Mythic;1;1;6;1;0;0;10.20
+730683;Virtue of Persistence // Locthwain Scorn (V.2);Wilds of Eldraine: Promos;Mythic;1;1;6;1;0;0;14.25
+731649;The Meathook Massacre;The List;Mythic;1;1;6;0;0;0;30.21
+732238;Gisela, the Broken Blade / Brisela, Voice of Nightmares (V.1);Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Mythic;2;1;6;1;0;0;23.63
+731672;Minsc & Boo, Timeless Heroes;The List;Mythic;1;1;6;0;0;0;11.28
+732574;Court of Grace;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;4;1;6;1;0;0;5.55
+732575;Commander's Plate;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Mythic;4;1;6;1;0;0;38.09
+734079;Archangel of Tithes;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Mythic;4;1;6;1;0;0;8.28
+734071;Urza's Incubator;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;4;1;6;0;0;0;15.87
+734030;Lightning Greaves;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Uncommon;4;1;6;0;0;0;6.03
+734052;Emeria, the Sky Ruin;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;4;1;6;0;0;0;9.66
+734060;Nykthos, Shrine to Nyx;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;3;1;6;0;0;0;30.62
+734060;Nykthos, Shrine to Nyx;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;1;1;6;0;0;0;35.84
+734061;Pearl Medallion;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;4;1;6;0;0;0;9.33
+734065;Serra Ascendant;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;4;1;6;0;0;0;12.46
+734068;Sword of the Animist;Secret Lair Commander Deck: Angels: They're Just Like Us but Cooler;Rare;4;1;6;0;0;0;5.88
+738653;Return the Past;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;6.98
+738669;Displaced Dinosaurs;Universes Beyond: Doctor Who;Uncommon;3;1;6;0;0;0;8.40
+738504;Everybody Lives!;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;20.01
+739159;Horizon Canopy;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;8.87
+739185;Stormcarved Coast;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;5.23
+739186;Sunbaked Canyon;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;9.84
+738761;The Master, Multiplied;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;8.61
+739066;Farewell;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;8.72
+739072;Wedding Ring;Universes Beyond: Doctor Who;Mythic;4;1;6;0;0;0;6.76
+739084;Snuff Out;Universes Beyond: Doctor Who;Uncommon;4;1;6;0;0;0;9.05
+739091;Carpet of Flowers;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;8.38
+739095;Heroic Intervention;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;6.98
+739158;Haunted Ridge;Universes Beyond: Doctor Who;Rare;4;1;6;0;0;0;7.28

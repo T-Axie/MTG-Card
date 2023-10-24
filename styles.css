@@ -3,12 +3,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.active {
+    background-color: #ddd;
+}
+
 header {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
 }
+
 
 main {
     padding: 20px;
@@ -114,9 +119,13 @@ main {
     margin-left: 10px;
 }
 
+/*
+
 #magic-image {
-    filter: grayscale(100%); /* Applique un filtre de désaturation de 100% */
+    filter: grayscale(100%);  Applique un filtre de désaturation de 100% 
 }
+
+*/
 
 
  /* Styles spécifiques à la page d'accueil */

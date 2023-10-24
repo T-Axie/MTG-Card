@@ -20,24 +20,38 @@ Papa.parse('LorcanaData.csv', {
     complete: function(results) {
         cards = results.data;
         cards = cards.map(card => {
-            if (!isNaN(card.ExLow)) { // Vérifiez si card.ExLow est un nombre
+            if (!isNaN(card.ExLow)) {
                 // card.ExLow est déjà un nombre, pas besoin de conversion
             } else if (typeof card.ExLow === 'string') {
-                // Vérifiez d'abord si la chaîne contient une virgule
                 if (card.ExLow.includes(',')) {
-                    // Remplacez les virgules par des points et utilisez parseFloat
                     card.ExLow = parseFloat(card.ExLow.replace(',', '.'));
                 } else {
-                    // Utilisez parseInt pour les nombres entiers
                     card.ExLow = parseInt(card.ExLow);
                 }
                 
                 if (isNaN(card.ExLow)) {
-                    console.error('Invalid number format for card:', card.Name, card.ExLow);
+                    console.error('Invalid number format for ExLow:', card.Name, card.ExLow);
                     card.ExLow = 0;
                 }
             } else {
                 card.ExLow = 0;
+            }
+
+            if (!isNaN(card.FoilLow)) {
+                // card.FoilLow est déjà un nombre, pas besoin de conversion
+            } else if (typeof card.FoilLow === 'string') {
+                if (card.FoilLow.includes(',')) {
+                    card.FoilLow = parseFloat(card.FoilLow.replace(',', '.'));
+                } else {
+                    card.FoilLow = parseInt(card.FoilLow);
+                }
+                
+                if (isNaN(card.FoilLow)) {
+                    console.error('Invalid number format for FoilLow:', card.Name, card.FoilLow);
+                    card.FoilLow = 0;
+                }
+            } else {
+                card.FoilLow = 0;
             }
             
             return card;
@@ -96,8 +110,8 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     // A remettre pour avoir le lien MKM de la carte
 
     const cardLink = document.createElement("a");
-    // cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
-    // cardLink.target = "_blank";
+    cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
+    cardLink.target = "_blank";
     cardElement.appendChild(cardLink);
 
     const imgElement = document.createElement("img");
@@ -134,17 +148,17 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     const totalPrice = price * quantity;
 
 
-    // Appliquer un coefficient multiplicateur de 1.2 si la carte est en anglais
-    if (language === 'fr') {
+    // Appliquer un coefficient
+    if (language === 'en') {
         if (price > 4) {
-            price = price * 1.2;
+            price = price * 1.1;
         } else {
             price = price * 1;
         }
     }
 
-    // Appliquer un coefficient multiplicateur de 1.5 si la carte est en français et que le prix est supérieur à 20
-    // Appliquer un coefficient multiplicateur de 2 si la carte est en français et que le prix est inférieur ou égal à 20
+    // Appliquer un coefficient multiplicateur
+    // Appliquer un coefficient multiplicateur
     if (language === 'fr') {
         if (price > 4) {
             price = price * 1.5;
@@ -159,7 +173,9 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
 
     const priceLabel = document.createElement("p");
     priceLabel.className = "card-price";
-    priceLabel.textContent = `Price: ${discountedPrice.toFixed(2)}€/p`;
+
+    const formattedPrice = discountedPrice.toFixed(2);
+    priceLabel.textContent = `Price: ${formattedPrice}€/p`;
 
     cardElement.appendChild(priceLabel);
 
@@ -224,7 +240,9 @@ document.getElementById('add-card').addEventListener('click', function() {
             const cardContainer = document.getElementById('cardGrid');
             const cardElement = createCardElement(data, quantity, price, selectedCard.MkmUrl, isFoil, language);
 
-            cardContainer.appendChild(cardElement);
+
+             // Insérer la nouvelle carte avant le premier élément enfant de cardContainer
+             cardContainer.insertBefore(cardElement, cardContainer.firstChild);
     
             updateTotalPrice(); // Appeler updateTotalPrice après l'ajout de la carte
         })

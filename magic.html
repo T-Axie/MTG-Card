@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <title>Opap's: Temporary Stock</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Chris la grosse merde</h1>
+        <h1>Facebook View Magic TCG</h1>
         <img src="/jpeg/webuy.png" alt="Image de la bannière" class="banniere-image">
-        <input type="text" id="searchInput" placeholder="Rechercher une carte...">
-        <ul id="suggestionsList"></ul>
-        <div class="filter-menu">
-            <label for="filterSelect">Trier par :</label>
-            <select id="filterSelect">
-                <option value="colorName">Couleur</option>
-                <option value="name">Nom</option>
-                <option value="foil">Foil</option>
-            </select>
+        <div class="d-flex justify-content-center align-items-center mt-4" id="search-container">
+            <input type="text" id="searchInput" placeholder="Rechercher une carte...">
+            <div class="btn-group ml-2">
+                <button class="btn btn-secondary" id="sort-all">All</button>
+                <button class="btn btn-secondary" id="sort-white">White</button>
+                <button class="btn btn-secondary" id="sort-blue">Blue</button>
+                <button class="btn btn-secondary" id="sort-black">Black</button>
+                <button class="btn btn-secondary" id="sort-red">Red</button>
+                <button class="btn btn-secondary" id="sort-green">Green</button>
+                <button class="btn btn-secondary" id="sort-multicolor">Multicolore</button>
+                <button class="btn btn-secondary" id="sort-colorless">Colorless</button>
+            </div>
+            <div class="ml-2">
+                <select class="custom-select" id="foilSelect" placeholder="Foil">
+                    <option value="all">All</option>
+                    <option value="foil">Foil</option>
+                    <option value="no-foil">Non-Foil</option>
+                </select>
+            </div>
         </div>
     </header>
     <main>
@@ -26,8 +38,6 @@
             <!-- Les cartes seront affichées ici -->
         </div>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
