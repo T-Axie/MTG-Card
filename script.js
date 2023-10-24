@@ -80,11 +80,22 @@ async function loadCardData() {
 
     const batchSize = 100;
     const csvDataArray = Papa.parse(csvText, { header: true }).data;
+    const totalCards = csvDataArray.length;
+    let cardsLoaded = 0;
+
+    const progressBar = document.getElementById('loading-progress');
+    const progressContainer = document.querySelector('.progress');
+
+    progressContainer.style.display = 'block';
 
     for (let i = 0; i < csvDataArray.length; i += batchSize) {
         const batch = csvDataArray.slice(i, i + batchSize);
         const cardPromises = batch.map((csvData) => fetchCardDataByMKMProductId(csvData.MkmProductId));
         const batchCardData = await Promise.all(cardPromises);
+
+        cardsLoaded += batchCardData.length;
+        const progressPercentage = (cardsLoaded / totalCards) * 100;
+        progressBar.style.width = `${progressPercentage}%`;
 
         for (let j = 0; j < batchCardData.length; j++) {
             const cardData = { ...batchCardData[j] };
@@ -111,6 +122,7 @@ async function loadCardData() {
                 displayCard(cardDiv);
             }
         }
+        progressContainer.style.display = 'none'; // Masquer la barre de progression une fois le chargement terminé
     }
 }
 
@@ -321,6 +333,7 @@ function applyFilters() {
     cards.forEach((card) => {
         const cardFoil = card.getAttribute('data-foil');
         const cardColor = card.getAttribute('data-color');
+        const hasNoImage = card.getAttribute('data-no-image') === 'true'; // Vérifiez le statut "no-image"
         
         let matchesFoilFilter = false;
 
@@ -337,7 +350,7 @@ function applyFilters() {
 
         const matchesColorFilter = activeFilters.color === 'all' || cardColor === activeFilters.color;
 
-        if (matchesFoilFilter && matchesColorFilter) {
+        if (matchesFoilFilter && matchesColorFilter && !hasNoImage) { // Ajoutez la vérification !hasNoImage
             card.style.display = 'block';
         } else {
             card.style.display = 'none';
