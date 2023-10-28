@@ -93,9 +93,18 @@ async function loadCardData() {
 
         progressContainer.style.display = 'block';
 
+        // Fonction pour ajouter un délai entre les requêtes
+        const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+        // Fonne Promises avec un délai
+        const fetchWithDelay = async (csvData) => {
+            await delay(100); // Ajoutez un délai de 100 ms entre les requêtes
+            return fetchCardDataByMKMProductId(csvData.MkmProductId);
+        };
+
         for (let i = 0; i < csvDataArray.length; i += batchSize) {
             const batch = csvDataArray.slice(i, i + batchSize);
-            const cardPromises = batch.map((csvData) => fetchCardDataByMKMProductId(csvData.MkmProductId));
+            const cardPromises = batch.map(fetchWithDelay); // Utilisez la fonction fetchWithDelay
             const batchCardData = await Promise.all(cardPromises);
 
             cardsLoaded += batchCardData.length;
@@ -127,7 +136,7 @@ async function loadCardData() {
             }
         }
 
-        progressContainer.style.display = 'none'; // Masquez la barre de progression une fois le chargement terminé
+        progressContainer.style.display = 'none';
     } catch (error) {
         console.error('Erreur lors du chargement des données:', error);
     }
@@ -226,25 +235,19 @@ cardDiv.setAttribute('data-color', color);
 
 
 // Fonction pour rechercher une carte sur Scryfall par son "MKM Product ID" de Cardmarket
-const DELAY_BETWEEN_REQUESTS = 100; // 100 milliseconds (10 requests per second on average)
-
 async function fetchCardDataByMKMProductId(mkmProductId) {
     try {
-        // Add a delay before making the request
-        await new Promise((resolve) => setTimeout(resolve, DELAY_BETWEEN_REQUESTS));
-
-        // Use the Scryfall API to search for the card by "MKM Product ID" from Cardmarket
         const response = await fetch(`https://api.scryfall.com/cards/cardmarket/${mkmProductId}`);
 
         if (response.ok) {
             return await response.json();
         } else {
-            console.error('Error fetching card data from Scryfall. Response status:', response.status);
-            console.error('Full response:', response);
+            console.error('Erreur lors de la récupération des données de la carte depuis Scryfall. Statut de la réponse:', response.status);
+            console.error('Réponse complète:', response);
             return null;
         }
     } catch (error) {
-        console.error('Error fetching card data from Scryfall:', error);
+        console.error('Erreur lors de la récupération des données de la carte depuis Scryfall:', error);
         return null;
     }
 }
