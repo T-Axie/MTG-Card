@@ -56,18 +56,22 @@ function mapLanguage(languageValue) {
 
 
 // Fonction pour charger le CSV à partir d'un fichier
-async function loadCSV() {
-    try {
-        const response = await fetch('donnees.csv');
-        if (!response.ok) {
-            console.error('Erreur lors du chargement du fichier CSV.');
-            return null;
+function loadCSV() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await fetch('donnees.csv');
+            if (!response.ok) {
+                console.error('Erreur lors du chargement du fichier CSV.');
+                reject('Erreur lors du chargement du fichier CSV.');
+                return;
+            }
+            const csvText = await response.text();
+            resolve(csvText);
+        } catch (error) {
+            console.error('Erreur lors du chargement du fichier CSV:', error);
+            reject(error);
         }
-        return await response.text();
-    } catch (error) {
-        console.error('Erreur lors du chargement du fichier CSV:', error);
-        return null;
-    }
+    });
 }
 
 const searchInput = document.getElementById('searchInput');
@@ -75,54 +79,58 @@ const cardsByColor = {};
 
 // Fonction pour charger les données depuis le CSV et les cartes depuis Scryfall
 async function loadCardData() {
-    const csvText = await loadCSV();
-    if (!csvText) return;
+    try {
+        const csvText = await loadCSV();
+        if (!csvText) return;
 
-    const batchSize = 100;
-    const csvDataArray = Papa.parse(csvText, { header: true }).data;
-    const totalCards = csvDataArray.length;
-    let cardsLoaded = 0;
+        const batchSize = 100;
+        const csvDataArray = Papa.parse(csvText, { header: true }).data;
+        const totalCards = csvDataArray.length;
+        let cardsLoaded = 0;
 
-    const progressBar = document.getElementById('loading-progress');
-    const progressContainer = document.querySelector('.progress');
+        const progressBar = document.getElementById('loading-progress');
+        const progressContainer = document.querySelector('.progress');
 
-    progressContainer.style.display = 'block';
+        progressContainer.style.display = 'block';
 
-    for (let i = 0; i < csvDataArray.length; i += batchSize) {
-        const batch = csvDataArray.slice(i, i + batchSize);
-        const cardPromises = batch.map((csvData) => fetchCardDataByMKMProductId(csvData.MkmProductId));
-        const batchCardData = await Promise.all(cardPromises);
+        for (let i = 0; i < csvDataArray.length; i += batchSize) {
+            const batch = csvDataArray.slice(i, i + batchSize);
+            const cardPromises = batch.map((csvData) => fetchCardDataByMKMProductId(csvData.MkmProductId));
+            const batchCardData = await Promise.all(cardPromises);
 
-        cardsLoaded += batchCardData.length;
-        const progressPercentage = (cardsLoaded / totalCards) * 100;
-        progressBar.style.width = `${progressPercentage}%`;
+            cardsLoaded += batchCardData.length;
+            const progressPercentage = (cardsLoaded / totalCards) * 100;
+            progressBar.style.width = `${progressPercentage}%`;
 
-        for (let j = 0; j < batchCardData.length; j++) {
-            const cardData = { ...batchCardData[j] };
-            const csvData = batch[j];
+            for (let j = 0; j < batchCardData.length; j++) {
+                const cardData = { ...batchCardData[j] };
+                const csvData = batch[j];
 
-            if (cardData) {
-                cardData.copy = csvData.Count;
-                cardData.condition = mapCondition(csvData.Condition);
-                cardData.name = csvData.Name;
-                if (csvData.Price) {
-                    cardData.price = parseFloat(csvData.Price.replace(',', '.'));
-                } else {
-                    cardData.price = 0;
+                if (cardData) {
+                    cardData.copy = csvData.Count;
+                    cardData.condition = mapCondition(csvData.Condition);
+                    cardData.name = csvData.Name;
+                    if (csvData.Price) {
+                        cardData.price = parseFloat(csvData.Price.replace(',', '.'));
+                    } else {
+                        cardData.price = 0;
+                    }
+
+                    cardData.foil = csvData.IsFoil === '1';
+
+                    const languageName = mapLanguage(csvData.Language);
+                    const flagImageUrl = `https://flagsapi.com/${languageName}/shiny/64.png`;
+
+                    const cardDiv = createCardElement(cardData, flagImageUrl);
+                    displayCard(cardDiv);
                 }
-
-                cardData.foil = csvData.IsFoil === '1';
-
-                const languageName = mapLanguage(csvData.Language);
-                const flagImageUrl = `https://flagsapi.com/${languageName}/shiny/64.png`;
-
-                const cardDiv = createCardElement(cardData, flagImageUrl);
-                displayCard(cardDiv);
             }
         }
-    }
 
-    progressContainer.style.display = 'none'; // Masquez la barre de progression une fois le chargement terminé
+        progressContainer.style.display = 'none'; // Masquez la barre de progression une fois le chargement terminé
+    } catch (error) {
+        console.error('Erreur lors du chargement des données:', error);
+    }
 }
 
 // Fonction pour afficher une carte
@@ -218,20 +226,25 @@ cardDiv.setAttribute('data-color', color);
 
 
 // Fonction pour rechercher une carte sur Scryfall par son "MKM Product ID" de Cardmarket
+const DELAY_BETWEEN_REQUESTS = 100; // 100 milliseconds (10 requests per second on average)
+
 async function fetchCardDataByMKMProductId(mkmProductId) {
     try {
-        // Utilisez l'API Scryfall pour rechercher la carte par "MKM Product ID" de Cardmarket
+        // Add a delay before making the request
+        await new Promise((resolve) => setTimeout(resolve, DELAY_BETWEEN_REQUESTS));
+
+        // Use the Scryfall API to search for the card by "MKM Product ID" from Cardmarket
         const response = await fetch(`https://api.scryfall.com/cards/cardmarket/${mkmProductId}`);
-        
+
         if (response.ok) {
             return await response.json();
         } else {
-            console.error('Erreur lors de la récupération des données de la carte depuis Scryfall. Statut de la réponse:', response.status);
-            console.error('Réponse complète:', response);
+            console.error('Error fetching card data from Scryfall. Response status:', response.status);
+            console.error('Full response:', response);
             return null;
         }
     } catch (error) {
-        console.error('Erreur lors de la récupération des données de la carte depuis Scryfall:', error);
+        console.error('Error fetching card data from Scryfall:', error);
         return null;
     }
 }
