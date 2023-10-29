@@ -13,16 +13,16 @@
         <h1>Facebook View Magic TCG</h1>
         <img src="/jpeg/webuy.png" alt="Image de la bannière" class="banniere-image">
         <div class="d-flex justify-content-center align-items-center mt-4" id="search-container">
-            <input type="text" id="searchInput" placeholder="Rechercher une carte...">
+            <input type="text" id="searchInput" placeholder="Chargement en cours...">
             <div class="btn-group ml-2">
-                <button class="btn btn-secondary" id="sort-all">All</button>
-                <button class="btn btn-secondary" id="sort-white">White</button>
-                <button class="btn btn-secondary" id="sort-blue">Blue</button>
-                <button class="btn btn-secondary" id="sort-black">Black</button>
-                <button class="btn btn-secondary" id="sort-red">Red</button>
-                <button class="btn btn-secondary" id="sort-green">Green</button>
-                <button class="btn btn-secondary" id="sort-multicolor">Multicolore</button>
-                <button class="btn btn-secondary" id="sort-colorless">Colorless</button>
+                <button id="sort-all" data-filter-color="all">All</button>
+                <button id="sort-white" data-filter-color="white">White</button>
+                <button id="sort-blue" data-filter-color="blue">Blue</button>
+                <button id="sort-black" data-filter-color="black">Black</button>
+                <button id="sort-red" data-filter-color="red">Red</button>
+                <button id="sort-green" data-filter-color="green">Green</button>
+                <button id="sort-multicolor" data-filter-color="multicolor">Multicolor</button>
+                <button id="sort-colorless" data-filter-color="colorless">Colorless</button>
             </div>
             <div class="ml-2">
                 <select class="custom-select" id="foilSelect" placeholder="Foil">
@@ -31,14 +31,19 @@
                     <option value="no-foil">Non-Foil</option>
                 </select>
             </div>
+            <div class="ml-2">
+                <select class="custom-select" id="priceRangeSelect">
+                    <option value="all">All prices</option>
+                    <option value="5-10">5 - 10 €</option>
+                    <option value="10-50">10 - 50 €</option>
+                    <option value="50-1000">50 - 1000 €</option>
+                </select>
+            </div>
         </div>
     </header>
     <main>
         <div id="cardGrid">
             <!-- Les cartes seront affichées ici -->
-        </div>
-        <div class="progress" style="display: none;">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" id="loading-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
         </div>
     </main>
 

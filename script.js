@@ -1,81 +1,55 @@
 // Fonction de mappage pour la condition
 function mapCondition(conditionValue) {
-    switch (conditionValue) {
-        case '7':
-            return 'Mint';
-        case '6':
-            return 'Near Mint';
-        case '5':
-            return 'Excellent';
-        case '4':
-            return 'Good';
-        case '3':
-            return 'Lightly Played';
-        case '2':
-            return 'Played';
-        case '1':
-            return 'Poor';
-        default:
-            return 'Unknown';
-    }
+    const conditionMap = {
+        '7': 'Mint',
+        '6': 'Near Mint',
+        '5': 'Excellent',
+        '4': 'Good',
+        '3': 'Lightly Played',
+        '2': 'Played',
+        '1': 'Poor'
+    };
+    return conditionMap[conditionValue] || 'Unknown';
 }
 
 // Fonction de mappage pour la langue
 function mapLanguage(languageValue) {
-    switch (languageValue) {
-        case '11':
-            return 'TW';
-        case '10':
-            return 'KR';
-        case '9':
-            return 'RU';
-        case '8':
-            return 'PT';
-        case '7':
-            return 'JP';
-        case '6':
-            return 'CN';
-        case '5':
-            return 'IT';
-        case '4':
-            return 'ES';
-        case '3':
-            return 'DE';
-        case '2':
-            return 'FR';
-        case '1':
-            return 'GB';
-        default:
-            return 'Unknown';
-    }
+    const languageMap = {
+        '11': 'TW',
+        '10': 'KR',
+        '9': 'RU',
+        '8': 'PT',
+        '7': 'JP',
+        '6': 'CN',
+        '5': 'IT',
+        '4': 'ES',
+        '3': 'DE',
+        '2': 'FR',
+        '1': 'GB'
+    };
+    return languageMap[languageValue] || 'Unknown';
 }
 
-
-
-
-
-
 // Fonction pour charger le CSV à partir d'un fichier
-function loadCSV() {
-    return new Promise(async (resolve, reject) => {
-        try {
-            const response = await fetch('donnees.csv');
-            if (!response.ok) {
-                console.error('Erreur lors du chargement du fichier CSV.');
-                reject('Erreur lors du chargement du fichier CSV.');
-                return;
-            }
-            const csvText = await response.text();
-            resolve(csvText);
-        } catch (error) {
-            console.error('Erreur lors du chargement du fichier CSV:', error);
-            reject(error);
+async function loadCSV() {
+    try {
+        const response = await fetch('donnees.csv');
+        if (!response.ok) {
+            console.error('Erreur lors du chargement du fichier CSV.');
+            throw new Error('Erreur lors du chargement du fichier CSV.');
         }
-    });
+        const csvText = await response.text();
+        return csvText;
+    } catch (error) {
+        console.error('Erreur lors du chargement du fichier CSV:', error);
+        throw error;
+    }
 }
 
 const searchInput = document.getElementById('searchInput');
 const cardsByColor = {};
+
+
 
 // Fonction pour charger les données depuis le CSV et les cartes depuis Scryfall
 async function loadCardData() {
@@ -88,59 +62,56 @@ async function loadCardData() {
         const totalCards = csvDataArray.length;
         let cardsLoaded = 0;
 
-        const progressBar = document.getElementById('loading-progress');
-        const progressContainer = document.querySelector('.progress');
-
-        progressContainer.style.display = 'block';
-
-        // Fonction pour ajouter un délai entre les requêtes
         const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-        // Fonne Promises avec un délai
-        const fetchWithDelay = async (csvData) => {
-            await delay(100); // Ajoutez un délai de 100 ms entre les requêtes
-            return fetchCardDataByMKMProductId(csvData.MkmProductId);
-        };
+        const groupSize = 10;
 
         for (let i = 0; i < csvDataArray.length; i += batchSize) {
             const batch = csvDataArray.slice(i, i + batchSize);
-            const cardPromises = batch.map(fetchWithDelay); // Utilisez la fonction fetchWithDelay
-            const batchCardData = await Promise.all(cardPromises);
+            const groupedMKMProductIDs = [];
 
-            cardsLoaded += batchCardData.length;
-            const progressPercentage = (cardsLoaded / totalCards) * 100;
-            progressBar.style.width = `${progressPercentage}%`;
+            for (let j = 0; j < batch.length; j += groupSize) {
+                const group = batch.slice(j, j + groupSize);
+                const groupMKMProductIDs = group.map(item => item.MkmProductId);
+                groupedMKMProductIDs.push(groupMKMProductIDs);
+            }
 
-            for (let j = 0; j < batchCardData.length; j++) {
-                const cardData = { ...batchCardData[j] };
-                const csvData = batch[j];
+            for (let j = 0; j < groupedMKMProductIDs.length; j++) {
+                await delay(100);
+                const cardPromises = groupedMKMProductIDs[j].map(fetchCardDataByMKMProductId);
+                const groupCardData = await Promise.all(cardPromises);
 
-                if (cardData) {
-                    cardData.copy = csvData.Count;
-                    cardData.condition = mapCondition(csvData.Condition);
-                    cardData.name = csvData.Name;
-                    if (csvData.Price) {
-                        cardData.price = parseFloat(csvData.Price.replace(',', '.'));
-                    } else {
-                        cardData.price = 0;
+                cardsLoaded += groupCardData.length;
+
+                for (let k = 0; k < groupCardData.length; k++) {
+                    const cardData = { ...groupCardData[k] };
+                    const csvData = batch[j * groupSize + k];
+
+                    if (cardData) {
+                        cardData.copy = csvData.Count;
+                        cardData.condition = mapCondition(csvData.Condition);
+                        cardData.name = csvData.Name;
+                        if (csvData.Price) {
+                            cardData.price = parseFloat(csvData.Price.replace(',', '.'));
+                        } else {
+                            cardData.price = 0;
+                        }
+
+                        cardData.foil = csvData.IsFoil === '1';
+
+                        const languageName = mapLanguage(csvData.Language);
+                        const flagImageUrl = `https://flagsapi.com/${languageName}/shiny/64.png`;
+
+                        const cardDiv = createCardElement(cardData, flagImageUrl);
+                        displayCard(cardDiv);
                     }
-
-                    cardData.foil = csvData.IsFoil === '1';
-
-                    const languageName = mapLanguage(csvData.Language);
-                    const flagImageUrl = `https://flagsapi.com/${languageName}/shiny/64.png`;
-
-                    const cardDiv = createCardElement(cardData, flagImageUrl);
-                    displayCard(cardDiv);
                 }
             }
         }
-
-        progressContainer.style.display = 'none';
     } catch (error) {
         console.error('Erreur lors du chargement des données:', error);
     }
 }
+
 
 // Fonction pour afficher une carte
 function displayCard(cardDiv) {
@@ -182,8 +153,6 @@ if (color in colorMapping) {
 }
 
 cardDiv.setAttribute('data-color', color);
-    console.log("Card data colors:", cardData.colors);
-
 
     const mkmLink = document.createElement('a');
 
@@ -195,6 +164,7 @@ cardDiv.setAttribute('data-color', color);
         const cardImage = document.createElement('img');
         cardImage.src = cardData.image_uris.normal;
         cardImage.alt = cardData.name;
+        cardDiv.setAttribute('data-price', cardData.price);
     
         cardImage.onload = () => {
             cardDiv.removeAttribute('data-no-image');
@@ -236,8 +206,12 @@ cardDiv.setAttribute('data-color', color);
 
 // Fonction pour rechercher une carte sur Scryfall par son "MKM Product ID" de Cardmarket
 async function fetchCardDataByMKMProductId(mkmProductId) {
+    const headers = new Headers({
+        'User-Agent': 'MonApplication/1.0', // Remplacez par un nom d'application approprié et sa version
+        'Accept': 'application/json;q=0.9,*/*;q=0.8'
+    });
     try {
-        const response = await fetch(`https://api.scryfall.com/cards/cardmarket/${mkmProductId}`);
+        const response = await fetch(`https://api.scryfall.com/cards/cardmarket/${mkmProductId}`, { Headers });
 
         if (response.ok) {
             return await response.json();
@@ -278,7 +252,8 @@ document.getElementById('sort-all').addEventListener('click', (event) => {
 
 const activeFilters = {
     color: 'all',
-    foil: 'all'
+    foil: 'all',
+    price: 'all'
 };
 
 function updateColorFilter(color) {
@@ -313,30 +288,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-function filterCardsByColor(color) {
-    const cards = document.querySelectorAll('.card');
-    
-    cards.forEach((card) => {
-        const cardColor = card.getAttribute('data-color');
-        const hasNoImage = card.getAttribute('data-no-image') === 'true';
-        
-        if ((color === 'all' || cardColor === color) && !hasNoImage) {
-            card.style.display = 'block';
-        } else {
-            card.style.display = 'none';
-        }
+const colorFilterButtons = document.querySelectorAll('[data-filter-color]');
+
+colorFilterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        const color = button.getAttribute('data-filter-color');
+        updateColorFilter(color);
     });
-}
-
-document.getElementById('sort-all').addEventListener('click', () => updateColorFilter('all'));
-document.getElementById('sort-white').addEventListener('click', () => updateColorFilter('white'));
-document.getElementById('sort-blue').addEventListener('click', () => updateColorFilter('blue'));
-document.getElementById('sort-black').addEventListener('click', () => updateColorFilter('black'));
-document.getElementById('sort-red').addEventListener('click', () => updateColorFilter('red'));
-document.getElementById('sort-green').addEventListener('click', () => updateColorFilter('green'));
-document.getElementById('sort-multicolor').addEventListener('click', () => updateColorFilter('multicolor'));
-document.getElementById('sort-colorless').addEventListener('click', () => updateColorFilter('colorless'));
-
+});
 let activeFoilFilter = 'all';
 let activeColorFilter = 'all';
 
@@ -344,28 +303,44 @@ let activeColorFilter = 'all';
 
 function applyFilters() {
     const cards = document.querySelectorAll('.card');
-    
+
     cards.forEach((card) => {
         const cardFoil = card.getAttribute('data-foil');
         const cardColor = card.getAttribute('data-color');
-        const hasNoImage = card.getAttribute('data-no-image') === 'true'; // Vérifiez le statut "no-image"
-        
+        const cardPrice = parseFloat(card.getAttribute('data-price'));
+        const hasNoImage = card.getAttribute('data-no-image') === 'true';
         let matchesFoilFilter = false;
+        let matchesPriceFilter = false;
 
         if (activeFilters.foil === 'all') {
-            // Afficher toutes les cartes, qu'elles soient Foil ou non Foil
             matchesFoilFilter = true;
         } else if (activeFilters.foil === 'foil' && cardFoil === 'foil') {
-            // Afficher uniquement les cartes Foil
             matchesFoilFilter = true;
         } else if (activeFilters.foil === 'no-foil' && cardFoil !== 'foil') {
-            // Afficher uniquement les cartes Non-Foil
             matchesFoilFilter = true;
         }
 
         const matchesColorFilter = activeFilters.color === 'all' || cardColor === activeFilters.color;
 
-        if (matchesFoilFilter && matchesColorFilter && !hasNoImage) { // Ajoutez la vérification !hasNoImage
+        // Filtrage par prix
+        const priceFilter = activeFilters.price;
+
+        if (priceFilter === 'all') {
+            matchesPriceFilter = true; // Laisse passer toutes les cartes si "All prices" est sélectionné
+        } else {
+            const [minPrice, maxPrice] = priceFilter.split('-');
+            if (minPrice && maxPrice) {
+                const min = minPrice === '0' ? 0.01 : parseFloat(minPrice);
+                console.log('Card Price:', cardPrice);
+                console.log('Price Filter:', priceFilter);
+                if (cardPrice >= min && cardPrice <= parseFloat(maxPrice)) {
+                    matchesPriceFilter = true;
+                }
+            }
+        }
+
+        // Vérification de toutes les conditions de filtrage
+        if (matchesFoilFilter && matchesColorFilter && matchesPriceFilter && !hasNoImage) {
             card.style.display = 'block';
         } else {
             card.style.display = 'none';
@@ -387,26 +362,42 @@ document.getElementById('foilSelect').addEventListener('change', function() {
             activeFilters.foil = 'all';
             break;
     }
-    
     applyFilters(); // Appliquez les filtres après avoir mis à jour le filtre actif
 });
 
+document.getElementById('priceRangeSelect').addEventListener('change', function () {
+    const value = this.value;
 
+    switch (value) {
+        case '5-10':
+            activeFilters.price = '5-10';
+            break;
+        case '10-50':
+            activeFilters.price = '10-50';
+            break;
+        case '50-1000':
+            activeFilters.price = '50-1000';
+            break;
+        case 'all':
+            activeFilters.price = 'all';
+            break;
+    }
+
+    applyFilters();
+});
 
 
 
 // Écoutez l'événement 'input' sur l'élément de recherche
 searchInput.addEventListener('input', function () {
-    const searchText = searchInput.value.toLowerCase(); // Convertissez le texte de recherche en minuscules
-
-    // Appelez la fonction de recherche avec le texte de recherche
+    const searchText = searchInput.value.toLowerCase();
     searchCardByName();
 });
 
-
 // Exécute la fonction de chargement des données lors du chargement de la page
-searchInput.disabled = true; // Désactivez-le au début
+searchInput.disabled = true;
 document.addEventListener('DOMContentLoaded', async function() {
     await loadCardData();
-    searchInput.disabled = false; // Réactivez-le une fois les données chargées
+    searchInput.disabled = false;
 });
+
