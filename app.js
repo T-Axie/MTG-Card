@@ -12,8 +12,11 @@ const rarityMap = {
 
 let cards = []; 
 let selectedCardName = '';
+let cardsData ;
+let cardContainer = document.getElementById('cardGrid'); // Déplacez la définition ici
 
 
+// Donnée CSV + Fetch + Barre de recherche
 Papa.parse('LorcanaData.csv', {
     header: true,
     download: true,
@@ -75,65 +78,112 @@ Papa.parse('LorcanaData.csv', {
 
             return card;
         });
+ // Récupération des données de l'API après le traitement CSV
+ fetch('https://api.lorcana-api.com/cards/all')
+ .then(response => {
+     if (!response.ok) {
+         throw new Error('Erreur lors de la récupération des données des cartes');
+     }
+     return response.json();
+ })
+ .then(apiData => {
+    console.log('Cartes de l\'API avant la fusion :', apiData);
+     // Comparer les données de l'API avec celles du CSV
+     cardsData = apiData.map(apiCard => {
+         const matchingCsvCard = cards.find(csvCard => {
+             return apiCard.Set_Name === csvCard.ExpansionName && apiCard.Card_Num === csvCard.CollectorNumber;
+         });
+
+         console.log('Carte API :', apiCard);
+         console.log('Carte CSV correspondante :', matchingCsvCard);
+
+         if (matchingCsvCard) {
+             // Fusionner les données de l'API avec celles du CSV
+             const mergedCard = {
+                 ...apiCard,
+                 ExLow: matchingCsvCard.ExLow,
+                 FoilLow: matchingCsvCard.FoilLow,
+                 Avg7: matchingCsvCard.Avg7,
+                 MkmUrl: matchingCsvCard.MkmUrl
+                 // Ajoutez d'autres attributs si nécessaire
+             };
+             console.log('Objet fusionné :', mergedCard);
+
+             return mergedCard;
+         } else {
+             // Si aucune correspondance n'est trouvée, renvoyer les données de l'API telles quelles
+             return apiCard;
+         }
+     });
+
+      // Barre de Recherche
+      document.getElementById('card-search').addEventListener('input', function(e) {
+        const input = e.target.value.toLowerCase();
+        const suggestionsContainer = document.getElementById('suggestions-container');
+    
+    
+        suggestionsContainer.innerHTML = '';
+    
+        const filteredCards = cardsData.filter(card => {
+            return card.Name &&
+                (card.Name.toLowerCase().includes(input) || card.Set_Name.toLowerCase().includes(input)) &&
+                !card.Set_Name.toLowerCase().includes('promo');
+        });
+    
+        filteredCards.forEach(card => {
+            const suggestionElement = document.createElement('div');
+    
+            const cardName = document.createElement('strong');
+            cardName.textContent = card.Name;
+            suggestionElement.appendChild(cardName);
+    
+            if (card.Name.includes('(V.2)')) {
+                const extendedFoil = document.createElement('span');
+                extendedFoil.textContent = ' Extended Foil';
+                extendedFoil.style.fontWeight = 'bold'; // Texte en gras
+                suggestionElement.appendChild(extendedFoil);
+            }
+    
+            const expansionName = document.createElement('span');
+            expansionName.textContent = ` // ${card.Set_Name}`;
+            expansionName.style.color = 'red'; // Texte en rouge
+            suggestionElement.appendChild(expansionName);
+    
+            suggestionElement.className = 'suggestion';
+    
+            suggestionElement.addEventListener('mouseenter', function () {
+                // Changez la couleur de fond lorsque vous survolez la suggestion
+                suggestionElement.style.backgroundColor = 'lightgray';
+            });
+        
+            suggestionElement.addEventListener('mouseleave', function () {
+                // Rétablissez la couleur de fond lorsque vous quittez la suggestion
+                suggestionElement.style.backgroundColor = '';
+            });
+    
+            suggestionElement.onclick = function() {
+                // Mettez à jour selectedCardName avec le nom de la carte sélectionnée
+                selectedCardName = card.Name;
+                document.getElementById('card-search').value = selectedCardName;
+                suggestionsContainer.innerHTML = '';
+            };
+            suggestionsContainer.appendChild(suggestionElement);
+        });
+    });
+
+    })
+    .catch(error => {
+        console.error('Erreur lors de la récupération des données des cartes :', error);
+    });
     }
 });
 
 
 
 
-document.getElementById('card-search').addEventListener('input', function(e) {
-    const input = e.target.value.toLowerCase();
-    const suggestionsContainer = document.getElementById('suggestions-container');
 
 
-    suggestionsContainer.innerHTML = '';
 
-    const filteredCards = cards.filter(card => {
-        return card.Name &&
-            (card.Name.toLowerCase().includes(input) || card.ExpansionName.toLowerCase().includes(input)) &&
-            !card.ExpansionName.toLowerCase().includes('promo');
-    });
-
-    filteredCards.forEach(card => {
-        const suggestionElement = document.createElement('div');
-
-        const cardName = document.createElement('strong');
-        cardName.textContent = card.Name;
-        suggestionElement.appendChild(cardName);
-
-        if (card.Name.includes('(V.2)')) {
-            const extendedFoil = document.createElement('span');
-            extendedFoil.textContent = ' Extended Foil';
-            extendedFoil.style.fontWeight = 'bold'; // Texte en gras
-            suggestionElement.appendChild(extendedFoil);
-        }
-
-        const expansionName = document.createElement('span');
-        expansionName.textContent = ` // ${card.ExpansionName}`;
-        expansionName.style.color = 'red'; // Texte en rouge
-        suggestionElement.appendChild(expansionName);
-
-        suggestionElement.className = 'suggestion';
-
-        suggestionElement.addEventListener('mouseenter', function () {
-            // Changez la couleur de fond lorsque vous survolez la suggestion
-            suggestionElement.style.backgroundColor = 'lightgray';
-        });
-    
-        suggestionElement.addEventListener('mouseleave', function () {
-            // Rétablissez la couleur de fond lorsque vous quittez la suggestion
-            suggestionElement.style.backgroundColor = '';
-        });
-
-        suggestionElement.onclick = function() {
-            // Mettez à jour selectedCardName avec le nom de la carte sélectionnée
-            selectedCardName = card.Name;
-            document.getElementById('card-search').value = selectedCardName;
-            suggestionsContainer.innerHTML = '';
-        };
-        suggestionsContainer.appendChild(suggestionElement);
-    });
-});
 
 function formatCardName(name) {
     return name.toLowerCase().replace(/ /g, '_');
@@ -141,7 +191,6 @@ function formatCardName(name) {
 }
 
 
-let cardContainer = document.getElementById('cardGrid'); // Déplacez la définition ici
 let nextCardId = 1; // Initialisation de l'ID pour la première carte
 
 function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) {
@@ -160,7 +209,8 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     cardElement.appendChild(cardLink);
 
     // Utiliser l'URL de l'image en foil si la carte est en foil
-    const imgUrl = isFoil ? cardData["image-urls"].foil : cardData["image-urls"].small;
+    const imgUrl = cardData.Image;
+
 
 
     const imgElement = document.createElement("img");
@@ -202,12 +252,12 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
 
     // Appliquer un coefficient
     if (language === 'en') {
-            price = price * 0.5;
+            price = price * 0.70;
     }
 
     // Appliquer un coefficient multiplicateur
     if (language === 'fr') {
-            price = price * 0.7;
+            price = price * 0.75;
     }
 
     
@@ -216,9 +266,13 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     if (isFoil && language === 'en') {
         price = originalPrice * 0.65; // 65% du prix foil pour les cartes en anglais
     } else if (isFoil && language === 'fr') {
-        price = originalPrice * 0.75; // 75% du prix foil pour les cartes en français
+        price = originalPrice * 0.70; // 75% du prix foil pour les cartes en français
     }
    
+
+    if (['Rare', 'Enchanted', 'Legendary', 'SuperRare'].includes(cardData.Rarity) && price < 0.10) {
+        price = 0.10;
+    }
 
     const priceLabel = document.createElement("p");
     priceLabel.className = "card-price";
@@ -285,52 +339,24 @@ document.getElementById('add-card').addEventListener('click', function() {
     cardNameInput.value = '';
     cardQuantityInput.value = '1';
 
-    // Filtrer les cartes par nom et ExpansionName (en excluant "Promos")
-    const filteredCards = cards.filter(card =>
-        card.Name === cardName &&
-        (!card.ExpansionName || !card.ExpansionName.toLowerCase().includes('promos'))
-    );
+   // Utilisez les données du fetch "all" au lieu du fetch "fuzzy"
+   const selectedCard = cardsData.find(card => card.Name === cardName);
 
-    if (filteredCards.length === 0) {
-        alert('Card not found.');
-        return;
-    }
+   if (!selectedCard) {
+       alert('Carte non trouvée.');
+       return;
+   }
 
-    // Sélectionnez la première carte correspondante (ou une logique de sélection appropriée)
-    const selectedCard = filteredCards[0];
+   const price = isFoil ? selectedCard.FoilLow : selectedCard.ExLow || 0;
 
-    let price;
-    if (language === 'en') {
-        // Utilisez la colonne "Avg7" comme prix si la carte est en anglais
-        price = isFoil ? selectedCard.FoilLow : selectedCard.Avg7 || 0;
-    } else {
-        // Utilisez la colonne "FoilLow" si la case "Foil" est cochée, sinon utilisez "ExLow"
-        price = isFoil ? selectedCard.FoilLow : selectedCard.ExLow;
-    }
-    
+   // Utilisez les données du fetch "all" pour créer la carte
+   const cardContainer = document.getElementById('cardGrid');
+   const cardElement = createCardElement(selectedCard, quantity, price, selectedCard.MkmUrl, isFoil, language);
 
-    fetch(`https://api.lorcana-api.com/fuzzy/${formatCardName(cardName)}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            const cardContainer = document.getElementById('cardGrid');
-            const cardElement = createCardElement(data, quantity, price, selectedCard.MkmUrl, isFoil, language);
+   // Insérer la nouvelle carte avant le premier élément enfant de cardContainer
+   cardContainer.insertBefore(cardElement, cardContainer.firstChild);
 
-
-             // Insérer la nouvelle carte avant le premier élément enfant de cardContainer
-             cardContainer.insertBefore(cardElement, cardContainer.firstChild);
-    
-            updateTotalPrice(); // Appeler updateTotalPrice après l'ajout de la carte
-        })
-        .catch(error => {
-            console.error('Fetch Error:', error);
-        });
-            // Réinitialisez la case à cocher "Foil" après avoir ajouté la carte
-    document.getElementById('foil-checkbox').checked = false;
+   updateTotalPrice(); // Appeler updateTotalPrice après l'ajout de la carte
 });
 
 function calculateTotalPrice() {
@@ -375,14 +401,16 @@ function updateTotalPrice() {
     return totalCost;  // Ajoutez cette ligne pour renvoyer la valeur du coût total
 }
 
+const flagUrls = {
+    'en': 'https://flagsapi.com/GB/shiny/64.png',
+    'fr': 'https://flagsapi.com/FR/shiny/64.png',
+    // Ajoutez d'autres correspondances ici
+};
+
 function getFlagImageUrl(languageCode) {
-    if (languageCode === 'en') {
-        return 'https://flagsapi.com/GB/shiny/64.png'; // Drapeau anglais
-    } else if (languageCode === 'fr') {
-        return 'https://flagsapi.com/FR/shiny/64.png'; // Drapeau français
-    }
-    // Vous pouvez ajouter plus de cas pour d'autres langues si nécessaire
+    return flagUrls[languageCode] || 'default_flag_url'; // URL par défaut si le code de langue n'est pas trouvé
 }
+
 
 
 function saveCardList() {
