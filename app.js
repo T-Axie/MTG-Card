@@ -11,6 +11,7 @@ const rarityMap = {
 };
 
 let cards = []; 
+let selectedCardName = '';
 
 
 Papa.parse('LorcanaData.csv', {
@@ -28,7 +29,7 @@ Papa.parse('LorcanaData.csv', {
                 } else {
                     card.ExLow = parseInt(card.ExLow);
                 }
-                
+
                 if (isNaN(card.ExLow)) {
                     console.error('Invalid number format for ExLow:', card.Name, card.ExLow);
                     card.ExLow = 0;
@@ -45,7 +46,7 @@ Papa.parse('LorcanaData.csv', {
                 } else {
                     card.FoilLow = parseInt(card.FoilLow);
                 }
-                
+
                 if (isNaN(card.FoilLow)) {
                     console.error('Invalid number format for FoilLow:', card.Name, card.FoilLow);
                     card.FoilLow = 0;
@@ -53,28 +54,66 @@ Papa.parse('LorcanaData.csv', {
             } else {
                 card.FoilLow = 0;
             }
-            
+
+            // Vérifiez si la colonne "Avg7" est un nombre valide
+            if (!isNaN(card.Avg7)) {
+                // card.Avg7 est déjà un nombre, pas besoin de conversion
+            } else if (typeof card.Avg7 === 'string') {
+                if (card.Avg7.includes(',')) {
+                    card.Avg7 = parseFloat(card.Avg7.replace(',', '.'));
+                } else {
+                    card.Avg7 = parseInt(card.Avg7);
+                }
+
+                if (isNaN(card.Avg7)) {
+                    console.error('Invalid number format for Avg7:', card.Name, card.Avg7);
+                    card.Avg7 = 0;
+                }
+            } else {
+                card.Avg7 = 0;
+            }
+
             return card;
         });
     }
 });
 
 
+
+
 document.getElementById('card-search').addEventListener('input', function(e) {
     const input = e.target.value.toLowerCase();
     const suggestionsContainer = document.getElementById('suggestions-container');
-    
+
+
     suggestionsContainer.innerHTML = '';
 
     const filteredCards = cards.filter(card => {
         return card.Name &&
-            card.Name.toLowerCase().includes(input);
+            (card.Name.toLowerCase().includes(input) || card.ExpansionName.toLowerCase().includes(input)) &&
+            !card.ExpansionName.toLowerCase().includes('promo');
     });
 
     filteredCards.forEach(card => {
         const suggestionElement = document.createElement('div');
-        suggestionElement.textContent = card.Name;
-        suggestionElement.className = 'suggestion'; // Ajoutez la classe "suggestion"
+
+        const cardName = document.createElement('strong');
+        cardName.textContent = card.Name;
+        suggestionElement.appendChild(cardName);
+
+        if (card.Name.includes('(V.2)')) {
+            const extendedFoil = document.createElement('span');
+            extendedFoil.textContent = ' Extended Foil';
+            extendedFoil.style.fontWeight = 'bold'; // Texte en gras
+            suggestionElement.appendChild(extendedFoil);
+        }
+
+        const expansionName = document.createElement('span');
+        expansionName.textContent = ` // ${card.ExpansionName}`;
+        expansionName.style.color = 'red'; // Texte en rouge
+        suggestionElement.appendChild(expansionName);
+
+        suggestionElement.className = 'suggestion';
 
         suggestionElement.addEventListener('mouseenter', function () {
             // Changez la couleur de fond lorsque vous survolez la suggestion
@@ -87,8 +126,10 @@ document.getElementById('card-search').addEventListener('input', function(e) {
         });
 
         suggestionElement.onclick = function() {
-            document.getElementById('card-search').value = card.Name;
-            suggestionsContainer.innerHTML = ''; 
+            // Mettez à jour selectedCardName avec le nom de la carte sélectionnée
+            selectedCardName = card.Name;
+            document.getElementById('card-search').value = selectedCardName;
+            suggestionsContainer.innerHTML = '';
         };
         suggestionsContainer.appendChild(suggestionElement);
     });
@@ -99,13 +140,17 @@ function formatCardName(name) {
     
 }
 
+
 let cardContainer = document.getElementById('cardGrid'); // Déplacez la définition ici
+let nextCardId = 1; // Initialisation de l'ID pour la première carte
 
 function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) {
     quantity = parseInt(quantity, 10);
     price = parseFloat(price);
     const cardElement = document.createElement("div");
     cardElement.className = "card";
+
+    const cardId = nextCardId++; // Définir l'ID de la carte
 
     // A remettre pour avoir le lien MKM de la carte
 
@@ -114,8 +159,15 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     cardLink.target = "_blank";
     cardElement.appendChild(cardLink);
 
+    // Utiliser l'URL de l'image en foil si la carte est en foil
+    const imgUrl = isFoil ? cardData["image-urls"].foil : cardData["image-urls"].small;
+
+
     const imgElement = document.createElement("img");
-    imgElement.src = cardData["image-urls"].small;
+    imgElement.src = imgUrl;
+    imgElement.className = "card-image";
+    imgElement.width = 186; // Ajustez la largeur souhaitée
+    imgElement.height = 260; // Ajustez la hauteur souhaitée
     cardLink.appendChild(imgElement);
 
     const cardInfoContainer = document.createElement('div');
@@ -146,36 +198,31 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     cardElement.appendChild(cardInfoContainer);
 
     const totalPrice = price * quantity;
-
+    const originalPrice = price;
 
     // Appliquer un coefficient
     if (language === 'en') {
-        if (price > 4) {
-            price = price * 1.1;
-        } else {
-            price = price * 1;
-        }
+            price = price * 0.5;
     }
 
     // Appliquer un coefficient multiplicateur
-    // Appliquer un coefficient multiplicateur
     if (language === 'fr') {
-        if (price > 4) {
-            price = price * 1.5;
-        } else {
-            price = price * 2;
-        }
+            price = price * 0.7;
+    }
+
+    
+
+    // Appliquer un coefficient de réduction pour les cartes en anglais et en français lorsqu'elles sont en "foil"
+    if (isFoil && language === 'en') {
+        price = originalPrice * 0.65; // 65% du prix foil pour les cartes en anglais
+    } else if (isFoil && language === 'fr') {
+        price = originalPrice * 0.75; // 75% du prix foil pour les cartes en français
     }
    
 
-    // Appliquez une réduction de 25 % au prix
-    const discountedPrice = price * 0.75;
-
     const priceLabel = document.createElement("p");
     priceLabel.className = "card-price";
-
-    const formattedPrice = discountedPrice.toFixed(2);
-    priceLabel.textContent = `Price: ${formattedPrice}€/p`;
+    priceLabel.textContent = `Price: ${price.toFixed(2)}€/p`;
 
     cardElement.appendChild(priceLabel);
 
@@ -185,13 +232,39 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     deleteButton.addEventListener("click", function () {
         // Supprimer la carte lorsqu'on clique sur le bouton "Delete"
         cardContainer.removeChild(cardElement);
+        removeFromCardList(cardId); // Utilisez l'ID de la carte pour la suppression
         updateTotalPrice(); // Appeler updateTotalPrice après la suppression
     });
 
     cardElement.appendChild(deleteButton);
 
+        // Ajoutez la carte à la liste des cartes
+        addToCardList(cardId, selectedCardName, quantity, price, isFoil, language);
+
     return cardElement;
 }
+
+function addToCardList(cardId, name, quantity, price, isFoil, language) {
+    const existingCard = cardList.find(card => card.cardId === cardId);
+
+    if (existingCard) {
+        // Si la carte existe déjà, mettez à jour la quantité
+        existingCard.quantity += quantity;
+    } else {
+        // Sinon, ajoutez une nouvelle entrée à la liste avec l'ID
+        cardList.push({ cardId, name, quantity, price, isFoil, language });
+    }
+}
+
+function removeFromCardList(cardId) {
+    const indexToRemove = cardList.findIndex(card => card.cardId === cardId);
+
+    if (indexToRemove !== -1) {
+        // Supprimez l'élément de la liste
+        cardList.splice(indexToRemove, 1);
+    }
+}
+
 
 let cardList = []; // Liste des cartes avec leur quantité
 
@@ -226,8 +299,15 @@ document.getElementById('add-card').addEventListener('click', function() {
     // Sélectionnez la première carte correspondante (ou une logique de sélection appropriée)
     const selectedCard = filteredCards[0];
 
-    // Utilisez le prix "FoilLow" si la case "Foil" est cochée, sinon utilisez "ExLow"
-    const price = isFoil ? selectedCard.FoilLow : selectedCard.ExLow;
+    let price;
+    if (language === 'en') {
+        // Utilisez la colonne "Avg7" comme prix si la carte est en anglais
+        price = isFoil ? selectedCard.FoilLow : selectedCard.Avg7 || 0;
+    } else {
+        // Utilisez la colonne "FoilLow" si la case "Foil" est cochée, sinon utilisez "ExLow"
+        price = isFoil ? selectedCard.FoilLow : selectedCard.ExLow;
+    }
+    
 
     fetch(`https://api.lorcana-api.com/fuzzy/${formatCardName(cardName)}`)
         .then(response => {
@@ -275,17 +355,25 @@ function calculateTotalPrice() {
 
     const totalCostElement = document.getElementById('totalCost');
     totalCostElement.textContent = totalCost.toFixed(2) + '€';
+
+    return totalCost;  // Ajoutez cette ligne pour renvoyer la valeur du coût total
 }
 
 function updateTotalPrice() {
-    calculateTotalPrice();
-}
+    const totalCost = calculateTotalPrice();
 
-cardContainer.addEventListener('click', function(event) {
-    if (event.target.classList.contains('delete-button')) {
-        updateTotalPrice();
-    }
-});
+    // Récupérez le bouton "Save the List"
+    const saveListButton = document.getElementById('save-list');
+
+    // Vérifiez s'il y a des cartes à l'écran
+    const cardElements = document.querySelectorAll('.card');
+    const isCardsPresent = cardElements.length > 0;
+
+    // Affichez ou masquez le bouton en fonction de la présence de cartes
+    saveListButton.style.display = isCardsPresent ? 'inline-block' : 'none';
+
+    return totalCost;  // Ajoutez cette ligne pour renvoyer la valeur du coût total
+}
 
 function getFlagImageUrl(languageCode) {
     if (languageCode === 'en') {
@@ -295,3 +383,24 @@ function getFlagImageUrl(languageCode) {
     }
     // Vous pouvez ajouter plus de cas pour d'autres langues si nécessaire
 }
+
+
+function saveCardList() {
+    const cardListText = cardList.map(card => `${card.name} - Quantity: ${card.quantity}, Price: ${card.price.toFixed(2)}€, Language: ${card.language}, Foil: ${card.isFoil ? 'Yes' : 'No'}`).join('\n');
+    
+    // Calculer le total et l'ajouter au texte
+    const totalCost = calculateTotalPrice();
+    const textWithTotal = `${cardListText}\n\nTotal Price: ${totalCost.toFixed(2)}€`;
+
+    const blob = new Blob([textWithTotal], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'card_list.txt';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+document.getElementById('save-list').addEventListener('click', saveCardList);
+
+updateTotalPrice();

@@ -48,6 +48,7 @@ async function loadCSV() {
 
 const searchInput = document.getElementById('searchInput');
 const cardsByColor = {};
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 
 
@@ -62,7 +63,28 @@ async function loadCardData() {
         const totalCards = csvDataArray.length;
         let cardsLoaded = 0;
 
-        const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+        const observerOptions = {
+            root: null, // Use the viewport as the root
+            rootMargin: '0px', // No margin around the root
+            threshold: 0.5 // Trigger when 10% of the element is visible
+        };
+
+        const observer = new IntersectionObserver(async (entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    const cardDiv = entry.target;
+                    if (!cardDiv.hasAttribute('data-loaded')) {
+                        cardDiv.setAttribute('data-loaded', 'true');
+                        loadCardDataForElement(cardDiv);
+                    }
+                }
+            }
+        
+            // Si toutes les cartes ont été chargées, arrêtez l'observation
+            if (cardsLoaded >= totalCards) {
+                observer.disconnect();
+            }
+        }, observerOptions);
         const groupSize = 10;
 
         for (let i = 0; i < csvDataArray.length; i += batchSize) {
@@ -76,7 +98,7 @@ async function loadCardData() {
             }
 
             for (let j = 0; j < groupedMKMProductIDs.length; j++) {
-                await delay(100);
+                await delay(100);  // Ajoutez une pause pour éviter de surcharger le serveur
                 const cardPromises = groupedMKMProductIDs[j].map(fetchCardDataByMKMProductId);
                 const groupCardData = await Promise.all(cardPromises);
 
@@ -101,8 +123,12 @@ async function loadCardData() {
                         const languageName = mapLanguage(csvData.Language);
                         const flagImageUrl = `https://flagsapi.com/${languageName}/shiny/64.png`;
 
+                        // Create and append the cardDiv to the cardGrid
                         const cardDiv = createCardElement(cardData, flagImageUrl);
                         displayCard(cardDiv);
+
+                        // Observe the cardDiv for lazy loading
+                        observer.observe(cardDiv);
                     }
                 }
             }
@@ -111,6 +137,64 @@ async function loadCardData() {
         console.error('Erreur lors du chargement des données:', error);
     }
 }
+
+async function loadCardDataForElement(cardDiv) {
+    // Extract necessary data from cardDiv
+    const mkmProductId = parseInt(cardDiv.getAttribute('data-mkm-product-id'));
+
+    try {
+        await delay(100); // Add a delay to avoid overloading the server
+        const cardData = await fetchCardDataByMKMProductId(mkmProductId);
+
+        // Process and update cardDiv with loaded cardData
+        if (cardData) {
+            cardData.copy = parseInt(cardDiv.getAttribute('data-copy'));
+            cardData.condition = mapCondition(cardDiv.getAttribute('data-condition'));
+            cardData.name = cardDiv.getAttribute('data-name');
+            cardData.price = parseFloat(cardDiv.getAttribute('data-price'));
+            cardData.foil = cardDiv.getAttribute('data-foil') === 'foil';
+
+            const languageName = mapLanguage(cardDiv.getAttribute('data-language'));
+            const flagImageUrl = `https://flagsapi.com/${languageName}/shiny/64.png`;
+
+            // Update the cardDiv with the loaded data
+            updateCardElement(cardDiv, cardData, flagImageUrl);
+        }
+    } catch (error) {
+        console.error('Error loading card data:', error);
+    }
+}
+
+function updateCardElement(cardDiv, cardData, flagImageUrl) {
+    // Update cardDiv with the loaded cardData
+    cardDiv.querySelector('.card-image-container img').src = cardData.image_uris.normal;
+    cardDiv.querySelector('.card-image-container img').alt = cardData.name;
+    cardDiv.querySelector('.card-image-container a').href = cardData.purchase_uris && cardData.purchase_uris.cardmarket ? cardData.purchase_uris.cardmarket : '#';
+    cardDiv.setAttribute('data-price', cardData.price);
+    
+    cardDiv.querySelector('.card-image-container img').onload = () => {
+        cardDiv.removeAttribute('data-no-image');
+    };
+    
+    cardDiv.querySelector('.card-image-container img').onerror = () => {
+        cardDiv.setAttribute('data-no-image', 'true');
+        console.error(`Impossible de charger l'image pour la carte: ${cardData.name}`);
+        cardDiv.style.display = 'none'; // Masquez la carte
+    };
+
+    cardDiv.querySelector('.card-image-container img').alt = cardData.name;
+    cardDiv.querySelector('.card-image-container img').src = cardData.image_uris.normal;
+    cardDiv.querySelector('.card-image-container a').href = cardData.purchase_uris && cardData.purchase_uris.cardmarket ? cardData.purchase_uris.cardmarket : '#';
+
+    cardDiv.querySelector('p:nth-child(1) b').textContent = cardData.copy;
+    cardDiv.querySelector('p:nth-child(2)').textContent = cardData.condition;
+    cardDiv.querySelector('p:nth-child(3) b').textContent = cardData.price.toFixed(2);
+    cardDiv.querySelector('p:nth-child(5) img').src = flagImageUrl;
+    cardDiv.querySelector('p:nth-child(5) img').alt = cardData.foil ? 'Foil' : '';
+    cardDiv.querySelector('p:nth-child(5) img').classList.toggle('foil-icon', cardData.foil);
+}
+
+
 
 
 // Fonction pour afficher une carte
@@ -331,8 +415,6 @@ function applyFilters() {
             const [minPrice, maxPrice] = priceFilter.split('-');
             if (minPrice && maxPrice) {
                 const min = minPrice === '0' ? 0.01 : parseFloat(minPrice);
-                console.log('Card Price:', cardPrice);
-                console.log('Price Filter:', priceFilter);
                 if (cardPrice >= min && cardPrice <= parseFloat(maxPrice)) {
                     matchesPriceFilter = true;
                 }
@@ -394,10 +476,23 @@ searchInput.addEventListener('input', function () {
     searchCardByName();
 });
 
+
+
+window.addEventListener('scroll', async () => {
+    const scrollPercentage = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight;
+    if (scrollPercentage > 0.9) {
+        const newEndIndex = Math.min(totalCards, endObservingIndex + 20);
+        for (let i = endObservingIndex; i < newEndIndex; i++) {
+            const cardDiv = document.querySelector(`.card:nth-child(${i + 1})`);
+            observer.observe(cardDiv);
+        }
+        endObservingIndex = newEndIndex;
+    }
+});
+
 // Exécute la fonction de chargement des données lors du chargement de la page
 searchInput.disabled = true;
 document.addEventListener('DOMContentLoaded', async function() {
     await loadCardData();
     searchInput.disabled = false;
 });
-

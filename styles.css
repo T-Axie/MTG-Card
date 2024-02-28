@@ -36,6 +36,7 @@ main {
     height: auto;
 }
 
+
 #searchInput {
     padding: 10px;
     width: 100%;
@@ -119,22 +120,21 @@ main {
     margin-left: 10px;
 }
 
-/*
 
 #magic-image {
     filter: grayscale(100%);  Applique un filtre de désaturation de 100% 
 }
 
-*/
+
 
 
  /* Styles spécifiques à la page d'accueil */
-        .home-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
+.home-container {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
 
         .image-container {
             width: 700px;
