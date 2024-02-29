@@ -87,15 +87,15 @@ Papa.parse('LorcanaData.csv', {
      return response.json();
  })
  .then(apiData => {
-    console.log('Cartes de l\'API avant la fusion :', apiData);
+    console.log('Fetch API :', apiData);
+    const enchantedCards = apiData.filter(card => card.Rarity === 'Super Rare');
+    console.log('Cartes avec la rareté "Super Rare" :', enchantedCards);
      // Comparer les données de l'API avec celles du CSV
      cardsData = apiData.map(apiCard => {
          const matchingCsvCard = cards.find(csvCard => {
              return apiCard.Set_Name === csvCard.ExpansionName && apiCard.Card_Num === csvCard.CollectorNumber;
          });
 
-         console.log('Carte API :', apiCard);
-         console.log('Carte CSV correspondante :', matchingCsvCard);
 
          if (matchingCsvCard) {
              // Fusionner les données de l'API avec celles du CSV
@@ -107,11 +107,11 @@ Papa.parse('LorcanaData.csv', {
                  MkmUrl: matchingCsvCard.MkmUrl
                  // Ajoutez d'autres attributs si nécessaire
              };
-             console.log('Objet fusionné :', mergedCard);
 
              return mergedCard;
          } else {
              // Si aucune correspondance n'est trouvée, renvoyer les données de l'API telles quelles
+             console.log('Aucun résultat trouvé pour ', apiCard);
              return apiCard;
          }
      });
@@ -126,8 +126,7 @@ Papa.parse('LorcanaData.csv', {
     
         const filteredCards = cardsData.filter(card => {
             return card.Name &&
-                (card.Name.toLowerCase().includes(input) || card.Set_Name.toLowerCase().includes(input)) &&
-                !card.Set_Name.toLowerCase().includes('promo');
+                (card.Name.toLowerCase().includes(input) || card.Set_Name.toLowerCase().includes(input));
         });
     
         filteredCards.forEach(card => {
@@ -203,10 +202,10 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
 
     // A remettre pour avoir le lien MKM de la carte
 
-    const cardLink = document.createElement("a");
-    cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
-    cardLink.target = "_blank";
-    cardElement.appendChild(cardLink);
+    //const cardLink = document.createElement("a");
+    //cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
+    //cardLink.target = "_blank";
+    //cardElement.appendChild(cardLink);
 
     // Utiliser l'URL de l'image en foil si la carte est en foil
     const imgUrl = cardData.Image;
@@ -252,12 +251,12 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
 
     // Appliquer un coefficient
     if (language === 'en') {
-            price = price * 0.70;
+            price = price * 0.67;
     }
 
     // Appliquer un coefficient multiplicateur
     if (language === 'fr') {
-            price = price * 0.75;
+            price = price * 0.72;
     }
 
     
@@ -270,7 +269,7 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     }
    
 
-    if (['Rare', 'Enchanted', 'Legendary', 'SuperRare'].includes(cardData.Rarity) && price < 0.10) {
+    if (['Rare', 'Enchanted', 'Legendary', 'Super Rare'].includes(cardData.Rarity) && price < 0.10) {
         price = 0.10;
     }
 
