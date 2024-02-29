@@ -202,12 +202,12 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
 
     // A remettre pour avoir le lien MKM de la carte
 
-    //const cardLink = document.createElement("a");
-    //cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
-    //cardLink.target = "_blank";
-    //cardElement.appendChild(cardLink);
+    const cardLink = document.createElement("a");
+    // cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
+    cardLink.target = "_blank";
+    cardElement.appendChild(cardLink);
 
-    // Utiliser l'URL de l'image en foil si la carte est en foil
+    //Utiliser l'URL de l'image en foil si la carte est en foil
     const imgUrl = cardData.Image;
 
 
