@@ -203,7 +203,7 @@ function createCardElement(cardData, quantity, price, mkmUrl, isFoil, language) 
     // A remettre pour avoir le lien MKM de la carte
 
     const cardLink = document.createElement("a");
-    // cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
+    cardLink.href = `https://www.cardmarket.com${mkmUrl}`;
     cardLink.target = "_blank";
     cardElement.appendChild(cardLink);
 
